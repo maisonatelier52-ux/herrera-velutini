@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Places section diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M150 560C300 400 430 300 600 280C760 260 910 320 1050 180"/>
+  <circle cx="150" cy="560" r="16" fill="#f5d88d"/>
+  <circle cx="600" cy="280" r="16" fill="#f5d88d"/>
+  <circle cx="1050" cy="180" r="16" fill="#f5d88d"/>
+  <text x="110" y="610" fill="#eef2f8" font-size="28">Caracas</text>
+  <text x="540" y="250" fill="#eef2f8" font-size="28">Lanzarote</text>
+  <text x="980" y="160" fill="#eef2f8" font-size="28">Naples</text>
+</g>
+</svg>

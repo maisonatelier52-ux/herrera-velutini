@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Genealogy hub diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="600" cy="160" r="28" fill="#f5d88d"/>
+  <circle cx="300" cy="360" r="24" fill="#f5d88d"/>
+  <circle cx="900" cy="360" r="24" fill="#f5d88d"/>
+  <circle cx="190" cy="560" r="18" fill="#f5d88d"/>
+  <circle cx="410" cy="560" r="18" fill="#f5d88d"/>
+  <circle cx="790" cy="560" r="18" fill="#f5d88d"/>
+  <circle cx="1010" cy="560" r="18" fill="#f5d88d"/>
+  <path d="M600 188L300 336"/>
+  <path d="M600 188L900 336"/>
+  <path d="M300 384L190 542"/>
+  <path d="M300 384L410 542"/>
+  <path d="M900 384L790 542"/>
+  <path d="M900 384L1010 542"/>
+  <text x="500" y="118" fill="#eef2f8" font-size="34">Genealogy hub</text>
+  <text x="210" y="324" fill="#eef2f8" font-size="32">Herrera</text>
+  <text x="810" y="324" fill="#eef2f8" font-size="32">Velutini</text>
+  <text x="80" y="620" fill="#c4c9d4" font-size="24">Ampudia</text>
+  <text x="330" y="620" fill="#c4c9d4" font-size="24">Caracas</text>
+  <text x="720" y="620" fill="#c4c9d4" font-size="24">Naples</text>
+  <text x="920" y="620" fill="#c4c9d4" font-size="24">Americas</text>
+</g>
+</svg>

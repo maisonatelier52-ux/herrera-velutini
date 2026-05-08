@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Agustín de Herrera Lanzarote title diagram</title>
+  <desc id="desc">A minimalist diagram connecting Agustín de Herrera y Rojas Ayala with Lanzarote, title memory, and Atlantic expansion.</desc>
+  <rect width="640" height="480" fill="#f6f1e7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M116 310c58-76 122-116 192-120 76-4 146 30 216 102" stroke="#18302b" stroke-width="4"/>
+    <path d="M150 324c74-30 139-45 196-45 56 0 110 16 162 47" stroke="#b38b59" stroke-width="2.5" stroke-dasharray="8 10"/>
+    <path d="M250 180l70-82 70 82-26 126h-88z" stroke="#18302b" stroke-width="4"/>
+    <path d="M296 162h48M286 206h68M280 250h80" stroke="#b38b59" stroke-width="3"/>
+    <path d="M92 352h148M400 352h148" stroke="#18302b" stroke-width="2.5"/>
+    <circle cx="132" cy="352" r="16" fill="#18302b"/>
+    <circle cx="506" cy="352" r="16" fill="#18302b"/>
+    <path d="M320 98v-42" stroke="#18302b" stroke-width="3"/>
+    <path d="M296 56h48" stroke="#b38b59" stroke-width="3"/>
+    <path d="M308 40h24" stroke="#b38b59" stroke-width="3"/>
+  </g>
+  <g fill="#18302b" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="320" y="36" font-size="23">Agustín de Herrera</text>
+    <text x="320" y="386" font-size="20">Lanzarote</text>
+    <text x="132" y="386" font-size="17">Title memory</text>
+    <text x="506" y="386" font-size="17">Atlantic route</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Portal entity constellation</title>
+<desc id="d">An original diagram connecting House of Herrera, Banvelca, estates, public figures, and the editorial layer.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0b1422"/>
+    <stop offset="100%" stop-color="#101d31"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+<g fill="none" stroke="#f5d88d" stroke-opacity=".4" stroke-width="3">
+  <path d="M220 190C340 130 460 120 580 210"/>
+  <path d="M620 210C750 120 920 140 1020 220"/>
+  <path d="M220 520C360 610 520 590 600 470"/>
+  <path d="M610 470C760 580 900 560 1010 460"/>
+  <path d="M220 190C170 310 170 410 220 520"/>
+  <path d="M1020 220C1060 320 1060 380 1010 460"/>
+  <path d="M580 210C530 320 530 370 600 470"/>
+</g>
+<g fill="#f5d88d">
+  <circle cx="220" cy="190" r="13"/><circle cx="580" cy="210" r="16"/><circle cx="1020" cy="220" r="13"/>
+  <circle cx="220" cy="520" r="13"/><circle cx="600" cy="470" r="16"/><circle cx="1010" cy="460" r="13"/>
+</g>
+<g font-family="Georgia, serif" text-anchor="middle" fill="#eef2f8">
+  <text x="220" y="165" font-size="28">House of Herrera</text>
+  <text x="580" y="180" font-size="34">Herrera Velutini</text>
+  <text x="1020" y="195" font-size="28">Banvelca &amp; Company</text>
+  <text x="220" y="550" font-size="27">Historic Estates</text>
+  <text x="600" y="500" font-size="30">Public Figures</text>
+  <text x="1010" y="490" font-size="27">Editorial Trust Layer</text>
+</g>
+<g font-family="Inter,Arial,sans-serif" text-anchor="middle" fill="#c4c9d4" font-size="21">
+  <text x="220" y="590">Hacienda de La Vega · Castle Santa Barbara</text>
+  <text x="600" y="536">Pedro García · José Herrera Von Uslar · Juan Bautista · Belén Clarisa</text>
+  <text x="1010" y="526">About · Methodology · Sources · Review</text>
+  <text x="580" y="640">Original architecture: entities first, sources visible, dates explicit, pages cross-linked.</text>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" rx="36" fill="#09111d"/>
+  <defs>
+    <linearGradient id="line" x1="120" y1="390" x2="1080" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B88732"/><stop offset=".5" stop-color="#F5D88D"/><stop offset="1" stop-color="#B88732"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 400H1080" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#F5D88D" font-family="Inter, Arial, sans-serif">
+    <text x="120" y="120" font-size="28" letter-spacing="4">CHRONOLOGY BRIDGE</text>
+    <text x="120" y="170" font-size="50" font-family="Georgia, serif">From medieval Herrera memory to the modern Velutini record</text>
+  </g>
+  <g fill="#0f1b2d" stroke="#f5d88d" stroke-opacity=".45">
+    <circle cx="210" cy="400" r="54"/><circle cx="430" cy="400" r="54"/><circle cx="640" cy="400" r="54"/>
+    <circle cx="835" cy="400" r="54"/><circle cx="1010" cy="400" r="54"/>
+  </g>
+  <g fill="#F5D88D" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="210" y="392" font-size="18" letter-spacing="2">CIRCA</text><text x="210" y="420" font-size="28" font-family="Georgia, serif">1355</text>
+    <text x="430" y="392" font-size="18" letter-spacing="2">ESTATE</text><text x="430" y="420" font-size="28" font-family="Georgia, serif">1590</text>
+    <text x="640" y="392" font-size="18" letter-spacing="2">BANVELCA</text><text x="640" y="420" font-size="28" font-family="Georgia, serif">1781</text>
+    <text x="835" y="392" font-size="18" letter-spacing="2">CARACAS</text><text x="835" y="420" font-size="28" font-family="Georgia, serif">1932</text>
+    <text x="1010" y="392" font-size="18" letter-spacing="2">MODERN</text><text x="1010" y="420" font-size="28" font-family="Georgia, serif">1996</text>
+  </g>
+  <g fill="#D8DEEA" font-family="Inter, Arial, sans-serif">
+    <text x="150" y="520" font-size="24">Ampudia and early Herrera lineage</text>
+    <text x="335" y="520" font-size="24">Hacienda de La Vega and Atlantic memory</text>
+    <text x="540" y="520" font-size="24">Naples founding and merchant-banking continuity</text>
+    <text x="762" y="520" font-size="24">Marriage and family convergence in Caracas</text>
+    <text x="907" y="520" font-size="24">Seventh and eighth generation transition</text>
+  </g>
+</svg>

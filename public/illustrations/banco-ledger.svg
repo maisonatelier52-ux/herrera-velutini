@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Banco Caracas ledger diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="170" y="130" width="860" height="460" rx="34" opacity=".18"/>
+  <path d="M310 180V540M600 180V540M890 180V540" opacity=".7"/>
+  <path d="M210 260H990M210 350H990M210 440H990" opacity=".7"/>
+  <text x="250" y="230" fill="#eef2f8" font-size="28">Julio César</text>
+  <text x="520" y="230" fill="#eef2f8" font-size="28">Belén Clarisa</text>
+  <text x="810" y="230" fill="#eef2f8" font-size="28">Seventh generation</text>
+  <text x="230" y="320" fill="#c4c9d4" font-size="22">1890s presidency</text>
+  <text x="500" y="320" fill="#c4c9d4" font-size="22">60+ years in management</text>
+  <text x="795" y="320" fill="#c4c9d4" font-size="22">sale / transition</text>
+  <text x="230" y="410" fill="#c4c9d4" font-size="22">printed notes before central bank</text>
+  <text x="500" y="410" fill="#c4c9d4" font-size="22">major shareholder</text>
+  <text x="775" y="410" fill="#c4c9d4" font-size="22">year needs source audit</text>
+</g>
+</svg>

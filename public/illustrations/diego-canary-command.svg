@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Diego Garcia Canary command diagram</title>
+  <desc id="desc">Minimal diagram connecting Diego Garcia de Herrera y Ayala to Canary Islands command, lineage continuity, and Atlantic memory.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6f1e7"/>
+      <stop offset="1" stop-color="#d9c49a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2a231b" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="42" fill="#f6f1e7"/>
+  <path d="M80 440c92-82 162-96 258-50 104 50 164 42 252-36 82-72 168-88 290-46v188H80z" fill="url(#sea)" opacity=".78"/>
+  <g filter="url(#shadow)">
+    <rect x="110" y="108" width="356" height="356" rx="28" fill="#fffaf0"/>
+    <rect x="132" y="132" width="312" height="312" rx="18" fill="none" stroke="#443728" stroke-width="2"/>
+    <path d="M208 338h160l-30 44H238z" fill="#443728"/>
+    <path d="M220 330l68-150 68 150z" fill="#b56f36"/>
+    <path d="M288 180v-48" stroke="#443728" stroke-width="8" stroke-linecap="round"/>
+    <path d="M288 132l70 26-70 26z" fill="#d9c49a" stroke="#443728" stroke-width="4"/>
+    <circle cx="288" cy="396" r="14" fill="#d9c49a" stroke="#443728" stroke-width="4"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="520" y="128" width="320" height="316" rx="28" fill="#fffaf0"/>
+    <path d="M596 250c32-50 82-72 132-54 58 20 78 82 42 134-34 50-94 68-144 42-48-24-62-74-30-122z" fill="#d9c49a" stroke="#443728" stroke-width="5"/>
+    <circle cx="665" cy="292" r="58" fill="#fffaf0" stroke="#443728" stroke-width="5"/>
+    <path d="M626 292h78M666 252v80" stroke="#b56f36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M594 386h172" stroke="#443728" stroke-width="4" stroke-linecap="round"/>
+    <path d="M618 410h124" stroke="#443728" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M464 282h64" stroke="#443728" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 15"/>
+  <circle cx="496" cy="282" r="9" fill="#b56f36"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#443728">
+    <text x="138" y="518" font-size="24" font-weight="700">1417-1485</text>
+    <text x="138" y="550" font-size="18">lineage continuity</text>
+    <text x="520" y="518" font-size="24" font-weight="700">Canary Islands</text>
+    <text x="520" y="550" font-size="18">command, conquest, Atlantic memory</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Belen Maria family bridge diagram</title>
+  <desc id="desc">Abstract diagram connecting Belen Maria Providencia Perez Matos with the Perez-Matos, Velutini, Herrera, Clementina, and Belen Clarisa branches.</desc>
+  <rect width="960" height="640" fill="#f6f1e7"/>
+  <rect x="56" y="56" width="848" height="528" rx="28" fill="#fbf7f0" stroke="#d7c8b4"/>
+  <circle cx="480" cy="310" r="110" fill="#efe2ce" stroke="#8c6530" stroke-width="2"/>
+  <circle cx="262" cy="208" r="72" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <circle cx="698" cy="208" r="72" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <circle cx="302" cy="486" r="74" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <circle cx="658" cy="486" r="74" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <path d="M329 240 L402 276" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M631 240 L558 276" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M350 456 L412 360" stroke="#1d252d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M610 456 L548 360" stroke="#1d252d" stroke-width="3" stroke-linecap="round"/>
+  <text x="480" y="300" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="24" fill="#1d252d">BELEN MARIA</text>
+  <text x="480" y="330" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#5d6570">matriarchal bridge</text>
+  <text x="262" y="214" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="20" fill="#1d252d">PEREZ-MATOS</text>
+  <text x="698" y="214" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="20" fill="#1d252d">VELUTINI</text>
+  <text x="302" y="492" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="18" fill="#1d252d">CLEMENTINA</text>
+  <text x="658" y="492" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="18" fill="#1d252d">BELEN CLARISA</text>
+  <text x="480" y="556" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" letter-spacing="2" fill="#8c6530">HERRERA CONNECTION FLOWS THROUGH THE NEXT GENERATION</text>
+</svg>

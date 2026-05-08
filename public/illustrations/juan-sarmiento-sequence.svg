@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Juan Sarmiento sequence diagram</title>
+  <desc id="desc">Minimal diagram showing Juan Sarmiento de Herrera as a seventeenth-century sequence anchor with estate and spelling-variant notes.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#ead9b8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2a231b" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="42" fill="#f6f1e7"/>
+  <path d="M92 376h776" stroke="#d9c49a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M130 376h700" stroke="#443728" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#fffaf0" stroke="#443728" stroke-width="5">
+    <circle cx="216" cy="376" r="34"/>
+    <circle cx="480" cy="376" r="50"/>
+    <circle cx="744" cy="376" r="34"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="280" y="110" width="400" height="260" rx="30" fill="url(#paper)"/>
+    <path d="M384 168h192v108c0 62-44 94-96 118-52-24-96-56-96-118z" fill="#fffaf0" stroke="#443728" stroke-width="5"/>
+    <path d="M480 180v186" stroke="#443728" stroke-width="4"/>
+    <path d="M408 236h144M422 280h116" stroke="#b56f36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M410 186l70 34 70-34" fill="none" stroke="#d9c49a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#443728" text-anchor="middle">
+    <text x="216" y="456" font-size="18" font-weight="700">Agustin</text>
+    <text x="216" y="482" font-size="15">Lanzarote title memory</text>
+    <text x="480" y="456" font-size="24" font-weight="700">Juan Sarmiento</text>
+    <text x="480" y="486" font-size="16">1607-1664 sequence anchor</text>
+    <text x="744" y="456" font-size="18" font-weight="700">La Vega</text>
+    <text x="744" y="482" font-size="15">estate stewardship</text>
+    <text x="480" y="546" font-size="17">Source spelling variant preserved as an editorial note</text>
+  </g>
+</svg>

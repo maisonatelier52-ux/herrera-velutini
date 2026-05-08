@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">José Antonio statecraft diagram</title>
+  <desc id="desc">A minimalist diagram combining civic papers, fiscal lines, and a balance motif for José Antonio Velutini Ron.</desc>
+  <rect width="640" height="480" fill="#f6f1e7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="126" y="128" width="152" height="194" rx="14" stroke="#18302b" stroke-width="3"/>
+    <rect x="362" y="158" width="152" height="164" rx="14" stroke="#18302b" stroke-width="3"/>
+    <path d="M158 170h88M158 204h88M158 238h72M158 272h94" stroke="#b38b59" stroke-width="3"/>
+    <path d="M394 202h88M394 236h88M394 270h62" stroke="#b38b59" stroke-width="3"/>
+    <path d="M320 96v72" stroke="#18302b" stroke-width="3.5"/>
+    <path d="M252 168h136" stroke="#18302b" stroke-width="3.5"/>
+    <path d="M274 168l-38 52" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M366 168l38 52" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M216 220h42l-21 26z" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M382 220h42l-21 26z" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M194 356h252" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M244 356v30" stroke="#b38b59" stroke-width="2.5"/>
+    <path d="M398 356v30" stroke="#b38b59" stroke-width="2.5"/>
+  </g>
+  <g fill="#18302b" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="320" y="74" font-size="24">José Antonio Velutini Ron</text>
+    <text x="202" y="404" font-size="20">State papers</text>
+    <text x="438" y="404" font-size="20">Fiscal balance</text>
+  </g>
+</svg>

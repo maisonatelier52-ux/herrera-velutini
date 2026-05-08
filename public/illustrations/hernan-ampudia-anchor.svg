@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Hernán de Herrera Ampudia anchor diagram</title>
+  <desc id="desc">A minimalist diagram showing a Castilian fortress, Ampudia, and the first Herrera lineage anchor.</desc>
+  <rect width="640" height="480" fill="#f6f1e7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 330V180h42v-44h64v44h76v-44h64v44h42v150" stroke="#18302b" stroke-width="4"/>
+    <path d="M146 330h348" stroke="#18302b" stroke-width="4"/>
+    <path d="M210 330v-72c0-30 22-52 50-52s50 22 50 52v72" stroke="#b38b59" stroke-width="3"/>
+    <path d="M356 330v-72c0-30 20-52 48-52s48 22 48 52v72" stroke="#b38b59" stroke-width="3"/>
+    <path d="M260 116v-44" stroke="#18302b" stroke-width="3"/>
+    <path d="M260 72h82l-18 18 18 18h-82" stroke="#b38b59" stroke-width="3"/>
+    <path d="M116 374h408" stroke="#18302b" stroke-width="2.5"/>
+    <path d="M148 396h344" stroke="#b38b59" stroke-width="2.5" stroke-dasharray="7 10"/>
+  </g>
+  <g fill="#18302b" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="320" y="52" font-size="24">Hernán de Herrera</text>
+    <text x="320" y="422" font-size="21">Lord of Ampudia I</text>
+    <text x="320" y="448" font-size="18">circa 1355</text>
+  </g>
+</svg>

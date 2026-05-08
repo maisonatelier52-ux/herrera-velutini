@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" rx="36" fill="#09111d"/>
+  <rect x="80" y="80" width="1040" height="640" rx="28" fill="#0f1b2d" stroke="#f5d88d" stroke-opacity=".32"/>
+  <g fill="#F5D88D" font-family="Inter, Arial, sans-serif">
+    <text x="120" y="138" font-size="28" letter-spacing="4">FAMILY HUB MAP</text>
+    <text x="120" y="188" font-size="50" font-family="Georgia, serif">A research route through lineage, places, symbols and people</text>
+  </g>
+  <g stroke="#f5d88d" stroke-opacity=".3" stroke-width="3">
+    <path d="M250 320H950"/>
+    <path d="M250 320L180 460"/>
+    <path d="M430 320L360 460"/>
+    <path d="M600 320V460"/>
+    <path d="M780 320L850 460"/>
+    <path d="M950 320L1020 460"/>
+  </g>
+  <g fill="#0a1322" stroke="#f5d88d" stroke-opacity=".45">
+    <rect x="380" y="240" width="440" height="110" rx="24"/>
+    <rect x="80" y="460" width="190" height="110" rx="22"/>
+    <rect x="280" y="460" width="190" height="110" rx="22"/>
+    <rect x="500" y="460" width="200" height="110" rx="22"/>
+    <rect x="730" y="460" width="190" height="110" rx="22"/>
+    <rect x="930" y="460" width="190" height="110" rx="22"/>
+  </g>
+  <g fill="#F5D88D" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="285" font-size="22" letter-spacing="3">HERRERA FAMILY HUB</text>
+    <text x="600" y="323" font-size="36" font-family="Georgia, serif">Lineage · Estates · Symbols · Notes</text>
+    <text x="175" y="505" font-size="18" letter-spacing="2">LINEAGE</text><text x="175" y="540" font-size="28" font-family="Georgia, serif">Ampudia</text>
+    <text x="375" y="505" font-size="18" letter-spacing="2">ESTATES</text><text x="375" y="540" font-size="28" font-family="Georgia, serif">La Vega</text>
+    <text x="600" y="505" font-size="18" letter-spacing="2">SYMBOLS</text><text x="600" y="540" font-size="28" font-family="Georgia, serif">Heraldry</text>
+    <text x="825" y="505" font-size="18" letter-spacing="2">FIGURES</text><text x="825" y="540" font-size="28" font-family="Georgia, serif">Profiles</text>
+    <text x="1025" y="505" font-size="18" letter-spacing="2">SOURCES</text><text x="1025" y="540" font-size="28" font-family="Georgia, serif">Ledger</text>
+  </g>
+</svg>

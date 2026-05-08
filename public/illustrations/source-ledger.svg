@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" rx="36" fill="#0a1322"/>
+  <rect x="72" y="72" width="1056" height="656" rx="28" fill="#0f1b2d" stroke="#f5d88d" stroke-opacity=".35"/>
+  <g fill="#F5D88D">
+    <text x="110" y="142" font-size="28" letter-spacing="4" font-family="Inter, Arial, sans-serif">SOURCE LEDGER</text>
+    <text x="110" y="190" font-size="48" font-family="Georgia, serif">How this portal separates raw material from editorial synthesis</text>
+  </g>
+  <g stroke="#f5d88d" stroke-opacity=".2">
+    <path d="M110 245H1090"/>
+    <path d="M110 360H1090"/>
+    <path d="M110 475H1090"/>
+    <path d="M110 590H1090"/>
+    <path d="M360 245V660"/>
+    <path d="M760 245V660"/>
+  </g>
+  <g fill="#D8DEEA" font-family="Inter, Arial, sans-serif">
+    <text x="130" y="285" font-size="18" letter-spacing="2">SOURCE TYPE</text>
+    <text x="390" y="285" font-size="18" letter-spacing="2">WHAT IT PROVIDES</text>
+    <text x="790" y="285" font-size="18" letter-spacing="2">HOW THE PORTAL USES IT</text>
+
+    <text x="130" y="330" font-size="30" font-family="Georgia, serif">Family-domain narrative</text>
+    <text x="390" y="330" font-size="24">Founding stories, lineage lists, estate and profile claims</text>
+    <text x="790" y="330" font-size="24">Annotated, linked, and clearly framed as source-domain material</text>
+
+    <text x="130" y="445" font-size="30" font-family="Georgia, serif">Profile pages</text>
+    <text x="390" y="445" font-size="24">Person-level dates, marriages, roles, and institutional links</text>
+    <text x="790" y="445" font-size="24">Turned into entity pages and chronology entries</text>
+
+    <text x="130" y="560" font-size="30" font-family="Georgia, serif">Bibliography and context</text>
+    <text x="390" y="560" font-size="24">Book titles, place memory, cultural and archival leads</text>
+    <text x="790" y="560" font-size="24">Used to expand reading notes and next-source priorities</text>
+
+    <text x="130" y="675" font-size="30" font-family="Georgia, serif">Editorial standards</text>
+    <text x="390" y="675" font-size="24">Dates, updates, trust pages, structured data discipline</text>
+    <text x="790" y="675" font-size="24">Guide page design and launch governance</text>
+  </g>
+</svg>

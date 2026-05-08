@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Stewardship cycle diagram</title>
+<desc id="d">An original diagram showing Banvelca's stewardship model around family office, finance, art, and social responsibility.</desc>
+<rect width="1200" height="720" rx="36" fill="#0b1422"/>
+<circle cx="600" cy="360" r="95" fill="#13233a" stroke="#f5d88d" stroke-opacity=".5"/>
+<g font-family="Georgia, serif" fill="#eef2f8" text-anchor="middle">
+  <text x="600" y="350" font-size="34">Banvelca</text>
+  <text x="600" y="388" font-size="26">since 1781</text>
+</g>
+<g fill="none" stroke="#f5d88d" stroke-opacity=".35" stroke-width="4">
+  <path d="M600 155C790 155 945 310 945 500"/>
+  <path d="M945 500C945 560 885 610 820 610"/>
+  <path d="M820 610C630 610 470 610 285 610"/>
+  <path d="M285 610C210 610 150 550 150 470"/>
+  <path d="M150 470C150 290 300 155 490 155"/>
+</g>
+<g font-family="Georgia, serif" fill="#eef2f8" text-anchor="middle">
+  <text x="600" y="120" font-size="30">Private family office</text>
+  <text x="1010" y="365" font-size="30">Finance</text>
+  <text x="600" y="670" font-size="30">Art &amp; culture</text>
+  <text x="175" y="365" font-size="30">Social responsibility</text>
+</g>
+<g font-family="Inter,Arial,sans-serif" fill="#c4c9d4" text-anchor="middle" font-size="20">
+  <text x="600" y="698">Internal capital coordination, not public branch banking or public product marketing.</text>
+</g>
+</svg>

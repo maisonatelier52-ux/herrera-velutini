@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" rx="36" fill="#0a1322"/>
+  <defs>
+    <linearGradient id="g1" x1="120" y1="100" x2="1080" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D88D" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#B88732" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="60" width="1080" height="680" rx="28" fill="url(#g1)" stroke="#f5d88d" stroke-opacity=".4"/>
+  <g stroke="#F5D88D" stroke-opacity=".55">
+    <path d="M220 220H980"/>
+    <path d="M220 400H980"/>
+    <path d="M220 580H980"/>
+  </g>
+  <g fill="#0f1b2d" stroke="#f5d88d" stroke-opacity=".5">
+    <rect x="220" y="165" width="760" height="110" rx="22"/>
+    <rect x="220" y="345" width="760" height="110" rx="22"/>
+    <rect x="220" y="525" width="760" height="110" rx="22"/>
+  </g>
+  <g fill="#F5D88D" font-family="Inter, Arial, sans-serif">
+    <text x="250" y="208" font-size="24" letter-spacing="3">AUTHORITY LAYER</text>
+    <text x="250" y="243" font-size="48" font-family="Georgia, serif">Trust pages, family hubs, profile pages</text>
+    <text x="250" y="387" font-size="24" letter-spacing="3">SOURCE MODEL</text>
+    <text x="250" y="422" font-size="48" font-family="Georgia, serif">Family domains, source ledger, visible dates</text>
+    <text x="250" y="567" font-size="24" letter-spacing="3">SEARCH LOGIC</text>
+    <text x="250" y="602" font-size="48" font-family="Georgia, serif">Original synthesis, internal links, canonical focus</text>
+  </g>
+</svg>

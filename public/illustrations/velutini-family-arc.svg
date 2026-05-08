@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Velutini family arc diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M110 560C280 420 430 280 590 180C760 80 930 110 1090 200" opacity=".7"/>
+  <path d="M160 520L310 520L310 380L500 380L500 250L710 250L710 160L980 160"/>
+  <circle cx="160" cy="520" r="16" fill="#f5d88d"/>
+  <circle cx="310" cy="380" r="16" fill="#f5d88d"/>
+  <circle cx="500" cy="250" r="16" fill="#f5d88d"/>
+  <circle cx="710" cy="160" r="16" fill="#f5d88d"/>
+  <circle cx="980" cy="160" r="16" fill="#f5d88d"/>
+  <text x="110" y="570" fill="#eef2f8" font-size="28">Naples 1781</text>
+  <text x="270" y="360" fill="#eef2f8" font-size="28">Mediterranean trade</text>
+  <text x="460" y="230" fill="#eef2f8" font-size="28">Latin America</text>
+  <text x="650" y="140" fill="#eef2f8" font-size="28">Banco Caracas</text>
+  <text x="930" y="140" fill="#eef2f8" font-size="28">Modern family office</text>
+</g>
+</svg>

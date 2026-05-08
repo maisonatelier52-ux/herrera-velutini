@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Vicente José expansion diagram</title>
+  <desc id="desc">A minimalist diagram showing the Velutini route from Naples through Mediterranean expansion toward Venezuela.</desc>
+  <rect width="640" height="480" fill="#f6f1e7"/>
+  <g fill="none" stroke="#18302b" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 350c44-96 122-154 224-164 92-10 164 14 224 82" stroke="#18302b" stroke-width="4"/>
+    <path d="M98 350c72-42 144-64 216-64 72 0 146 20 222 62" stroke="#b38b59" stroke-dasharray="8 10" stroke-width="2.5"/>
+    <circle cx="112" cy="350" r="18" fill="#18302b"/>
+    <circle cx="320" cy="250" r="14" fill="#b38b59"/>
+    <circle cx="530" cy="348" r="18" fill="#18302b"/>
+    <path d="M178 144l44 0" stroke="#b38b59" stroke-width="3"/>
+    <path d="M410 130l38 0" stroke="#b38b59" stroke-width="3"/>
+    <path d="M190 346h100" stroke="#18302b" stroke-width="2"/>
+    <path d="M350 346h106" stroke="#18302b" stroke-width="2"/>
+    <path d="M320 236v-66" stroke="#b38b59" stroke-width="2.5"/>
+    <path d="M296 170h48" stroke="#b38b59" stroke-width="2.5"/>
+  </g>
+  <g fill="#18302b" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="112" y="384" font-size="20">Naples</text>
+    <text x="320" y="278" font-size="18">North Africa</text>
+    <text x="320" y="302" font-size="18">&amp; Levant</text>
+    <text x="530" y="382" font-size="20">Venezuela</text>
+    <text x="320" y="158" font-size="22">Vicente José</text>
+    <text x="320" y="183" font-size="22">Velutini Llarione</text>
+  </g>
+</svg>

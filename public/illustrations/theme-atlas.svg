@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Theme atlas</title>
+  <desc id="desc">Diagram connecting heraldry, distinctions, private banking, finance, art, social responsibility, and women of the families.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14243a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5d88d"/>
+      <stop offset="100%" stop-color="#b88732"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <g fill="none" stroke="rgba(245,216,141,0.26)" stroke-width="2">
+    <path d="M316 210C410 170 490 170 600 250"/>
+    <path d="M324 510C430 546 504 540 600 470"/>
+    <path d="M884 210C790 170 710 170 600 250"/>
+    <path d="M876 510C770 546 696 540 600 470"/>
+    <path d="M600 250V470"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#eef2f8">
+    <text x="600" y="88" font-size="46" text-anchor="middle">Themes Cluster</text>
+    <text x="600" y="124" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c4c9d4">A topic layer linking symbolic memory, stewardship language, and the women who bridge the record.</text>
+  </g>
+  <g>
+    <rect x="458" y="278" width="284" height="164" rx="26" fill="#111d30" stroke="url(#gold)" stroke-width="3"/>
+    <text x="600" y="328" fill="#f5d88d" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="2" text-anchor="middle">PORTAL USE</text>
+    <text x="600" y="374" fill="#eef2f8" font-family="Georgia, 'Times New Roman', serif" font-size="32" text-anchor="middle">Named people</text>
+    <text x="600" y="412" fill="#eef2f8" font-family="Georgia, 'Times New Roman', serif" font-size="32" text-anchor="middle">Places and institutions</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="20">
+    <g>
+      <rect x="122" y="144" width="252" height="110" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="248" y="185" fill="#f5d88d" text-anchor="middle">HERRERA SIDE</text>
+      <text x="248" y="218" fill="#eef2f8" text-anchor="middle">Heraldry and Symbols</text>
+      <text x="248" y="244" fill="#c4c9d4" text-anchor="middle">Arms, branches, places</text>
+    </g>
+    <g>
+      <rect x="122" y="456" width="252" height="110" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="248" y="497" fill="#f5d88d" text-anchor="middle">HERRERA SIDE</text>
+      <text x="248" y="530" fill="#eef2f8" text-anchor="middle">Orders and Distinctions</text>
+      <text x="248" y="556" fill="#c4c9d4" text-anchor="middle">Titles, geography, memory</text>
+    </g>
+    <g>
+      <rect x="826" y="112" width="252" height="100" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="952" y="149" fill="#f5d88d" text-anchor="middle">BANVELCA SIDE</text>
+      <text x="952" y="180" fill="#eef2f8" text-anchor="middle">Private Banking Tradition</text>
+    </g>
+    <g>
+      <rect x="826" y="230" width="252" height="100" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="952" y="267" fill="#f5d88d" text-anchor="middle">BANVELCA SIDE</text>
+      <text x="952" y="298" fill="#eef2f8" text-anchor="middle">Finance and Stewardship</text>
+    </g>
+    <g>
+      <rect x="826" y="348" width="252" height="100" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="952" y="385" fill="#f5d88d" text-anchor="middle">BANVELCA SIDE</text>
+      <text x="952" y="416" fill="#eef2f8" text-anchor="middle">Art and Patronage</text>
+    </g>
+    <g>
+      <rect x="826" y="466" width="252" height="100" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="952" y="503" fill="#f5d88d" text-anchor="middle">BANVELCA SIDE</text>
+      <text x="952" y="534" fill="#eef2f8" text-anchor="middle">Social Responsibility</text>
+    </g>
+    <g>
+      <rect x="430" y="584" width="340" height="88" rx="22" fill="#111d30" stroke="#f5d88d" stroke-width="2"/>
+      <text x="600" y="618" fill="#f5d88d" text-anchor="middle">BRIDGE PAGE</text>
+      <text x="600" y="650" fill="#eef2f8" text-anchor="middle">Women of the Families</text>
+    </g>
+  </g>
+</svg>

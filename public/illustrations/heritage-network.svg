@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Heritage network diagram</title>
+<desc id="d">An original heritage diagram linking dynasty, heraldry, titles, estates, and figures.</desc>
+<rect width="1200" height="720" rx="36" fill="#0b1422"/>
+<g fill="none" stroke="#f5d88d" stroke-opacity=".35" stroke-width="3">
+  <path d="M600 170V310"/><path d="M280 350H920"/><path d="M280 350V520"/><path d="M600 350V520"/><path d="M920 350V520"/>
+</g>
+<g font-family="Georgia, serif" fill="#eef2f8" text-anchor="middle">
+  <text x="600" y="120" font-size="40">House of Herrera</text>
+  <text x="280" y="330" font-size="30">Dynasty</text>
+  <text x="600" y="330" font-size="30">Heraldry &amp; Titles</text>
+  <text x="920" y="330" font-size="30">Estates</text>
+  <text x="280" y="565" font-size="24">Pedro García</text>
+  <text x="600" y="565" font-size="24">José Herrera Von Uslar</text>
+  <text x="920" y="565" font-size="24">Hacienda de La Vega</text>
+</g>
+<g font-family="Inter,Arial,sans-serif" fill="#c4c9d4" text-anchor="middle" font-size="20">
+  <text x="280" y="595">medieval anchor</text>
+  <text x="600" y="595">20th-century bridge</text>
+  <text x="920" y="595">place of memory</text>
+  <text x="600" y="650">This portal reads the house as a connected record, not a set of isolated menu pages.</text>
+</g>
+</svg>

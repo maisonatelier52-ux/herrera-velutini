@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Editorial method workflow</title>
+<desc id="d">A diagram showing source collection, synthesis, review, publication, and updates.</desc>
+<rect width="1200" height="720" rx="36" fill="#0b1422"/>
+<g font-family="Georgia, serif" fill="#eef2f8" text-anchor="middle">
+  <text x="600" y="90" font-size="42">Editorial workflow</text>
+</g>
+<g font-family="Inter,Arial,sans-serif" fill="#eef2f8">
+  <g transform="translate(90 170)"><rect width="180" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="90" y="48" font-size="24" text-anchor="middle">1. Collect</text><text x="90" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">public source pages</text></g>
+  <g transform="translate(360 170)"><rect width="180" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="90" y="48" font-size="24" text-anchor="middle">2. Synthesize</text><text x="90" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">new page logic</text></g>
+  <g transform="translate(630 170)"><rect width="180" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="90" y="48" font-size="24" text-anchor="middle">3. Review</text><text x="90" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">dates · claims · links</text></g>
+  <g transform="translate(900 170)"><rect width="180" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="90" y="48" font-size="24" text-anchor="middle">4. Publish</text><text x="90" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">schema · sitemap</text></g>
+  <g transform="translate(225 410)"><rect width="220" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="110" y="48" font-size="24" text-anchor="middle">5. Monitor</text><text x="110" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">indexing and CWV</text></g>
+  <g transform="translate(755 410)"><rect width="220" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="110" y="48" font-size="24" text-anchor="middle">6. Update</text><text x="110" y="78" font-size="18" text-anchor="middle" fill="#c4c9d4">only when material changes</text></g>
+</g>
+<g fill="none" stroke="#f5d88d" stroke-width="4" stroke-opacity=".45" marker-end="url(#arrow)">
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#f5d88d" fill-opacity=".8"/></marker></defs>
+  <path d="M270 230H360"/><path d="M540 230H630"/><path d="M810 230H900"/>
+  <path d="M990 290C990 380 860 380 860 410"/>
+  <path d="M445 470H755"/>
+  <path d="M225 410C225 340 160 320 160 290"/>
+</g>
+<g font-family="Inter,Arial,sans-serif" fill="#c4c9d4" font-size="20" text-anchor="middle">
+  <text x="600" y="640">Originality comes from structure, comparison, attribution, and restraint.</text>
+</g>
+</svg>

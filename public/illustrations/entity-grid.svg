@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Entity library diagram</title>
+<desc id="d">An original diagram showing organizations, people, and places arranged as a reusable entity library.</desc>
+<rect width="1200" height="720" rx="36" fill="#0b1422"/>
+<g font-family="Georgia, serif" fill="#eef2f8" text-anchor="middle">
+  <text x="600" y="100" font-size="40">Entity library</text>
+</g>
+<g font-family="Inter,Arial,sans-serif" fill="#eef2f8" text-anchor="middle">
+  <g transform="translate(120 160)"><rect width="260" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="130" y="45" font-size="24">Organization</text><text x="130" y="80" font-size="19" fill="#c4c9d4">House of Herrera</text><text x="130" y="104" font-size="19" fill="#c4c9d4">Banvelca &amp; Company</text></g>
+  <g transform="translate(470 160)"><rect width="260" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="130" y="45" font-size="24">Place</text><text x="130" y="80" font-size="19" fill="#c4c9d4">Hacienda de La Vega</text><text x="130" y="104" font-size="19" fill="#c4c9d4">Castle Santa Barbara</text></g>
+  <g transform="translate(820 160)"><rect width="260" height="120" rx="20" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="130" y="45" font-size="24">Person</text><text x="130" y="80" font-size="19" fill="#c4c9d4">Pedro García · Juan Bautista</text><text x="130" y="104" font-size="19" fill="#c4c9d4">José Herrera · Belén Clarisa</text></g>
+  <g transform="translate(250 390)"><rect width="700" height="160" rx="24" fill="#13233a" stroke="#f5d88d" stroke-opacity=".4"/><text x="350" y="60" font-size="28">Every entity page includes</text><text x="350" y="96" font-size="20" fill="#c4c9d4">visible dates · source basis · related pages · structured data</text><text x="350" y="126" font-size="20" fill="#c4c9d4">and a reason the entity matters inside the larger portal.</text></g>
+</g>
+</svg>

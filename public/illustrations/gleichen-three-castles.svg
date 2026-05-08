@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Gleichen castle-memory diagram</title>
+  <desc id="desc">Abstract diagram connecting Gleichen to the Drei Gleichen castles, the House of Uslar, and modern branch identity.</desc>
+  <rect width="960" height="640" fill="#f6f1e7"/>
+  <rect x="60" y="60" width="840" height="520" rx="28" fill="#fbf7f0" stroke="#d7c8b4"/>
+  <circle cx="480" cy="180" r="88" fill="#efe2ce" stroke="#8c6530" stroke-width="2"/>
+  <circle cx="270" cy="360" r="56" fill="#ffffff" stroke="#b89a70"/>
+  <circle cx="480" cy="360" r="56" fill="#ffffff" stroke="#b89a70"/>
+  <circle cx="690" cy="360" r="56" fill="#ffffff" stroke="#b89a70"/>
+  <rect x="300" y="450" width="360" height="88" rx="20" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <path d="M420 256 L300 322" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M480 268 L480 304" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M540 256 L660 322" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M480 414 L480 450" stroke="#1d252d" stroke-width="3" stroke-linecap="round"/>
+  <text x="480" y="174" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="30" fill="#1d252d">GLEICHEN</text>
+  <text x="480" y="208" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#5d6570">German branch geography</text>
+  <text x="270" y="366" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#1d252d">GLEICHEN</text>
+  <text x="480" y="366" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#1d252d">MUHLBURG</text>
+  <text x="690" y="366" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#1d252d">WACHSENBURG</text>
+  <text x="480" y="488" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="24" fill="#1d252d">USLAR-GLEICHEN MEMORY</text>
+  <text x="480" y="518" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="16" fill="#5d6570">three castles, heraldry, and the modern compound surname</text>
+</svg>

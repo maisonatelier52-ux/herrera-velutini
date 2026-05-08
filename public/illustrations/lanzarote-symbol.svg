@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Lanzarote symbolic geography diagram</title>
+  <desc id="desc">Abstract diagram connecting Castle Santa Barbara, Teguise, heraldry, and the Marquisate of Lanzarote.</desc>
+  <rect width="960" height="640" fill="#f6f1e7"/>
+  <rect x="56" y="56" width="848" height="528" rx="28" fill="#fbf7f0" stroke="#d7c8b4"/>
+  <path d="M118 470 C238 356 398 292 552 292 C664 292 770 330 842 392 L842 520 L118 520 Z" fill="#efe2ce"/>
+  <path d="M220 420 L300 332 L380 420 L380 500 L220 500 Z" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <rect x="280" y="382" width="42" height="118" fill="#efe2ce" stroke="#1d252d" stroke-width="2"/>
+  <path d="M266 332 L266 290 L292 290 L292 332" fill="none" stroke="#1d252d" stroke-width="2"/>
+  <path d="M308 332 L308 262 L334 262 L334 332" fill="none" stroke="#1d252d" stroke-width="2"/>
+  <path d="M350 332 L350 300 L376 300 L376 332" fill="none" stroke="#1d252d" stroke-width="2"/>
+  <path d="M610 168 C640 140 710 140 740 170 L740 248 C740 288 706 322 674 350 C642 322 608 288 608 248 Z" fill="#ffffff" stroke="#8c6530" stroke-width="3"/>
+  <path d="M640 196 H708" stroke="#8c6530" stroke-width="2"/>
+  <path d="M674 176 V318" stroke="#8c6530" stroke-width="2"/>
+  <path d="M706 228 C690 222 684 206 674 194 C664 206 658 222 642 228 C658 234 664 250 674 262 C684 250 690 234 706 228 Z" fill="#efe2ce"/>
+  <circle cx="492" cy="228" r="74" fill="#fffdf9" stroke="#1d252d" stroke-width="2"/>
+  <text x="492" y="222" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="24" fill="#1d252d">LANZAROTE</text>
+  <text x="492" y="252" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="15" fill="#5d6570">title, fortification, heraldry</text>
+  <text x="300" y="546" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="18" fill="#1d252d">CASTLE ST. BARBARA</text>
+  <text x="300" y="570" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="14" fill="#5d6570">Teguise watchpoint</text>
+  <text x="674" y="392" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="20" fill="#1d252d">COAT OF ARMS</text>
+  <text x="674" y="416" text-anchor="middle" font-family="'Avenir Next', Arial, sans-serif" font-size="14" fill="#5d6570">symbolic geography</text>
+  <path d="M378 414 L430 278" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+  <path d="M566 224 L612 224" stroke="#8c6530" stroke-width="3" stroke-linecap="round"/>
+</svg>

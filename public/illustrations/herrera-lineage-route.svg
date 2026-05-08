@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Herrera lineage route diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M130 520C260 420 320 290 420 250C520 210 600 260 690 230C820 190 930 120 1060 110"/>
+  <circle cx="130" cy="520" r="14" fill="#f5d88d"/>
+  <circle cx="420" cy="250" r="14" fill="#f5d88d"/>
+  <circle cx="690" cy="230" r="14" fill="#f5d88d"/>
+  <circle cx="1060" cy="110" r="14" fill="#f5d88d"/>
+  <text x="100" y="570" fill="#eef2f8" font-size="28">Ampudia</text>
+  <text x="360" y="210" fill="#eef2f8" font-size="28">Castile / Canaries</text>
+  <text x="610" y="280" fill="#eef2f8" font-size="28">Uslar bridge</text>
+  <text x="960" y="94" fill="#eef2f8" font-size="28">Caracas</text>
+</g>
+</svg>

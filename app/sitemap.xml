@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://herreravelutini.com/about/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/authority-stack.svg</image:loc>
+      <image:title>Portal authority-layer diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/editorial-desk/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/research-method.svg</image:loc>
+      <image:title>Editorial workflow diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/editorial-methodology/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/research-method.svg</image:loc>
+      <image:title>Editorial workflow diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/banco-caracas/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/banco-ledger.svg</image:loc>
+      <image:title>Banco Caracas ledger diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/banvelca-company/</loc>
+    <lastmod>2026-04-25</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/belen-maria-providencia-perez-matos/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/belen-maria-bridge.svg</image:loc>
+      <image:title>Belén María bridge diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/belen-clarisa-velutini-perez-matos/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/castle-santa-barbara/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/clementina-velutini-perez-matos/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/clementina-bridge.svg</image:loc>
+      <image:title>Clementina bridge diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/hacienda-de-la-vega/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/house-of-herrera/</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/hernan-de-herrera-lord-of-ampudia/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/hernan-ampudia-anchor.svg</image:loc>
+      <image:title>Hernán Ampudia anchor diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/diego-garcia-de-herrera-y-ayala/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/diego-canary-command.svg</image:loc>
+      <image:title>Diego García Canary command diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/entity-grid.svg</image:loc>
+      <image:title>Entity library diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/jose-herrera-von-uslar-gleichen/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/agustin-de-herrera-y-rojas-ayala/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/agustin-lanzarote-title.svg</image:loc>
+      <image:title>Agustín Lanzarote title diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/juan-sarmiento-sequence.svg</image:loc>
+      <image:title>Juan Sarmiento sequence diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/jose-antonio-velutini-ron/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/jose-antonio-statecraft.svg</image:loc>
+      <image:title>José Antonio statecraft diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/juan-bautista-velutini/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/julio-cesar-velutini-couturier/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/julio-cesar-banco.svg</image:loc>
+      <image:title>Julio César banking diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/julio-jose-herrera-velutini/</loc>
+    <lastmod>2026-04-25</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/pedro-garcia-de-herrera-y-rojas/</loc>
+    <lastmod>2026-04-18</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/entities/vicente-jose-velutini-llarione/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/vicente-expansion.svg</image:loc>
+      <image:title>Vicente expansion diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/estates/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/estate-atlas.svg</image:loc>
+      <image:title>Estate atlas diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/families/herrera/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/family-hub-map.svg</image:loc>
+      <image:title>Herrera family hub diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/families/herrera-velutini-connection/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/family-bridge.svg</image:loc>
+      <image:title>Herrera Velutini connection diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/families/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/family-hub-map.svg</image:loc>
+      <image:title>Families section diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/families/velutini/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/velutini-family-arc.svg</image:loc>
+      <image:title>Velutini family arc diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/genealogy/herrera-lineage/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/herrera-lineage-route.svg</image:loc>
+      <image:title>Herrera lineage route diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/genealogy/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/genealogy-map-portal.svg</image:loc>
+      <image:title>Genealogy hub diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/genealogy/velutini-lineage/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/velutini-lineage-route.svg</image:loc>
+      <image:title>Velutini lineage route diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/heritage/</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/authority-stack.svg</image:loc>
+      <image:title>Portal authority-layer diagram</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://herreravelutini.com/og/herreravelutini-og.png</image:loc>
+      <image:title>Herrera Velutini open graph image</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/knowledge/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/source-ledger.svg</image:loc>
+      <image:title>Knowledge and source-orientation diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/caracas/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/caracas-network.svg</image:loc>
+      <image:title>Caracas network diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/ampudia/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/ampudia-fortress.svg</image:loc>
+      <image:title>Ampudia fortress diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/gleichen/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/gleichen-three-castles.svg</image:loc>
+      <image:title>Gleichen castle-memory diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/lanzarote/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/lanzarote-symbol.svg</image:loc>
+      <image:title>Lanzarote symbol diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/naples/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/naples-origin.svg</image:loc>
+      <image:title>Naples origin diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/paris/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/paris-bridge.svg</image:loc>
+      <image:title>Paris bridge diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/place-atlas.svg</image:loc>
+      <image:title>Places section diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/places/uslar/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/uslar-branch.svg</image:loc>
+      <image:title>Uslar branch diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/review-team/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/authority-stack.svg</image:loc>
+      <image:title>Standards review authority diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/sources/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/source-ledger.svg</image:loc>
+      <image:title>Source ledger diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/stewardship/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/stewardship-cycle.svg</image:loc>
+      <image:title>Stewardship cycle diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/art-investment-and-patronage/</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/finance-and-capital-stewardship/</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/heraldry-and-symbols/</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/orders-and-distinctions/</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/private-banking-tradition/</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/social-responsibility/</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/theme-atlas.svg</image:loc>
+      <image:title>Themes section diagram</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/themes/women-of-the-families/</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://herreravelutini.com/timeline/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://herreravelutini.com/illustrations/timeline-bridge.svg</image:loc>
+      <image:title>Chronology bridge diagram</image:title>
+    </image:image>
+  </url>
+</urlset>

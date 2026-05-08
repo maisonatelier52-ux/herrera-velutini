@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Family bridge diagram</title>
+  <desc id="desc">Original diagram created for the Herrera Velutini portal.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1422"/>
+      <stop offset="100%" stop-color="#14253a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#g)"/>
+  <g fill="none" stroke="#f5d88d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="90" y="170" width="340" height="240" rx="28" opacity=".22"/>
+  <rect x="770" y="170" width="340" height="240" rx="28" opacity=".22"/>
+  <path d="M430 290H770"/>
+  <path d="M600 290C600 290 560 240 520 220" opacity=".75"/>
+  <path d="M600 290C600 290 640 340 680 360" opacity=".75"/>
+  <circle cx="600" cy="290" r="26" fill="#f5d88d"/>
+  <text x="150" y="240" fill="#eef2f8" font-size="42">Herrera line</text>
+  <text x="150" y="290" fill="#c4c9d4" font-size="24">dynasty · estates · heraldry</text>
+  <text x="825" y="240" fill="#eef2f8" font-size="42">Velutini line</text>
+  <text x="825" y="290" fill="#c4c9d4" font-size="24">Naples · banking · culture</text>
+  <text x="520" y="350" fill="#eef2f8" font-size="30">1932 marriage</text>
+  <text x="440" y="392" fill="#c4c9d4" font-size="24">Caracas · Pérez-Matos · Banco Caracas</text>
+</g>
+</svg>
