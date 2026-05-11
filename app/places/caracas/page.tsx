@@ -189,42 +189,6 @@ export default function CaracasPage() {
         Skip to content
       </Link>
 
-      <header className="site-header">
-        <div className="container header-wrap">
-          <Link aria-label="Herrera Velutini home" className="brand" href="/">
-            <Image
-              alt="Herrera Velutini"
-              src="/brand-wordmark.svg"
-              width={200}
-              height={40}
-              priority
-            />
-          </Link>
-          <button
-            aria-expanded={false}
-            aria-label="Toggle navigation"
-            className="nav-toggle"
-            data-nav-toggle=""
-            type="button"
-          >
-            Menu
-          </button>
-          <nav aria-label="Primary" className="site-nav" data-site-nav="">
-            <ul>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
       <main id="main">
         <section className="page-hero">
           <div className="container page-hero-grid">
