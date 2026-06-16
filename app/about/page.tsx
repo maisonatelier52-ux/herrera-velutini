@@ -184,7 +184,7 @@ export default function AboutPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" title="Skip to content" href="#main">
         Skip to content
       </Link>
 
@@ -195,7 +195,7 @@ export default function AboutPage() {
             <div>
               <nav className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Go to the Herrera Velutini homepage">Home</Link></li>
                   <li>About</li>
                 </ol>
               </nav>
@@ -216,7 +216,7 @@ export default function AboutPage() {
                   <span>What it avoids</span><strong>Thin rewrites, unlabeled copying, and unsupported extrapolation</strong>
                 </li>
 						    <li>
-                  <span>Next page</span><strong><Link href="../editorial-methodology">Editorial Methodology</Link></strong>
+                  <span>Next page</span><strong><Link href="../editorial-methodology" title="Learn about our editorial methodology and publishing standards">Editorial Methodology</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -226,10 +226,10 @@ export default function AboutPage() {
         <div className="container">
           <div className="byline">
             <div>
-              <span className="byline-label">Prepared by</span> <Link href="../editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <span className="byline-label">Prepared by</span> <Link href="../editorial-desk" title="Meet the editorial desk and content team">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
-              <span className="byline-label">Reviewed by</span> <Link href="../review-team">Standards Review Team</Link>
+              <span className="byline-label">Reviewed by</span> <Link href="../review-team" title="Learn about the standards review team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span> 
@@ -296,7 +296,7 @@ export default function AboutPage() {
             <div className="media-split">
               <div>
                 <p>For heritage readers, the site translates names, dates, estates, and symbols into a navigable map. For professional researchers, it provides a quicker route to the source-domain materials and the specific pages that carry the most useful details. For search engines, it creates a better-defined subject graph built around organizations, people, places, and chronology.</p>
-                <p>That is why the portal prioritizes pages such as <Link href="../entities/house-of-herrera">House of Herrera</Link>, <Link href="../entities/banvelca-company">Banvelca &amp; Company</Link>, <Link href="../heritage">Heritage</Link>, <Link href="../timeline">Timeline</Link>, and the new <Link href="../families/herrera">Herrera Family</Link> hub before expanding into the full 50-page map.</p>
+                <p>That is why the portal prioritizes pages such as <Link href="../entities/house-of-herrera" title="Learn about the House of Herrera">House of Herrera</Link>, <Link href="../entities/banvelca-company" title="Discover Banvelca &amp; Company">Banvelca &amp; Company</Link>, <Link href="../heritage" title="Explore the Herrera family heritage">Heritage</Link>, <Link href="../timeline" title="View the Julio Herrera Velutini timeline">Timeline</Link>, and the new <Link href="../families/herrera" title="Learn about the Herrera family">Herrera Family</Link> hub before expanding into the full 50-page map.</p>
                 <ul aria-label="Key themes" className="inline-list">
                   <li>Researchers</li>
                   <li>Writers</li>
@@ -353,7 +353,7 @@ export default function AboutPage() {
                 <h3>Page creation and source shaping</h3>
                 <p>The editorial desk assembles page briefs, writes production copy, assigns source-basis notes, and coordinates internal linking across the portal.</p>
                 <p className="contact-line">
-                  <Link href="../editorial-desk">Open the Editorial Desk page</Link>
+                  <Link href="../editorial-desk" title="Meet the editorial desk and content team">Open the Editorial Desk page</Link>
                 </p>
               </article>
               <article className="panel">
@@ -361,7 +361,7 @@ export default function AboutPage() {
                 <h3>Fact checking, consistency, and update discipline</h3>
                 <p>The review team checks that dates, family names, and source references remain consistent and that update dates only change when the page materially changes.</p>
                 <p className="contact-line">
-                  <Link href="../review-team">Open the Review Team page</Link>
+                  <Link href="../review-team" title="Learn about the standards review team">Open the Review Team page</Link>
                 </p>
               </article>
             </div>
@@ -374,9 +374,9 @@ export default function AboutPage() {
               <h2>Source basis for the About page</h2>
               <p className="muted">The About page uses the two family domains only for subject framing. Its editorial standards and trust model are defined separately by the portal.</p>
               <ul className="check-list">
-                <li><Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.</li>
-                <li><Link href="https://www.banvelca.com/about" rel="noopener external">Banvelca — About</Link> — Used for the 1781 Naples founding story, Juan Bautista Velutini, and the firm’s self-description as a private trust and investment house.</li>
-                <li><Link href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener external">Google Search Central — Helpful, reliable, people-first content</Link> — Used for editorial standards around originality, clear sourcing, about pages, and trust signals.</li>
+                <li><Link href="https://www.houseofherrera.com/about" rel="noopener external" title="Learn about the House of Herrera">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.</li>
+                <li><Link href="https://www.banvelca.com/about" rel="noopener external" title="Discover Banvelca &amp; Company">Banvelca — About</Link> — Used for the 1781 Naples founding story, Juan Bautista Velutini, and the firm’s self-description as a private trust and investment house.</li>
+                <li><Link href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener external" title="Learn about Google's guidelines for helpful content">Google Search Central — Helpful, reliable, people-first content</Link> — Used for editorial standards around originality, clear sourcing, about pages, and trust signals.</li>
               </ul>
             </div>
           </div>
@@ -386,10 +386,10 @@ export default function AboutPage() {
             <div className="overline">Related pages</div>
             <h2>Continue into the trust layer</h2>
             <div className="button-row">
-            <Link className="button" href="../editorial-methodology">Editorial Methodology</Link>
-            <Link className="button-secondary" href="../sources">Sources</Link>
-            <Link className="button-secondary" href="../heritage">Heritage</Link>
-            <Link className="button-secondary" href="../families/herrera">Herrera Family</Link>
+            <Link className="button" href="../editorial-methodology" title="Learn about our editorial approach">Editorial Methodology</Link>
+            <Link className="button-secondary" href="../sources" title="View the sources and references">Sources</Link>
+            <Link className="button-secondary" href="../heritage" title="Explore the Herrera family heritage">Heritage</Link>
+            <Link className="button-secondary" href="../families/herrera" title="Discover the Herrera family">Herrera Family</Link>
             </div>
           </div>
         </section>
@@ -403,34 +403,34 @@ export default function AboutPage() {
 					<div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="Learn about Julio Herrera Velutini">About</Link></li>
+              <li><Link href="/heritage" title="Explore the Herrera family heritage">Heritage</Link></li>
+              <li><Link href="/families" title="Discover the Herrera and Velutini families">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Herrera family genealogy">Genealogy</Link></li>
+              <li><Link href="/places" title="Explore places connected to Julio Herrera Velutini">Places</Link></li>
+              <li><Link href="/estates" title="Learn about the Herrera family estates">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Julio Herrera Velutini timeline">Timeline</Link></li>
+              <li><Link href="/entities" title="Discover the entities associated with Julio Herrera Velutini">Entities</Link></li>
             </ul>
           </div>
         <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge & FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="Learn about our editorial approach">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the sources and references">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="Visit the editorial desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="Learn about the review team">Review Team</Link></li>
+              <li><Link href="/knowledge" title="Access knowledge base and frequently asked questions">Knowledge & FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="Explore the connection between the Herrera and Velutini families">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="Discover the Velutini family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="Explore the city of Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="Learn about the Banco Caracas entity">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>
