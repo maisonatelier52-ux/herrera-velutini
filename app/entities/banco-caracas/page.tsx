@@ -187,7 +187,7 @@ export default function Page() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -199,14 +199,20 @@ export default function Page() {
               <nav className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="View the Home page">
+                      Home
+                    </Link>
                   </li>
 
                   <li>
-                    <Link href="/entities">Entities</Link>
+                    <Link href="/entities" title="View the Entities page">
+                      Entities
+                    </Link>
                   </li>
 
-                  <li aria-current="page">Banco Caracas</li>
+                  <li aria-current="page" title="View the Banco Caracas page">
+                    Banco Caracas
+                  </li>
                 </ol>
               </nav>
 
@@ -247,7 +253,9 @@ export default function Page() {
                   <span>City context</span>
 
                   <strong>
-                    <Link href="/places/caracas">Caracas</Link>
+                    <Link href="/places/caracas" title="View the Caracas page">
+                      Caracas
+                    </Link>
                   </strong>
                 </li>
 
@@ -267,14 +275,14 @@ export default function Page() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">
+              <Link href="/editorial-desk" title="View the Herrera Velutini Editorial Desk page">
                 Herrera Velutini Editorial Desk
               </Link>
             </div>
 
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">
+              <Link href="/review-team" title="View the Standards Review Team page">
                 Standards Review Team
               </Link>
             </div>
@@ -626,6 +634,7 @@ export default function Page() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="View the Banvelca — Legacy page"
                     target="_blank"
                   >
                     Banvelca — Legacy
@@ -639,6 +648,7 @@ export default function Page() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier"
                     rel="noopener external"
+                    title="View the Banvelca — Julio César Velutini Couturier page"
                     target="_blank"
                   >
                     Banvelca — Julio César Velutini Couturier
@@ -653,6 +663,7 @@ export default function Page() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
+                    title="View the Banvelca — Belén Clarisa Velutini Pérez-Matos page"
                     target="_blank"
                   >
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
@@ -665,6 +676,7 @@ export default function Page() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation"
                     rel="noopener external"
+                    title="View the Banvelca — The Seventh Generation page"
                     target="_blank"
                   >
                     Banvelca — The Seventh Generation
@@ -677,6 +689,7 @@ export default function Page() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
+                    title="View the House of Herrera — Family Estates page"
                     target="_blank"
                   >
                     House of Herrera — Family Estates
@@ -689,6 +702,7 @@ export default function Page() {
                   <Link
                     href="https://www.investegate.info/announcement/rns/banco-santander-s-a---bnc/re-agreement-/196422"
                     rel="noopener external"
+                    title="View the Banco Santander Central Hispano announcement"
                     target="_blank"
                   >
                     Banco Santander Central Hispano announcement via Investegate —
@@ -703,6 +717,7 @@ export default function Page() {
                   <Link
                     href="https://www.sec.gov/Archives/edgar/data/891478/000112528205003505/b407307_20f.htm"
                     rel="noopener external"
+                    title="View the Santander annual report via SEC"
                     target="_blank"
                   >
                     Santander annual report via SEC — Banco de Venezuela / Banco
@@ -722,13 +737,14 @@ export default function Page() {
             <h2>Continue through the Banco Caracas cluster</h2>
 
             <div className="button-row">
-              <Link href="/places/caracas" className="button">
+              <Link href="/places/caracas" className="button" title="View the Caracas page">
                 Caracas
               </Link>
 
               <Link
                 href="/entities/belen-clarisa-velutini-perez-matos"
                 className="button-secondary"
+                title="View the Belén Clarisa Velutini Pérez-Matos page"
               >
                 Belén Clarisa Velutini Pérez-Matos
               </Link>
@@ -736,6 +752,7 @@ export default function Page() {
               <Link
                 href="/entities/banvelca-company"
                 className="button-secondary"
+                title="View the Banvelca & Company page"
               >
                 Banvelca &amp; Company
               </Link>
@@ -743,6 +760,7 @@ export default function Page() {
               <Link
                 href="/entities/hacienda-de-la-vega"
                 className="button-secondary"
+                title="View the Hacienda de La Vega page"
               >
                 Hacienda de La Vega
               </Link>
@@ -761,34 +779,34 @@ export default function Page() {
             <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="View the About page">About</Link></li>
+              <li><Link href="/heritage" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
         <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge & FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge" title="View the Knowledge & FAQ page">Knowledge & FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

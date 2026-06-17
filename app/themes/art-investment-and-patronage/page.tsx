@@ -166,7 +166,7 @@ export default function ArtInvestmentAndPatronage() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -176,8 +176,8 @@ export default function ArtInvestmentAndPatronage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Art Investment and Patronage</li>
                 </ol>
               </nav>
@@ -207,7 +207,7 @@ export default function ArtInvestmentAndPatronage() {
                 <li>
                   <span>Related theme</span>
                   <strong>
-                    <Link href="/themes/social-responsibility/">Social Responsibility</Link>
+                    <Link href="/themes/social-responsibility/" title="Social Responsibility">Social Responsibility</Link>
                   </strong>
                 </li>
               </ul>
@@ -219,11 +219,11 @@ export default function ArtInvestmentAndPatronage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -280,7 +280,7 @@ export default function ArtInvestmentAndPatronage() {
             <p className="lede">
               The art page itself is thematic, so the portal turns to other pages for grounding.
               The strongest public anchor is{" "}
-              <Link href="/entities/belen-clarisa-velutini-perez-matos/">
+              <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">
                 Belén Clarisa Velutini Pérez-Matos
               </Link>
               , whose profile ties cultural stewardship to Trasnocho Cultural and Fundación
@@ -288,8 +288,8 @@ export default function ArtInvestmentAndPatronage() {
             </p>
             <p>
               That is why this theme routes readers into the{" "}
-              <Link href="/places/caracas/">Caracas</Link> dossier and the broader{" "}
-              <Link href="/stewardship/">Stewardship </Link> page. Those pages show how
+              <Link href="/places/caracas/" title="Caracas">Caracas</Link> dossier and the broader{" "}
+              <Link href="/stewardship/" title="Stewardship">Stewardship </Link> page. Those pages show how
               art-language on the source domain fits within a larger story about culture,
               patronage, and the family record&apos;s public-facing institutions.
             </p>
@@ -297,7 +297,7 @@ export default function ArtInvestmentAndPatronage() {
               The same logic also keeps the theme close to place and estate memory. While the
               Banvelca art page is the direct source here, the portal&apos;s wider cultural layer
               also includes sites such as{" "}
-              <Link href="/entities/hacienda-de-la-vega/">Hacienda de La Vega</Link>, where
+              <Link href="/entities/hacienda-de-la-vega/" title="Hacienda de La Vega">Hacienda de La Vega</Link>, where
               family and place memory intersect with later cultural life.
             </p>
           </div>
@@ -356,6 +356,7 @@ export default function ArtInvestmentAndPatronage() {
                   <Link
                     href="https://www.banvelca.com/art-investments"
                     rel="noopener external"
+                    title="Banvelca — Art Investments"
                   >
                     Banvelca — Art Investments
                   </Link>{" "}
@@ -363,7 +364,7 @@ export default function ArtInvestmentAndPatronage() {
                   and permanence.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">
                     Banvelca — About
                   </Link>{" "}
                   — Used for the broader framing of the family record as spanning finance,
@@ -373,6 +374,7 @@ export default function ArtInvestmentAndPatronage() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén Clarisa Velutini Pérez-Matos"
                   >
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
                   </Link>{" "}
@@ -383,6 +385,7 @@ export default function ArtInvestmentAndPatronage() {
                   <Link
                     href="https://www.banvelca.com/social-responsibility"
                     rel="noopener external"
+                    title="Banvelca — Social Responsibility"
                   >
                     Banvelca — Social Responsibility
                   </Link>{" "}
@@ -393,6 +396,7 @@ export default function ArtInvestmentAndPatronage() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
+                    title="House of Herrera — Family Estates"
                   >
                     House of Herrera — Family Estates
                   </Link>{" "}
@@ -409,22 +413,23 @@ export default function ArtInvestmentAndPatronage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the culture and custodianship layer</h2>
             <div className="button-row">
-              <Link href="/themes/social-responsibility/" className="button">
+              <Link href="/themes/social-responsibility/" className="button" title="Social Responsibility">
                 Social Responsibility
               </Link>
               <Link
                 href="/entities/belen-clarisa-velutini-perez-matos/"
                 className="button-secondary"
+                title="Belén Clarisa Velutini Pérez-Matos"
               >
                 Belén Clarisa Velutini Pérez-Matos
               </Link>
-              <Link href="/places/caracas/" className="button-secondary">
+              <Link href="/places/caracas/" className="button-secondary" title="Caracas">
                 Caracas
               </Link>
-              <Link href="/stewardship/" className="button-secondary">
+              <Link href="/stewardship/" className="button-secondary" title="Stewardship">
                 Stewardship
               </Link>
-              <Link href="/themes/women-of-the-families/" className="button-secondary">
+              <Link href="/themes/women-of-the-families/" className="button-secondary" title="Women of the Families">
                 Women of the Families
               </Link>
             </div>
@@ -445,37 +450,36 @@ export default function ArtInvestmentAndPatronage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/stewardship/">Stewardship</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/stewardship/" title="Stewardship">Stewardship</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/entities/belen-clarisa-velutini-perez-matos/">
-                  Belén Clarisa
+                <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa">Belén Clarisa
                 </Link>
               </li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
               <li>
-                <Link href="/themes/social-responsibility/">Social Responsibility</Link>
+                <Link href="/themes/social-responsibility/" title="Social Responsibility">Social Responsibility</Link>
               </li>
-              <li><Link href="/stewardship/">Stewardship</Link></li>
+              <li><Link href="/stewardship/" title="Stewardship">Stewardship</Link></li>
             </ul>
           </div>
         </div>

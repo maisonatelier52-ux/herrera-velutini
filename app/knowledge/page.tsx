@@ -174,7 +174,7 @@ export default function KnowledgePage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -184,7 +184,7 @@ export default function KnowledgePage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Knowledge</li>
                 </ol>
               </nav>
@@ -206,16 +206,16 @@ export default function KnowledgePage() {
                 </li>
                 <li>
                   <span>Key companion</span>
-                  <strong><Link href="/editorial-methodology/">Editorial Methodology</Link></strong>
+                  <strong><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></strong>
                 </li>
                 <li>
                   <span>Related pages</span>
                   <strong>
-                    <Link href="/sources/">Sources</Link>
+                    <Link href="/sources/" title="Sources">Sources</Link>
                     {" · "}
-                    <Link href="/entities/">Entities</Link>
+                    <Link href="/entities/" title="Entities">Entities</Link>
                     {" · "}
-                    <Link href="/review-team/">Review Team</Link>
+                    <Link href="/review-team/" title="Review Team">Review Team</Link>
                   </strong>
                 </li>
               </ul>
@@ -227,11 +227,11 @@ export default function KnowledgePage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -257,28 +257,28 @@ export default function KnowledgePage() {
                 <p>
                   Begin with the family hubs, then move into the Herrera and Velutini lineage pages for generational order.
                 </p>
-                <p><Link href="/families/">Open Families</Link></p>
+                <p><Link href="/families/" title="Open Families">Open Families</Link></p>
               </article>
               <article className="card">
                 <h3>Named people and institutions</h3>
                 <p>
                   Use the entity hub when you need focused pages for founders, heirs, organizations, estates, and public figures.
                 </p>
-                <p><Link href="/entities/">Open Entities</Link></p>
+                <p><Link href="/entities/" title="Open Entities">Open Entities</Link></p>
               </article>
               <article className="card">
                 <h3>Places, estates, and memory</h3>
                 <p>
                   Use Places and Estates when a location is functioning as more than scenery: origin, title memory, banking center, or symbolic geography.
                 </p>
-                <p><Link href="/places/">Open Places</Link></p>
+                <p><Link href="/places/" title="Open Places">Open Places</Link></p>
               </article>
               <article className="card">
                 <h3>Verification and sourcing</h3>
                 <p>
                   Use Sources, Methodology, and Review Team pages when you want to understand how the portal separates source material from synthesis.
                 </p>
-                <p><Link href="/sources/">Open Sources</Link></p>
+                <p><Link href="/sources/" title="Open Sources">Open Sources</Link></p>
               </article>
             </div>
           </div>
@@ -294,28 +294,28 @@ export default function KnowledgePage() {
                 <p>
                   A focused page about one organization, place, estate, or public figure. Entity pages are the portal&apos;s strongest indexable knowledge assets.
                 </p>
-                <p><Link href="/entities/">Open page</Link></p>
+                <p><Link href="/entities/" title="Open page">Open page</Link></p>
               </article>
               <article className="card">
                 <h3>Cluster page</h3>
                 <p>
                   A synthesis page such as Heritage, Stewardship, Estates, Timeline, or a theme page that gathers related material into a guided reading path.
                 </p>
-                <p><Link href="/heritage/">Open page</Link></p>
+                <p><Link href="/heritage/" title="Open page">Open page</Link></p>
               </article>
               <article className="card">
                 <h3>Source basis</h3>
                 <p>
                   A compact section near the bottom of a page that identifies which public source pages shaped the article and how they were used.
                 </p>
-                <p><Link href="/sources/">Open page</Link></p>
+                <p><Link href="/sources/" title="Open page">Open page</Link></p>
               </article>
               <article className="card">
                 <h3>Source caution</h3>
                 <p>
                   A visible note used when the public record has date tension, source-domain language, or a claim that should not be flattened into certainty.
                 </p>
-                <p><Link href="/review-team/">Open page</Link></p>
+                <p><Link href="/review-team/" title="Open page">Open page</Link></p>
               </article>
             </div>
           </div>
@@ -437,19 +437,19 @@ export default function KnowledgePage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="/editorial-methodology/">Editorial Methodology</Link> — Used for page-type definitions, source-basis logic, and update-date policy.
+                  <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link> — Used for page-type definitions, source-basis logic, and update-date policy.
                 </li>
                 <li>
-                  <Link href="/sources/">Sources</Link> — Used for source-group terminology and the distinction between family-domain hubs, profiles, reading leads, and standards.
+                  <Link href="/sources/" title="Sources">Sources</Link> — Used for source-group terminology and the distinction between family-domain hubs, profiles, reading leads, and standards.
                 </li>
                 <li>
-                  <Link href="/review-team/">Review Team</Link> — Used for review language around dates, originality, internal linking, and caution handling.
+                  <Link href="/review-team/" title="Review Team">Review Team</Link> — Used for review language around dates, originality, internal linking, and caution handling.
                 </li>
                 <li>
-                  <Link href="/entities/">Entities</Link> — Used to define the entity hub as the portal&apos;s strongest profile layer.
+                  <Link href="/entities/" title="Entities">Entities</Link> — Used to define the entity hub as the portal&apos;s strongest profile layer.
                 </li>
                 <li>
-                  <Link href="/timeline/">Timeline</Link> — Used to clarify when chronology is the better entry point than a person or institution page.
+                  <Link href="/timeline/" title="Timeline">Timeline</Link> — Used to clarify when chronology is the better entry point than a person or institution page.
                 </li>
               </ul>
             </div>
@@ -461,10 +461,10 @@ export default function KnowledgePage() {
             <div className="overline">Where to start by intent</div>
             <h2>Choose the right section for the reason you arrived.</h2>
             <div className="button-row">
-              <Link className="button" href="/entities/">I need the strongest profile pages</Link>
-              <Link className="button-secondary" href="/timeline/">I need chronology</Link>
-              <Link className="button-secondary" href="/estates/">I need places and estates</Link>
-              <Link className="button-secondary" href="/sources/">I need sourcing</Link>
+              <Link className="button" href="/entities/" title="I need the strongest profile pages">I need the strongest profile pages</Link>
+              <Link className="button-secondary" href="/timeline/" title="I need chronology">I need chronology</Link>
+              <Link className="button-secondary" href="/estates/" title="I need places and estates">I need places and estates</Link>
+              <Link className="button-secondary" href="/sources/" title="I need sourcing">I need sourcing</Link>
             </div>
           </div>
         </section>
@@ -481,33 +481,33 @@ export default function KnowledgePage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

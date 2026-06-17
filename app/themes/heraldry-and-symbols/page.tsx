@@ -164,7 +164,7 @@ export default function HeraldryAndSymbols() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -174,8 +174,8 @@ export default function HeraldryAndSymbols() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Heraldry and Symbols</li>
                 </ol>
               </nav>
@@ -208,7 +208,7 @@ export default function HeraldryAndSymbols() {
                 <li>
                   <span>Related theme</span>
                   <strong>
-                    <Link href="/themes/orders-and-distinctions/">
+                    <Link href="/themes/orders-and-distinctions/" title="Orders and Distinctions">
                       Orders and Distinctions
                     </Link>
                   </strong>
@@ -222,11 +222,11 @@ export default function HeraldryAndSymbols() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -260,7 +260,7 @@ export default function HeraldryAndSymbols() {
                 <h3>Place memory</h3>
                 <p>
                   Heraldry becomes more legible when read with{" "}
-                  <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>, the
+                  <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>, the
                   Lanzarote cluster, and the German estate references around Gleichen and Uslar.
                 </p>
               </article>
@@ -294,7 +294,7 @@ export default function HeraldryAndSymbols() {
                   The page opens with the broader Herrera-Sarmiento-Rojas-Ayala arms and then
                   returns to a more compact Herrera identity, giving the portal a way to talk
                   about house-level continuity and branch-level focus at once. The new{" "}
-                  <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/">
+                  <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" title="Juan Sarmiento">
                     Juan Sarmiento
                   </Link>{" "}
                   page is where the portal now tracks that branch signal and its source-name
@@ -307,7 +307,7 @@ export default function HeraldryAndSymbols() {
                 <p>
                   The Lanzarote arms matter most when tied to the distinctions material and the
                   fortification memory around Teguise and{" "}
-                  <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>.
+                  <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>.
                 </p>
               </article>
               <article className="callout">
@@ -334,16 +334,16 @@ export default function HeraldryAndSymbols() {
             </p>
             <p>
               Readers coming from this page should move next into the{" "}
-              <Link href="/entities/house-of-herrera/">House of Herrera profile</Link>, the{" "}
-              <Link href="/families/herrera/">Herrera Family</Link> hub, and the{" "}
-              <Link href="/estates/">Estates</Link> section. Those pages explain how symbolic
+              <Link href="/entities/house-of-herrera/" title="House of Herrera profile">House of Herrera profile</Link>, the{" "}
+              <Link href="/families/herrera/" title="Herrera Family">Herrera Family</Link> hub, and the{" "}
+              <Link href="/estates/" title="Estates">Estates</Link> section. Those pages explain how symbolic
               identity connects to dynastic sequence, landed memory, and the geography of
               Lanzarote, Ampudia, Caracas, and the German branches.
             </p>
             <p>
               The theme also belongs inside the cross-family layer. Because the source page
               includes a Velutini coat of arms, heraldry quietly supports the logic of the{" "}
-              <Link href="/families/herrera-velutini-connection/">
+              <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini connection">
                 Herrera and Velutini connection
               </Link>{" "}
               page, where the portal reads symbolic overlap alongside marriage and Caracas-based
@@ -364,14 +364,14 @@ export default function HeraldryAndSymbols() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">
                     House of Herrera — Symbols
                   </Link>{" "}
                   — Used for the named coats of arms associated with Herrera, Lanzarote, Uslar,
                   Gleichen, Velutini, and the wider Herrera line.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">
                     House of Herrera — Dynasty
                   </Link>{" "}
                   — Used for the dynastic framework that gives the symbolic material a lineage
@@ -381,7 +381,7 @@ export default function HeraldryAndSymbols() {
                   <Link
                     href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego">
                     House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego
                   </Link>{" "}
                   — Used for the branch-name and spelling-variant caution connected to the
@@ -391,14 +391,14 @@ export default function HeraldryAndSymbols() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Family Estates">
                     House of Herrera — Family Estates
                   </Link>{" "}
                   — Used for the Lanzarote, Gleichen, and estate-linked geography that makes
                   heraldic references more concrete.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">
                     House of Herrera — About
                   </Link>{" "}
                   — Used for the broader description of the family&apos;s geographic scope and
@@ -414,25 +414,25 @@ export default function HeraldryAndSymbols() {
             <div className="overline">Related pages</div>
             <h2>Continue into the Herrera symbolic layer</h2>
             <div className="button-row">
-              <Link href="/themes/orders-and-distinctions/" className="button">
+              <Link href="/themes/orders-and-distinctions/" className="button" title="Orders and Distinctions">
                 Orders and Distinctions
               </Link>
-              <Link href="/entities/house-of-herrera/" className="button-secondary">
+              <Link href="/entities/house-of-herrera/" className="button-secondary" title="House of Herrera">
                 House of Herrera
               </Link>
-              <Link href="/families/herrera/" className="button-secondary">
+              <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">
                 Herrera Family
               </Link>
               <Link
                 href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/"
                 className="button-secondary"
-              >
+               title="Juan Sarmiento">
                 Juan Sarmiento
               </Link>
-              <Link href="/entities/castle-santa-barbara/" className="button-secondary">
+              <Link href="/entities/castle-santa-barbara/" className="button-secondary" title="Castle Santa Barbara">
                 Castle Santa Barbara
               </Link>
-              <Link href="/themes/women-of-the-families/" className="button-secondary">
+              <Link href="/themes/women-of-the-families/" className="button-secondary" title="Women of the Families">
                 Women of the Families
               </Link>
             </div>
@@ -453,34 +453,34 @@ export default function HeraldryAndSymbols() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/themes/orders-and-distinctions/">Orders and Distinctions</Link>
+                <Link href="/themes/orders-and-distinctions/" title="Orders and Distinctions">Orders and Distinctions</Link>
               </li>
-              <li><Link href="/entities/house-of-herrera/">House of Herrera</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
+              <li><Link href="/entities/house-of-herrera/" title="House of Herrera">House of Herrera</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
               <li>
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
               </li>

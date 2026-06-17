@@ -157,7 +157,7 @@ export default function GenealogyPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -167,7 +167,7 @@ export default function GenealogyPage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
                   <li aria-current="page">Genealogy</li>
                 </ol>
               </nav>
@@ -182,9 +182,9 @@ export default function GenealogyPage() {
                 <li>
                   <span>Live lineage pages</span>
                   <strong>
-                    <Link href="/genealogy/herrera-lineage/">Herrera Lineage</Link>
+                    <Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link>
                     {" and "}
-                    <Link href="/genealogy/velutini-lineage/">Velutini Lineage</Link>
+                    <Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">Velutini Lineage</Link>
                   </strong>
                 </li>
                 <li>
@@ -198,7 +198,7 @@ export default function GenealogyPage() {
                 <li>
                   <span>Best first click</span>
                   <strong>
-                    <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                    <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
                   </strong>
                 </li>
               </ul>
@@ -210,11 +210,11 @@ export default function GenealogyPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -272,21 +272,21 @@ export default function GenealogyPage() {
                 <p>
                   Reads the House of Herrera dynasty page as a long-duration backbone from Ampudia through Castile, the Canaries, estate memory, and the Caracas-linked modern bridge.
                 </p>
-                <p><Link href="/genealogy/herrera-lineage/">Open Herrera Lineage</Link></p>
+                <p><Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Open Herrera Lineage</Link></p>
               </article>
               <article className="card">
                 <h3>Velutini Lineage</h3>
                 <p>
                   Reads Banvelca&apos;s Legacy page as a Naples-to-Americas family sequence, with Banco Caracas and the twentieth-century women&apos;s chapter treated as central rather than secondary.
                 </p>
-                <p><Link href="/genealogy/velutini-lineage/">Open Velutini Lineage</Link></p>
+                <p><Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">Open Velutini Lineage</Link></p>
               </article>
               <article className="card">
                 <h3>Connection page</h3>
                 <p>
                   The cross-family bridge belongs on its own family page because marriage, Caracas, and institutional continuity are stronger public evidence than forcing both lines into a third genealogy route.
                 </p>
-                <p><Link href="/families/herrera-velutini-connection/">Open the connection page</Link></p>
+                <p><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Open the connection page</Link></p>
               </article>
             </div>
           </div>
@@ -329,16 +329,16 @@ export default function GenealogyPage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">House of Herrera — Dynasty</Link> — Used for the ordered Herrera sequence and its date frames.
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">House of Herrera — Dynasty</Link> — Used for the ordered Herrera sequence and its date frames.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the 14th-century prominence narrative and the transregional scope of the family record.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the 14th-century prominence narrative and the transregional scope of the family record.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">Banvelca — Legacy</Link> — Used for the Velutini generational sequence from 1781 onward.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the Velutini generational sequence from 1781 onward.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">Banvelca — About</Link> — Used for the Naples founding context and the later intergenerational firm framing.
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">Banvelca — About</Link> — Used for the Naples founding context and the later intergenerational firm framing.
                 </li>
               </ul>
             </div>
@@ -350,9 +350,9 @@ export default function GenealogyPage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the genealogy layer</h2>
             <div className="button-row">
-              <Link className="button" href="/genealogy/herrera-lineage/">Herrera Lineage</Link>
-              <Link className="button-secondary" href="/genealogy/velutini-lineage/">Velutini Lineage</Link>
-              <Link className="button-secondary" href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+              <Link className="button" href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link>
+              <Link className="button-secondary" href="/genealogy/velutini-lineage/" title="Velutini Lineage">Velutini Lineage</Link>
+              <Link className="button-secondary" href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               <Link className="button-secondary" href="/timeline/">Timeline</Link>
             </div>
           </div>
@@ -370,33 +370,33 @@ export default function GenealogyPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

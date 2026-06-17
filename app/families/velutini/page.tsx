@@ -126,7 +126,7 @@ export default function VelutiniFamily() {
 
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -134,8 +134,8 @@ export default function VelutiniFamily() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/families/">Families</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/families/" title="Families">Families</Link></li>
                   <li aria-current="page">Velutini Family</li>
                 </ol>
               </nav>
@@ -162,8 +162,8 @@ export default function VelutiniFamily() {
                 <li>
                   <span>Best companions</span>
                   <strong>
-                    <Link href="/entities/banvelca-company/">Banvelca &amp; Company</Link>{" "}·{" "}
-                    <Link href="/genealogy/velutini-lineage/">Velutini Lineage</Link>
+                    <Link href="/entities/banvelca-company/" title="Banvelca & Company">Banvelca &amp; Company</Link>{" "}·{" "}
+                    <Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">Velutini Lineage</Link>
                   </strong>
                 </li>
               </ul>
@@ -175,11 +175,11 @@ export default function VelutiniFamily() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -209,8 +209,8 @@ export default function VelutiniFamily() {
                 </p>
                 <p>
                   It also helps readers understand that the twentieth-century record is not only about finance. Through{" "}
-                  <Link href="/entities/clementina-velutini-perez-matos/">Clementina Velutini Pérez-Matos</Link> and{" "}
-                  <Link href="/entities/belen-clarisa-velutini-perez-matos/">Belén Clarisa Velutini Pérez-Matos</Link>, the family narrative becomes one of banking, marriage alliances, culture, and philanthropy at the same time.
+                  <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina Velutini Pérez-Matos">Clementina Velutini Pérez-Matos</Link> and{" "}
+                  <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">Belén Clarisa Velutini Pérez-Matos</Link>, the family narrative becomes one of banking, marriage alliances, culture, and philanthropy at the same time.
                 </p>
               </div>
               <figure className="feature-figure">
@@ -275,7 +275,7 @@ export default function VelutiniFamily() {
                     <td>Turn the modern chapter toward women&apos;s leadership, marriage alliance, culture, and philanthropy.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/julio-jose-herrera-velutini/">Julio José Herrera Velutini</Link> and later generations</td>
+                    <td><Link href="/entities/julio-jose-herrera-velutini/" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link> and later generations</td>
                     <td>1945 onward</td>
                     <td>Connect the family&apos;s post-war Americas story to the later global family-office framing.</td>
                   </tr>
@@ -283,13 +283,13 @@ export default function VelutiniFamily() {
               </table>
             </div>
             <div className="button-row" style={{ marginTop: "1.2rem" }}>
-              <Link href="/places/naples/" className="button">Naples</Link>
-              <Link href="/entities/juan-bautista-velutini/" className="button-secondary">Juan Bautista</Link>
-              <Link href="/entities/vicente-jose-velutini-llarione/" className="button-secondary">Vicente José</Link>
-              <Link href="/entities/jose-antonio-velutini-ron/" className="button-secondary">José Antonio</Link>
-              <Link href="/entities/julio-cesar-velutini-couturier/" className="button-secondary">Julio César</Link>
-              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary">Julio José</Link>
-              <Link href="/entities/belen-maria-providencia-perez-matos/" className="button-secondary">Belén María</Link>
+              <Link href="/places/naples/" className="button" title="Naples">Naples</Link>
+              <Link href="/entities/juan-bautista-velutini/" className="button-secondary" title="Juan Bautista Velutini">Juan Bautista</Link>
+              <Link href="/entities/vicente-jose-velutini-llarione/" className="button-secondary" title="Vicente José Velutini Llarione">Vicente José</Link>
+              <Link href="/entities/jose-antonio-velutini-ron/" className="button-secondary" title="José Antonio Velutini Ron">José Antonio</Link>
+              <Link href="/entities/julio-cesar-velutini-couturier/" className="button-secondary" title="Julio César Velutini Couturier">Julio César</Link>
+              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary" title="Julio José Herrera Velutini">Julio José</Link>
+              <Link href="/entities/belen-maria-providencia-perez-matos/" className="button-secondary" title="Belén María Providencia Pérez Matos">Belén María</Link>
             </div>
           </div>
         </section>
@@ -305,29 +305,29 @@ export default function VelutiniFamily() {
               <article className="card">
                 <h3>Banvelca as family framework</h3>
                 <p>The About and themed pages describe a private, intergenerational firm whose remit is family capital, coordination, and cross-border stewardship.</p>
-                <p><Link href="/entities/banvelca-company/">Open Banvelca &amp; Company</Link></p>
+                <p><Link href="/entities/banvelca-company/" title="Banvelca & Company">Open Banvelca &amp; Company</Link></p>
               </article>
               <article className="card">
                 <h3>Banco Caracas as historical anchor</h3>
                 <p>Across the legacy pages, Banco Caracas turns up as the main institution through which the family&apos;s Venezuelan financial influence is narrated.</p>
-                <p><Link href="/entities/banco-caracas/">Open Banco Caracas</Link></p>
+                <p><Link href="/entities/banco-caracas/" title="Banco Caracas">Open Banco Caracas</Link></p>
               </article>
               <article className="card">
                 <h3>Culture and philanthropy</h3>
                 <p>Belén Clarisa&apos;s profile broadens the record beyond banking by tying the family to Trasnocho Cultural and Fundación Centro El Portal.</p>
-                <p><Link href="/entities/belen-clarisa-velutini-perez-matos/">Open Belén Clarisa</Link></p>
+                <p><Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">Open Belén Clarisa</Link></p>
               </article>
               <article className="card">
                 <h3>Marriage and continuity</h3>
                 <p>Clementina&apos;s 1932 marriage to José Herrera Von Uslar makes the Velutini story inseparable from the later Herrera Velutini connection.</p>
-                <p><Link href="/families/herrera-velutini-connection/">See the connection page</Link></p>
+                <p><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">See the connection page</Link></p>
               </article>
             </div>
             <div className="note" style={{ marginTop: "1rem" }}>
               <div className="overline">Banco Caracas date caution</div>
               <p>
                 The family hub treats Banco Caracas as a core institution, but it does not assign one simplified sale year. Banvelca source pages point to both 1988 and 1998, while external transaction reporting adds a 2000 Banco de Venezuela / Santander agreement and a 2002 merger context. Readers who need the detail should use the dedicated{" "}
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link> page.
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link> page.
               </p>
             </div>
           </div>
@@ -341,9 +341,9 @@ export default function VelutiniFamily() {
               One of the portal&apos;s biggest editorial gains is making this visible. The source domain itself gives remarkable weight to Belén María, Clementina, and Belén Clarisa, and that weight changes how the family should be read.
             </p>
             <p>
-              <Link href="/entities/belen-maria-providencia-perez-matos/">Belén María Providencia Pérez Matos</Link> is presented as the matriarch who linked the Pérez-Matos and Velutini lines and preserved social prominence in Caracas.{" "}
-              <Link href="/entities/clementina-velutini-perez-matos/">Clementina</Link> is presented as the bridge between banking tradition and the Herrera alliance.{" "}
-              <Link href="/entities/belen-clarisa-velutini-perez-matos/">Belén Clarisa</Link> is presented as the figure who fused finance with cultural patronage through Banco Caracas, Trasnocho Cultural, and philanthropy.
+              <Link href="/entities/belen-maria-providencia-perez-matos/" title="Belén María Providencia Pérez Matos">Belén María Providencia Pérez Matos</Link> is presented as the matriarch who linked the Pérez-Matos and Velutini lines and preserved social prominence in Caracas.{" "}
+              <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina Velutini Pérez-Matos">Clementina</Link> is presented as the bridge between banking tradition and the Herrera alliance.{" "}
+              <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">Belén Clarisa</Link> is presented as the figure who fused finance with cultural patronage through Banco Caracas, Trasnocho Cultural, and philanthropy.
             </p>
             <p>
               That means the Velutini Family page is not just a sequence of male founders and bankers. It is also a record of how women carry social, financial, and cultural continuity across generations. This is exactly the kind of synthesis that is easy to miss when the source material is split across separate ancestor pages and themed modules.
@@ -369,7 +369,7 @@ export default function VelutiniFamily() {
               </article>
               <article className="card">
                 <h3>Genealogy preparation</h3>
-                <p>The page prepares readers for the fuller lineage work in <Link href="/genealogy/velutini-lineage/">Velutini Lineage</Link>.</p>
+                <p>The page prepares readers for the fuller lineage work in <Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">Velutini Lineage</Link>.</p>
               </article>
               <article className="card">
                 <h3>Source audit</h3>
@@ -389,52 +389,52 @@ export default function VelutiniFamily() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">Banvelca — About</Link> — Used for the 1781 Naples founding narrative, Juan Bautista Velutini, and the four-continents stewardship framing.
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">Banvelca — About</Link> — Used for the 1781 Naples founding narrative, Juan Bautista Velutini, and the four-continents stewardship framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">Banvelca — Legacy</Link> — Used for the ordered sequence of generations from Juan Bautista through later generations, including Banco Caracas references, the women-led twentieth-century chapter, and the 1998 transition language.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the ordered sequence of generations from Juan Bautista through later generations, including Banco Caracas references, the women-led twentieth-century chapter, and the 1998 transition language.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external">Banvelca — Private Banking</Link> — Used for the family-only private-banking and trust-coordination language that defines the modern operating model.
+                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link> — Used for the family-only private-banking and trust-coordination language that defines the modern operating model.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external">Banvelca — Finance</Link> — Used for the merchant-banking and multi-generational custodianship framing.
+                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for the merchant-banking and multi-generational custodianship framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/art-investments" rel="noopener external">Banvelca — Art Investments</Link> — Used for the intergenerational custodianship language around art and civilizational memory.
+                  <Link href="https://www.banvelca.com/art-investments" rel="noopener external" title="Banvelca — Art Investments">Banvelca — Art Investments</Link> — Used for the intergenerational custodianship language around art and civilizational memory.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/social-responsibility" rel="noopener external">Banvelca — Social Responsibility</Link> — Used for the themes of education, cultural preservation, women&apos;s empowerment, and environmental regeneration.
+                  <Link href="https://www.banvelca.com/social-responsibility" rel="noopener external" title="Banvelca — Social Responsibility">Banvelca — Social Responsibility</Link> — Used for the themes of education, cultural preservation, women&apos;s empowerment, and environmental regeneration.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini" rel="noopener external">Banvelca — Juan Bautista Velutini</Link> — Used for the founder profile and the Naples / France / Corsica commercial context.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini" rel="noopener external" title="Banvelca — Juan Bautista Velutini">Banvelca — Juan Bautista Velutini</Link> — Used for the founder profile and the Naples / France / Corsica commercial context.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione" rel="noopener external">Banvelca — Vicente José Velutini Llarione</Link> — Used for the move beyond Naples into North Africa, the Levant, and later Latin America.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione" rel="noopener external" title="Banvelca — Vicente José Velutini Llarione">Banvelca — Vicente José Velutini Llarione</Link> — Used for the move beyond Naples into North Africa, the Levant, and later Latin America.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron" rel="noopener external">Banvelca — José Antonio Velutini Ron</Link> — Used for the nineteenth-century statecraft and fiscal-negotiation bridge between Vicente José and Julio César.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron" rel="noopener external" title="Banvelca — José Antonio Velutini Ron">Banvelca — José Antonio Velutini Ron</Link> — Used for the nineteenth-century statecraft and fiscal-negotiation bridge between Vicente José and Julio César.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier" rel="noopener external">Banvelca — Julio César Velutini Couturier</Link> — Used for the Banco Caracas presidency, note-printing context, the bank&apos;s role in the family narrative, and the source-sensitive 1988 share-sale statement.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier" rel="noopener external" title="Banvelca — Julio César Velutini Couturier">Banvelca — Julio César Velutini Couturier</Link> — Used for the Banco Caracas presidency, note-printing context, the bank&apos;s role in the family narrative, and the source-sensitive 1988 share-sale statement.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external">Banvelca — Julio José Herrera Velutini</Link> — Used for the 1945–2019 continuity frame, the move into Latin America after the war, and the later North-and-South-America expansion language.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the 1945–2019 continuity frame, the move into Latin America after the war, and the later North-and-South-America expansion language.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal link between the Pérez-Matos, Velutini, and Herrera-connected story.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal link between the Pérez-Matos, Velutini, and Herrera-connected story.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 Caracas birth year, Paris education, 1932 marriage to José Herrera Von Uslar, and leadership in banking and philanthropy.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 Caracas birth year, Paris education, 1932 marriage to José Herrera Von Uslar, and leadership in banking and philanthropy.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 life span, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 life span, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation" rel="noopener external">Banvelca — The Seventh Generation</Link> — Used for the 1998 bank-sale transition language and modern global reinvention framing.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation" rel="noopener external" title="Banvelca — The Seventh Generation">Banvelca — The Seventh Generation</Link> — Used for the 1998 bank-sale transition language and modern global reinvention framing.
                 </li>
                 <li>
-                  <Link href="/entities/banco-caracas/">Banco Caracas</Link> — Used as the portal&apos;s dedicated source-date audit page for the 1988 / 1998 / 2000 / 2002 transition issue.
+                  <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link> — Used as the portal&apos;s dedicated source-date audit page for the 1988 / 1998 / 2000 / 2002 transition issue.
                 </li>
               </ul>
             </div>
@@ -446,14 +446,14 @@ export default function VelutiniFamily() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Velutini cluster</h2>
             <div className="button-row">
-              <Link href="/genealogy/velutini-lineage/" className="button">Velutini Lineage</Link>
-              <Link href="/places/naples/" className="button-secondary">Naples</Link>
-              <Link href="/entities/vicente-jose-velutini-llarione/" className="button-secondary">Vicente José</Link>
-              <Link href="/entities/jose-antonio-velutini-ron/" className="button-secondary">José Antonio</Link>
-              <Link href="/entities/julio-cesar-velutini-couturier/" className="button-secondary">Julio César</Link>
-              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary">Julio José</Link>
-              <Link href="/entities/belen-maria-providencia-perez-matos/" className="button-secondary">Belén María</Link>
-              <Link href="/entities/banvelca-company/" className="button-secondary">Banvelca &amp; Company</Link>
+              <Link href="/genealogy/velutini-lineage/" className="button" title="Velutini Lineage">Velutini Lineage</Link>
+              <Link href="/places/naples/" className="button-secondary" title="Naples">Naples</Link>
+              <Link href="/entities/vicente-jose-velutini-llarione/" className="button-secondary" title="Vicente José Velutini Llarione">Vicente José</Link>
+              <Link href="/entities/jose-antonio-velutini-ron/" className="button-secondary" title="José Antonio Velutini Ron">José Antonio</Link>
+              <Link href="/entities/julio-cesar-velutini-couturier/" className="button-secondary" title="Julio César Velutini Couturier">Julio César</Link>
+              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary" title="Julio José Herrera Velutini">Julio José</Link>
+              <Link href="/entities/belen-maria-providencia-perez-matos/" className="button-secondary" title="Belén María Providencia Pérez Matos">Belén María</Link>
+              <Link href="/entities/banvelca-company/" className="button-secondary" title="Banvelca & Company">Banvelca &amp; Company</Link>
             </div>
           </div>
         </section>
@@ -470,33 +470,33 @@ export default function VelutiniFamily() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

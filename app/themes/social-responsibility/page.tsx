@@ -170,7 +170,7 @@ export default function SocialResponsibility() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -180,8 +180,8 @@ export default function SocialResponsibility() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Social Responsibility</li>
                 </ol>
               </nav>
@@ -214,7 +214,7 @@ export default function SocialResponsibility() {
                 <li>
                   <span>Related theme</span>
                   <strong>
-                    <Link href="/themes/art-investment-and-patronage/">
+                    <Link href="/themes/art-investment-and-patronage/" title="Art Investment and Patronage">
                       Art Investment and Patronage
                     </Link>
                   </strong>
@@ -228,11 +228,11 @@ export default function SocialResponsibility() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -294,20 +294,20 @@ export default function SocialResponsibility() {
             </p>
             <p>
               The most important named bridge is{" "}
-              <Link href="/entities/belen-clarisa-velutini-perez-matos/">
+              <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">
                 Belén Clarisa Velutini Pérez-Matos
               </Link>
               , whose profile links finance to cultural work through Trasnocho Cultural and
               Fundación Centro El Portal. The{" "}
-              <Link href="/places/caracas/">Caracas</Link> page then shows why that matters
+              <Link href="/places/caracas/" title="Caracas">Caracas</Link> page then shows why that matters
               geographically, while the{" "}
-              <Link href="/themes/women-of-the-families/">Women of the Families</Link> page
+              <Link href="/themes/women-of-the-families/" title="Women of the Families">Women of the Families</Link> page
               explains why women&apos;s empowerment is not peripheral to the portal&apos;s modern
               family story.
             </p>
             <p>
               That is also why this theme sits beside{" "}
-              <Link href="/themes/art-investment-and-patronage/">
+              <Link href="/themes/art-investment-and-patronage/" title="Art Investment and Patronage">
                 Art Investment and Patronage
               </Link>{" "}
               rather than far from it. Cultural preservation and art custodianship are separate
@@ -369,6 +369,7 @@ export default function SocialResponsibility() {
                   <Link
                     href="https://www.banvelca.com/social-responsibility"
                     rel="noopener external"
+                    title="Banvelca — Social Responsibility"
                   >
                     Banvelca — Social Responsibility
                   </Link>{" "}
@@ -379,6 +380,7 @@ export default function SocialResponsibility() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén Clarisa Velutini Pérez-Matos"
                   >
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
                   </Link>{" "}
@@ -388,6 +390,7 @@ export default function SocialResponsibility() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén María Providencia Pérez Matos"
                   >
                     Banvelca — Belén María Providencia Pérez Matos
                   </Link>{" "}
@@ -395,7 +398,7 @@ export default function SocialResponsibility() {
                   family narrative.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">
                     Banvelca — About
                   </Link>{" "}
                   — Used for the broader intergenerational and philanthropic framing of the
@@ -411,22 +414,23 @@ export default function SocialResponsibility() {
             <div className="overline">Related pages</div>
             <h2>Continue through the responsibility and culture layer</h2>
             <div className="button-row">
-              <Link href="/themes/art-investment-and-patronage/" className="button">
+              <Link href="/themes/art-investment-and-patronage/" className="button" title="Art Investment and Patronage">
                 Art Investment and Patronage
               </Link>
-              <Link href="/themes/women-of-the-families/" className="button-secondary">
+              <Link href="/themes/women-of-the-families/" className="button-secondary" title="Women of the Families">
                 Women of the Families
               </Link>
               <Link
                 href="/entities/belen-clarisa-velutini-perez-matos/"
                 className="button-secondary"
+                title="Belén Clarisa Velutini Pérez-Matos"
               >
                 Belén Clarisa Velutini Pérez-Matos
               </Link>
-              <Link href="/places/caracas/" className="button-secondary">
+              <Link href="/places/caracas/" className="button-secondary" title="Caracas">
                 Caracas
               </Link>
-              <Link href="/stewardship/" className="button-secondary">
+              <Link href="/stewardship/" className="button-secondary" title="Stewardship">
                 Stewardship
               </Link>
             </div>
@@ -447,37 +451,37 @@ export default function SocialResponsibility() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/stewardship/">Stewardship</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/stewardship/" title="Stewardship">Stewardship</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/themes/art-investment-and-patronage/">
+                <Link href="/themes/art-investment-and-patronage/" title="Art Investment and Patronage">
                   Art Investment and Patronage
                 </Link>
               </li>
               <li>
-                <Link href="/themes/women-of-the-families/">Women of the Families</Link>
+                <Link href="/themes/women-of-the-families/" title="Women of the Families">Women of the Families</Link>
               </li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/stewardship/">Stewardship</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/stewardship/" title="Stewardship">Stewardship</Link></li>
             </ul>
           </div>
         </div>

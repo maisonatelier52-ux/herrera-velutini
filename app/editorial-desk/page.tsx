@@ -164,7 +164,9 @@ export default function EditorialDeskPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">
+        Skip to content
+      </Link>
 
       <main id="main">
         {/* HERO */}
@@ -174,7 +176,9 @@ export default function EditorialDeskPage() {
               <nav className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="Go to the home page">
+                      Home
+                    </Link>
                   </li>
                   <li>Editorial Desk</li>
                 </ol>
@@ -208,7 +212,9 @@ export default function EditorialDeskPage() {
                 <li>
                   <span>Works with</span>
                   <strong>
-                    <Link href="/review-team">Standards Review Team</Link>
+                    <Link href="/review-team" title="View the Standards Review Team">
+                      Standards Review Team
+                    </Link>
                   </strong>
                 </li>
 
@@ -228,14 +234,16 @@ export default function EditorialDeskPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">
+              <Link href="/editorial-desk" title="View the Herrera Velutini Editorial Desk">
                 Herrera Velutini Editorial Desk
               </Link>
             </div>
 
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="View the Standards Review Team">
+                Standards Review Team
+              </Link>
             </div>
 
             <div>
@@ -507,7 +515,7 @@ export default function EditorialDeskPage() {
 
               <ul className="check-list">
                 <li>
-                  <Link href="/editorial-methodology">
+                  <Link href="/editorial-methodology" title="View the Editorial Methodology page">
                     Editorial Methodology
                   </Link>{" "}
                   — Used for source assignment, publication workflow, date policy,
@@ -515,17 +523,23 @@ export default function EditorialDeskPage() {
                 </li>
 
                 <li>
-                  <Link href="/sources">Sources</Link> — Used for the source-led
+                  <Link href="/sources" title="View the Sources page">
+                    Sources
+                  </Link> — Used for the source-led
                   publishing model and the distinction between source groups.
                 </li>
 
                 <li>
-                  <Link href="/review-team">Review Team</Link> — Used for the
+                  <Link href="/review-team" title="View the Review Team page">
+                    Review Team
+                  </Link> — Used for the
                   handoff boundary between preparation and standards review.
                 </li>
 
                 <li>
-                  <Link href="/knowledge">Knowledge &amp; FAQ</Link> — Used for
+                  <Link href="/knowledge" title="View the Knowledge & FAQ page">
+                    Knowledge &amp; FAQ
+                  </Link> — Used for
                   reader-facing terminology around entities, clusters, source basis,
                   and source caution.
                 </li>
@@ -541,23 +555,23 @@ export default function EditorialDeskPage() {
             <h2>High-value destinations prepared for launch.</h2>
 
             <div className="button-row">
-              <Link className="button" href="/entities">
+              <Link className="button" href="/entities" title="View the Entity hub page">
                 Entity hub
               </Link>
 
-              <Link className="button-secondary" href="/heritage">
+              <Link className="button-secondary" href="/heritage" title="View the Heritage page">
                 Heritage
               </Link>
 
-              <Link className="button-secondary" href="/stewardship">
+              <Link className="button-secondary" href="/stewardship" title="View the Stewardship page">
                 Stewardship
               </Link>
 
-              <Link className="button-secondary" href="/sources">
+              <Link className="button-secondary" href="/sources" title="View the Sources page">
                 Sources
               </Link>
 
-              <Link className="button-secondary" href="/knowledge">
+              <Link className="button-secondary" href="/knowledge" title="View the Knowledge & FAQ page">
                 Knowledge &amp; FAQ
               </Link>
             </div>
@@ -575,34 +589,34 @@ export default function EditorialDeskPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="View the About page">About</Link></li>
+              <li><Link href="/heritage" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge & FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge" title="View the Knowledge & FAQ page">Knowledge & FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

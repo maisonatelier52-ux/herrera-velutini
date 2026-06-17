@@ -127,7 +127,7 @@ export default function HerreraFamily() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -135,8 +135,8 @@ export default function HerreraFamily() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/families/">Families</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/families/" title="Families">Families</Link></li>
                   <li aria-current="page">Herrera Family</li>
                 </ol>
               </nav>
@@ -173,11 +173,11 @@ export default function HerreraFamily() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -207,7 +207,7 @@ export default function HerreraFamily() {
                 </p>
                 <p>
                   That change is particularly useful for readers who arrive through search queries about a surname, a castle, a title, or a figure such as{" "}
-                  <Link href="/entities/pedro-garcia-de-herrera-y-rojas/">Pedro García de Herrera y Rojas</Link>. Instead of landing on a narrow fragment, they get a page that maps the surrounding family context.
+                  <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" title="Pedro García de Herrera y Rojas">Pedro García de Herrera y Rojas</Link>. Instead of landing on a narrow fragment, they get a page that maps the surrounding family context.
                 </p>
               </div>
               <figure className="feature-figure">
@@ -242,32 +242,32 @@ export default function HerreraFamily() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera, Lord of Ampudia I</Link></td>
+                    <td><Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera, Lord of Ampudia I">Hernán de Herrera, Lord of Ampudia I</Link></td>
                     <td>Circa 1355</td>
                     <td>Earliest named anchor in the dynasty sequence.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/pedro-garcia-de-herrera-y-rojas/">Pedro García de Herrera y Rojas</Link></td>
+                    <td><Link href="/entities/pedro-garcia-de-herrera-y-rojas/" title="Pedro García de Herrera y Rojas">Pedro García de Herrera y Rojas</Link></td>
                     <td>1390–1455</td>
                     <td>One of the clearest early figures; described as Marshal of Castile on his short profile page.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/diego-garcia-de-herrera-y-ayala/">Diego García de Herrera y Ayala</Link></td>
+                    <td><Link href="/entities/diego-garcia-de-herrera-y-ayala/" title="Diego García de Herrera y Ayala">Diego García de Herrera y Ayala</Link></td>
                     <td>c. 1417–1485</td>
                     <td>Connects the early Herrera sequence to the Canary Islands and Atlantic-facing memory.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/agustin-de-herrera-y-rojas-ayala/">Agustín de Herrera y Rojas Ayala</Link></td>
+                    <td><Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera y Rojas Ayala">Agustín de Herrera y Rojas Ayala</Link></td>
                     <td>House page says 1569–1632; title record 1567 / 1584</td>
                     <td>Important for the early-modern cluster linking titles, Lanzarote, and bibliography, but now best read through the title chronology rather than as a settled life frame.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/">Juan Sarmiento de Herrera y Fernández Pacheco</Link></td>
+                    <td><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento de Herrera y Fernández Pacheco</Link></td>
                     <td>1607–1664</td>
                     <td>Extends the sequence after Agustín and carries a visible source-name variant note.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/jose-herrera-von-uslar-gleichen/">José Herrera Von Uslar Gleichen</Link></td>
+                    <td><Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link></td>
                     <td>Circa 1906</td>
                     <td>Modern bridge figure linking the Herrera record to Caracas and the Clementina narrative.</td>
                   </tr>
@@ -275,13 +275,13 @@ export default function HerreraFamily() {
               </table>
             </div>
             <div className="button-row" style={{ marginTop: "1.2rem" }}>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button">Hernán de Herrera</Link>
-              <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" className="button-secondary">Pedro García</Link>
-              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary">Diego García</Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">Agustín de Herrera</Link>
-              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary">Juan Sarmiento</Link>
-              <Link href="/places/ampudia/" className="button-secondary">Ampudia</Link>
-              <Link href="/places/lanzarote/" className="button-secondary">Lanzarote</Link>
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button" title="Hernán de Herrera">Hernán de Herrera</Link>
+              <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" className="button-secondary" title="Pedro García de Herrera y Rojas">Pedro García</Link>
+              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary" title="Diego García de Herrera y Ayala">Diego García</Link>
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera y Rojas Ayala">Agustín de Herrera</Link>
+              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento</Link>
+              <Link href="/places/ampudia/" className="button-secondary" title="Ampudia">Ampudia</Link>
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">Lanzarote</Link>
             </div>
           </div>
         </section>
@@ -309,10 +309,10 @@ export default function HerreraFamily() {
               </article>
             </div>
             <div className="button-row" style={{ marginTop: "1.2rem" }}>
-              <Link href="/places/ampudia/" className="button">Ampudia</Link>
-              <Link href="/places/lanzarote/" className="button-secondary">Lanzarote</Link>
-              <Link href="/places/uslar/" className="button-secondary">Uslar</Link>
-              <Link href="/places/gleichen/" className="button-secondary">Gleichen</Link>
+              <Link href="/places/ampudia/" className="button" title="Ampudia">Ampudia</Link>
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">Lanzarote</Link>
+              <Link href="/places/uslar/" className="button-secondary" title="Uslar">Uslar</Link>
+              <Link href="/places/gleichen/" className="button-secondary" title="Gleichen">Gleichen</Link>
             </div>
           </div>
         </section>
@@ -331,7 +331,7 @@ export default function HerreraFamily() {
               For the family hub, that matters because it means identity is being expressed visually, geographically, and politically at the same time. A future page on heraldry and symbols will deepen this, but even now the family hub can point readers to where those layers become visible.
             </p>
             <p>
-              <Link href="/entities/house-of-herrera/">See the House of Herrera profile</Link> for the organization-level view of those materials.
+              <Link href="/entities/house-of-herrera/" title="House of Herrera">See the House of Herrera profile</Link> for the organization-level view of those materials.
             </p>
           </div>
         </section>
@@ -347,17 +347,17 @@ export default function HerreraFamily() {
               <article className="card">
                 <h3>José Herrera Von Uslar Gleichen</h3>
                 <p>His source-domain profile makes him the most important currently live bridge figure on the Herrera side of the modern record.</p>
-                <p><Link href="/entities/jose-herrera-von-uslar-gleichen/">Open profile</Link></p>
+                <p><Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">Open profile</Link></p>
               </article>
               <article className="card">
                 <h3>Clementina connection</h3>
                 <p>Clementina&apos;s Banvelca profile says that her 1932 marriage to José Herrera Von Uslar merged the two family narratives now being organized on this portal.</p>
-                <p><Link href="/heritage/">Read Heritage</Link></p>
+                <p><Link href="/heritage/" title="Heritage">Read Heritage</Link></p>
               </article>
               <article className="card">
                 <h3>Julio José Herrera Velutini</h3>
                 <p>The Banvelca legacy sequence uses Julio José to frame the post-war movement of the family narrative into the Americas and later modern finance.</p>
-                <p><Link href="/entities/julio-jose-herrera-velutini/">Open profile</Link></p>
+                <p><Link href="/entities/julio-jose-herrera-velutini/" title="Julio José Herrera Velutini">Open profile</Link></p>
               </article>
             </div>
           </div>
@@ -399,49 +399,49 @@ export default function HerreraFamily() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">House of Herrera — Dynasty</Link> — Used for the ordered list of Herrera figures, date ranges, and the dynastic continuity framework.
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">House of Herrera — Dynasty</Link> — Used for the ordered list of Herrera figures, date ranges, and the dynastic continuity framework.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the sparse first-anchor profile and the circa 1355 Ampudia title frame.
+                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external" title="House of Herrera — Hernán de Herrera, Lord of Ampudia I">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the sparse first-anchor profile and the circa 1355 Ampudia title frame.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala" rel="noopener external">House of Herrera — Diego García de Herrera y Ayala</Link> — Used for the early Herrera-to-Canary Islands bridge and the c. 1417–1485 source frame.
+                  <Link href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala" rel="noopener external" title="House of Herrera — Diego García de Herrera y Ayala">House of Herrera — Diego García de Herrera y Ayala</Link> — Used for the early Herrera-to-Canary Islands bridge and the c. 1417–1485 source frame.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the early-modern Lanzarote, title, Royal Council, and Atlantic-expansion profile.
+                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external" title="House of Herrera — Agustín de Herrera y Rojas Ayala">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the early-modern Lanzarote, title, Royal Council, and Atlantic-expansion profile.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa" rel="noopener external">House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego</Link> — Used for the 1607–1664 sequence anchor, La Vega / Montalban estate language, and source spelling note.
+                  <Link href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa" rel="noopener external" title="House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego">House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego</Link> — Used for the 1607–1664 sequence anchor, La Vega / Montalban estate language, and source spelling note.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">House of Herrera — Symbols</Link> — Used for the set of coats of arms associated with Herrera, Lanzarote, Uslar, Gleichen, and Velutini.
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">House of Herrera — Symbols</Link> — Used for the set of coats of arms associated with Herrera, Lanzarote, Uslar, Gleichen, and Velutini.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for Hacienda de La Vega, Castle Santa Barbara, Castle of Gleichen, Castle of Ampudia, Castle of Freudenthal, Uslar-Gleichen Castle, and other place-linked notes.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for Hacienda de La Vega, Castle Santa Barbara, Castle of Gleichen, Castle of Ampudia, Castle of Freudenthal, Uslar-Gleichen Castle, and other place-linked notes.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external">House of Herrera — Orders and Distinctions</Link> — Used for titles, distinctions, and the Lanzarote / Herrera / Torre Casa / Fuerteventura cluster.
+                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external" title="House of Herrera — Orders and Distinctions">House of Herrera — Orders and Distinctions</Link> — Used for titles, distinctions, and the Lanzarote / Herrera / Torre Casa / Fuerteventura cluster.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/bibliography" rel="noopener external">House of Herrera — Bibliography</Link> — Used for reading leads surfaced on the family domain, including Los Amos del Valle, Don Agustín de Herrera y Rojas, and La Vega.
+                  <Link href="https://www.houseofherrera.com/bibliography" rel="noopener external" title="House of Herrera — Bibliography">House of Herrera — Bibliography</Link> — Used for reading leads surfaced on the family domain, including Los Amos del Valle, Don Agustín de Herrera y Rojas, and La Vega.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the short person profile describing him as a Castilian nobleman and Marshal of Castile.
+                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external" title="House of Herrera — Pedro García de Herrera y Rojas">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the short person profile describing him as a Castilian nobleman and Marshal of Castile.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the short profile linking José Herrera Von Uslar Gleichen to law, public life, and humanitarian action.
+                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external" title="House of Herrera — José Herrera Von Uslar Gleichen">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the short profile linking José Herrera Von Uslar Gleichen to law, public life, and humanitarian action.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family narrative and the shift into the Americas.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family narrative and the shift into the Americas.
                 </li>
               </ul>
             </div>
@@ -453,15 +453,15 @@ export default function HerreraFamily() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Herrera cluster</h2>
             <div className="button-row">
-              <Link href="/entities/house-of-herrera/" className="button">House of Herrera</Link>
-              <Link href="/genealogy/herrera-lineage/" className="button-secondary">Herrera Lineage</Link>
-              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary">Julio José</Link>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary">Hernán</Link>
-              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary">Diego García</Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">Agustín</Link>
-              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary">Juan Sarmiento</Link>
-              <Link href="/places/ampudia/" className="button-secondary">Ampudia</Link>
-              <Link href="/places/lanzarote/" className="button-secondary">Lanzarote</Link>
+              <Link href="/entities/house-of-herrera/" className="button" title="House of Herrera">House of Herrera</Link>
+              <Link href="/genealogy/herrera-lineage/" className="button-secondary" title="Herrera Lineage">Herrera Lineage</Link>
+              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary" title="Julio José Herrera Velutini">Julio José</Link>
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary" title="Hernán de Herrera, Lord of Ampudia I">Hernán</Link>
+              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary" title="Diego García de Herrera y Ayala">Diego García</Link>
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera y Rojas Ayala">Agustín</Link>
+              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento</Link>
+              <Link href="/places/ampudia/" className="button-secondary" title="Ampudia">Ampudia</Link>
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">Lanzarote</Link>
             </div>
           </div>
         </section>
@@ -478,33 +478,33 @@ export default function HerreraFamily() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

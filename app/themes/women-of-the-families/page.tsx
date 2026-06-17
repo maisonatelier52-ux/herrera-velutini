@@ -172,7 +172,7 @@ export default function WomenOfTheFamilies() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -182,8 +182,8 @@ export default function WomenOfTheFamilies() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Women of the Families</li>
                 </ol>
               </nav>
@@ -217,7 +217,7 @@ export default function WomenOfTheFamilies() {
                 <li>
                   <span>Companion page</span>
                   <strong>
-                    <Link href="/families/herrera-velutini-connection/">
+                    <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                       Herrera and Velutini
                     </Link>
                   </strong>
@@ -231,11 +231,11 @@ export default function WomenOfTheFamilies() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -309,13 +309,13 @@ export default function WomenOfTheFamilies() {
             </p>
             <p>
               That is why this page should be read with the{" "}
-              <Link href="/families/herrera-velutini-connection/">
+              <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini connection">
                 Herrera and Velutini connection
               </Link>{" "}
-              page, the <Link href="/places/caracas/">Caracas</Link> dossier, the{" "}
-              <Link href="/entities/clementina-velutini-perez-matos/">Clementina</Link> profile,
+              page, the <Link href="/places/caracas/" title="Caracas">Caracas</Link> dossier, the{" "}
+              <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina">Clementina</Link> profile,
               and the{" "}
-              <Link href="/entities/belen-clarisa-velutini-perez-matos/">Belén Clarisa</Link>{" "}
+              <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa">Belén Clarisa</Link>{" "}
               profile. Together, those pages explain how women&apos;s roles carry the modern
               continuity of the site.
             </p>
@@ -376,6 +376,7 @@ export default function WomenOfTheFamilies() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén María Providencia Pérez Matos"
                   >
                     Banvelca — Belén María Providencia Pérez Matos
                   </Link>{" "}
@@ -386,6 +387,7 @@ export default function WomenOfTheFamilies() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Clementina Velutini Pérez-Matos"
                   >
                     Banvelca — Clementina Velutini Pérez-Matos
                   </Link>{" "}
@@ -396,8 +398,9 @@ export default function WomenOfTheFamilies() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén Clarisa Velutini Pérez Matos"
                   >
-                    Banvelca — Belén Clarisa Velutini Pérez-Matos
+                    Banvelca — Belén Clarisa Velutini Pérez Matos
                   </Link>{" "}
                   — Used for the Banco Caracas role, cultural patronage, and philanthropic
                   institutions.
@@ -406,6 +409,7 @@ export default function WomenOfTheFamilies() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="Banvelca — Legacy"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -422,25 +426,27 @@ export default function WomenOfTheFamilies() {
             <div className="overline">Related pages</div>
             <h2>Continue through the modern family bridge</h2>
             <div className="button-row">
-              <Link href="/families/herrera-velutini-connection/" className="button">
+              <Link href="/families/herrera-velutini-connection/" className="button" title="Herrera and Velutini">
                 Herrera and Velutini
               </Link>
               <Link
                 href="/entities/clementina-velutini-perez-matos/"
                 className="button-secondary"
+                title="Clementina"
               >
                 Clementina
               </Link>
               <Link
                 href="/entities/belen-clarisa-velutini-perez-matos/"
                 className="button-secondary"
+                title="Belén Clarisa"
               >
                 Belén Clarisa
               </Link>
-              <Link href="/places/caracas/" className="button-secondary">
+              <Link href="/places/caracas/" className="button-secondary" title="Caracas">
                 Caracas
               </Link>
-              <Link href="/themes/social-responsibility/" className="button-secondary">
+              <Link href="/themes/social-responsibility/" className="button-secondary" title="Social Responsibility">
                 Social Responsibility
               </Link>
             </div>
@@ -461,37 +467,37 @@ export default function WomenOfTheFamilies() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
               <li>
-                <Link href="/entities/clementina-velutini-perez-matos/">Clementina</Link>
+                <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina">Clementina</Link>
               </li>
               <li>
-                <Link href="/entities/belen-clarisa-velutini-perez-matos/">Belén Clarisa</Link>
+                <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa">Belén Clarisa</Link>
               </li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
             </ul>
           </div>
         </div>

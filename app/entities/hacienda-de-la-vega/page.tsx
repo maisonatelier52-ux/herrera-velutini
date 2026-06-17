@@ -193,7 +193,7 @@ export default function HaciendaDeLaVega() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -203,8 +203,8 @@ export default function HaciendaDeLaVega() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/entities">Entities</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/entities" title="Entities">Entities</Link></li>
                   <li aria-current="page">Hacienda de La Vega</li>
                 </ol>
               </nav>
@@ -244,11 +244,11 @@ export default function HaciendaDeLaVega() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -286,7 +286,7 @@ export default function HaciendaDeLaVega() {
                   place remains significant within the family narrative.
                 </p>
                 <p>
-                  <Link href="/heritage">Open page</Link>
+                  <Link href="/heritage" title="Heritage">Open page</Link>
                 </p>
               </article>
               <article className="card">
@@ -296,7 +296,7 @@ export default function HaciendaDeLaVega() {
                   matters as part of the city&apos;s historical fabric.
                 </p>
                 <p>
-                  <Link href="/estates">Open page</Link>
+                  <Link href="/estates" title="Estates">Open page</Link>
                 </p>
               </article>
             </div>
@@ -326,8 +326,8 @@ export default function HaciendaDeLaVega() {
               <h3>Use this page with the House and Estates clusters.</h3>
               <p>
                 The place becomes even clearer when read with{" "}
-                <Link href="/entities/house-of-herrera">House of Herrera</Link> and the wider{" "}
-                <Link href="/estates">Estates</Link> cluster.
+                <Link href="/entities/house-of-herrera" title="House of Herrera">House of Herrera</Link> and the wider{" "}
+                <Link href="/estates" title="Estates">Estates</Link> cluster.
               </p>
             </article>
           </div>
@@ -347,6 +347,7 @@ export default function HaciendaDeLaVega() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
+                    title="Hosuse of Herrera - Family Estates"
                   >
                     House of Herrera — Family Estates
                   </Link>{" "}
@@ -357,6 +358,7 @@ export default function HaciendaDeLaVega() {
                   <Link
                     href="https://www.houseofherrera.com/bibliography"
                     rel="noopener external"
+                    title="Bibliography"
                   >
                     House of Herrera — Bibliography
                   </Link>{" "}
@@ -372,16 +374,16 @@ export default function HaciendaDeLaVega() {
             <div className="overline">Related pages</div>
             <h2>Continue through the portal</h2>
             <div className="button-row">
-              <Link href="/estates" className="button">
+              <Link href="/estates" className="button" title="Estates Cluster">
                 Estates cluster
               </Link>
-              <Link href="/entities/house-of-herrera" className="button-secondary">
+              <Link href="/entities/house-of-herrera" className="button-secondary" title="House of Herrera">
                 House of Herrera
               </Link>
-              <Link href="/timeline" className="button-secondary">
+              <Link href="/timeline" className="button-secondary" title="Timeline">
                 Timeline
               </Link>
-              <Link href="/sources" className="button-secondary">
+              <Link href="/sources" className="button-secondary" title="Sources">
                 Sources
               </Link>
             </div>
@@ -401,33 +403,33 @@ export default function HaciendaDeLaVega() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="About Page">About</Link></li>
+              <li><Link href="/heritage" title="Heritage Page">Heritage</Link></li>
+              <li><Link href="/families" title="Families Page">Families</Link></li>
+              <li><Link href="/genealogy" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places" title="Places">Places</Link></li>
+              <li><Link href="/estates" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

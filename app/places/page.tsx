@@ -196,7 +196,7 @@ export default function PlacesPage() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -207,7 +207,7 @@ export default function PlacesPage() {
               <nav className="breadcrumbs" aria-label="Breadcrumb">
                 <ol>
                   <li>
-                    <Link href="https://herreravelutini.com/">Home</Link>
+                    <Link href="https://herreravelutini.com/" title="Home">Home</Link>
                   </li>
                   <li aria-current="page">Places</li>
                 </ol>
@@ -225,19 +225,19 @@ export default function PlacesPage() {
                 <li>
                   <span>Live now</span>
                   <strong>
-                    <Link href="/places/caracas/">Caracas</Link>
+                    <Link href="/places/caracas/" title="Caracas">Caracas</Link>
                     {" · "}
-                    <Link href="/places/naples/">Naples</Link>
+                    <Link href="/places/naples/" title="Naples">Naples</Link>
                     {" · "}
-                    <Link href="/places/paris/">Paris</Link>
+                    <Link href="/places/paris/" title="Paris">Paris</Link>
                     {" · "}
-                    <Link href="/places/lanzarote/">Lanzarote</Link>
+                    <Link href="/places/lanzarote/" title="Lanzarote">Lanzarote</Link>
                     {" · "}
-                    <Link href="/places/ampudia/">Ampudia</Link>
+                    <Link href="/places/ampudia/" title="Ampudia">Ampudia</Link>
                     {" · "}
-                    <Link href="/places/uslar/">Uslar</Link>
+                    <Link href="/places/uslar/" title="Uslar">Uslar</Link>
                     {" · "}
-                    <Link href="/places/gleichen/">Gleichen</Link>
+                    <Link href="/places/gleichen/" title="Gleichen">Gleichen</Link>
                   </strong>
                 </li>
                 <li>
@@ -266,11 +266,11 @@ export default function PlacesPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -302,7 +302,7 @@ export default function PlacesPage() {
                   marriage alliance, and cultural patronage.
                 </p>
                 <p>
-                  <Link href="/places/caracas/">Open Caracas</Link>
+                  <Link href="/places/caracas/" title="Open Caracas">Open Caracas</Link>
                 </p>
               </article>
               <article className="card">
@@ -312,7 +312,7 @@ export default function PlacesPage() {
                   chapter of the Velutini record.
                 </p>
                 <p>
-                  <Link href="/places/naples/">Open Naples</Link>
+                  <Link href="/places/naples/" title="Open Naples">Open Naples</Link>
                 </p>
               </article>
               <article className="card">
@@ -322,7 +322,7 @@ export default function PlacesPage() {
                   later European office geography.
                 </p>
                 <p>
-                  <Link href="/places/paris/">Open Paris</Link>
+                  <Link href="/places/paris/" title="Open Paris">Open Paris</Link>
                 </p>
               </article>
               <article className="card">
@@ -332,7 +332,7 @@ export default function PlacesPage() {
                   and the Marquisate of Lanzarote.
                 </p>
                 <p>
-                  <Link href="/places/lanzarote/">Open Lanzarote</Link>
+                  <Link href="/places/lanzarote/" title="Open Lanzarote">Open Lanzarote</Link>
                 </p>
               </article>
               <article className="card">
@@ -342,7 +342,7 @@ export default function PlacesPage() {
                   fortress geography.
                 </p>
                 <p>
-                  <Link href="/places/ampudia/">Open Ampudia</Link>
+                  <Link href="/places/ampudia/" title="Open Ampudia">Open Ampudia</Link>
                 </p>
               </article>
               <article className="card">
@@ -352,7 +352,7 @@ export default function PlacesPage() {
                   arms, and surname continuity.
                 </p>
                 <p>
-                  <Link href="/places/uslar/">Open Uslar</Link>
+                  <Link href="/places/uslar/" title="Open Uslar">Open Uslar</Link>
                 </p>
               </article>
               <article className="card">
@@ -362,7 +362,7 @@ export default function PlacesPage() {
                   the Uslar-Gleichen layer.
                 </p>
                 <p>
-                  <Link href="/places/gleichen/">Open Gleichen</Link>
+                  <Link href="/places/gleichen/" title="Open Gleichen">Open Gleichen</Link>
                 </p>
               </article>
             </div>
@@ -387,14 +387,14 @@ export default function PlacesPage() {
             <div className="overline">Related pages</div>
             <h2>Use places with the core authority layer</h2>
             <div className="button-row">
-              <Link className="button" href="/places/caracas/">Caracas</Link>
-              <Link className="button-secondary" href="/places/naples/">Naples</Link>
-              <Link className="button-secondary" href="/places/paris/">Paris</Link>
-              <Link className="button-secondary" href="/places/lanzarote/">Lanzarote</Link>
-              <Link className="button-secondary" href="/places/ampudia/">Ampudia</Link>
-              <Link className="button-secondary" href="/places/uslar/">Uslar</Link>
-              <Link className="button-secondary" href="/places/gleichen/">Gleichen</Link>
-              <Link className="button-secondary" href="/estates/">Estates</Link>
+              <Link className="button" href="/places/caracas/" title="Caracas">Caracas</Link>
+              <Link className="button-secondary" href="/places/naples/" title="Naples">Naples</Link>
+              <Link className="button-secondary" href="/places/paris/" title="Paris">Paris</Link>
+              <Link className="button-secondary" href="/places/lanzarote/" title="Lanzarote">Lanzarote</Link>
+              <Link className="button-secondary" href="/places/ampudia/" title="Ampudia">Ampudia</Link>
+              <Link className="button-secondary" href="/places/uslar/" title="Uslar">Uslar</Link>
+              <Link className="button-secondary" href="/places/gleichen/" title="Gleichen">Gleichen</Link>
+              <Link className="button-secondary" href="/estates/" title="Estates">Estates</Link>
             </div>
           </div>
         </section>
@@ -413,37 +413,37 @@ export default function PlacesPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
               </li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

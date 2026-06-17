@@ -176,7 +176,7 @@ export default function Uslar() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -186,8 +186,8 @@ export default function Uslar() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/places/">Places</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/places/" title="Places">Places</Link></li>
                   <li aria-current="page">Uslar</li>
                 </ol>
               </nav>
@@ -217,7 +217,7 @@ export default function Uslar() {
                 </li>
                 <li>
                   <span>Best companion</span>
-                  <strong><Link href="/places/gleichen/">Gleichen</Link></strong>
+                  <strong><Link href="/places/gleichen/" title="Gleichen">Gleichen</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -228,11 +228,11 @@ export default function Uslar() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -341,12 +341,12 @@ export default function Uslar() {
             <h2>Uslar explains the left side of the German cluster.</h2>
             <p className="lede">
               Readers should use this page together with{" "}
-              <Link href="/places/gleichen/">Gleichen</Link>, not instead of it.
+              <Link href="/places/gleichen/" title="Gleichen">Gleichen</Link>, not instead of it.
             </p>
             <p>
               Uslar is the better page for readers starting from Freudenthal, from the Uslar
               coat of arms, or from the modern compound surname{" "}
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/">
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">
                 José Herrera Von Uslar Gleichen
               </Link>
               . Gleichen, by contrast, is the better page for the wider castle-memory cluster
@@ -370,14 +370,14 @@ export default function Uslar() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">
                     House of Herrera — Family Estates
                   </Link>{" "}
                   — Used for the Uslar town note, Castle of Freudenthal, the 1599 construction
                   date, the 1612 fire, and the 1819 town-fire reference.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">
                     House of Herrera — Symbols
                   </Link>{" "}
                   — Used for the Uslar coat of arms and the town&rsquo;s role in the heraldic
@@ -387,7 +387,7 @@ export default function Uslar() {
                   <Link
                     href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — José Herrera Von Uslar Gleichen">
                     House of Herrera — José Herrera Von Uslar Gleichen
                   </Link>{" "}
                   — Used for the modern bridge figure whose surname preserves the compound
@@ -397,7 +397,7 @@ export default function Uslar() {
                   <Link
                     href="https://www.uslar.de/portal/seiten/stadtgeschichte-900000103-30090.html"
                     rel="noopener external"
-                  >
+                   title="Stadt Uslar — Stadtgeschichte">
                     Stadt Uslar — Stadtgeschichte
                   </Link>{" "}
                   — Used as official municipal context for Uslar&rsquo;s first documentary
@@ -413,16 +413,16 @@ export default function Uslar() {
             <div className="overline">Related pages</div>
             <h2>Continue through the German branch cluster</h2>
             <div className="button-row">
-              <Link href="/places/gleichen/" className="button">
+              <Link href="/places/gleichen/" className="button" title="Gleichen">
                 Gleichen
               </Link>
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary">
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary" title="José Herrera Von Uslar Gleichen">
                 José Herrera Von Uslar Gleichen
               </Link>
-              <Link href="/families/herrera/" className="button-secondary">
+              <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">
                 Herrera Family
               </Link>
-              <Link href="/estates/" className="button-secondary">
+              <Link href="/estates/" className="button-secondary" title="Estates">
                 Estates
               </Link>
             </div>
@@ -442,33 +442,33 @@ export default function Uslar() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

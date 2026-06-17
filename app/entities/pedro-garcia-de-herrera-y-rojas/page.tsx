@@ -191,7 +191,7 @@ export default function PedroGarciaDeHerreraYRojas() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -202,10 +202,10 @@ export default function PedroGarciaDeHerreraYRojas() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="Home">Home</Link>
                   </li>
                   <li>
-                    <Link href="/entities/">Entities</Link>
+                    <Link href="/entities/" title="Entities">Entities</Link>
                   </li>
                   <li aria-current="page">Pedro García de Herrera y Rojas</li>
                 </ol>
@@ -218,9 +218,9 @@ export default function PedroGarciaDeHerreraYRojas() {
                 he functions as a medieval anchor: the person page readers can
                 use when they need the House record to become specific rather
                 than abstract. He is especially useful as the opening figure in
-                the <Link href="/timeline/">Timeline</Link> and as a concrete
+                the <Link href="/timeline/" title="Timeline">Timeline</Link> and as a concrete
                 entry point into the wider{" "}
-                <Link href="/heritage/">Heritage</Link> cluster.
+                <Link href="/heritage/" title="Heritage">Heritage</Link> cluster.
               </p>
             </div>
             <aside className="facts-box">
@@ -250,11 +250,11 @@ export default function PedroGarciaDeHerreraYRojas() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -287,7 +287,7 @@ export default function PedroGarciaDeHerreraYRojas() {
                   instead of a vague opening century.
                 </p>
                 <p>
-                  <Link href="/timeline/">Open page</Link>
+                  <Link href="/timeline/" title="Timeline">Open page</Link>
                 </p>
               </article>
               <article className="card">
@@ -298,7 +298,7 @@ export default function PedroGarciaDeHerreraYRojas() {
                   family succession.
                 </p>
                 <p>
-                  <Link href="/heritage/">Open page</Link>
+                  <Link href="/heritage/" title="Heritage">Open page</Link>
                 </p>
               </article>
               <article className="card">
@@ -308,7 +308,7 @@ export default function PedroGarciaDeHerreraYRojas() {
                   and heritage cluster.
                 </p>
                 <p>
-                  <Link href="/entities/house-of-herrera/">Open page</Link>
+                  <Link href="/entities/house-of-herrera/" title="House of Herrera">Open page</Link>
                 </p>
               </article>
             </div>
@@ -329,6 +329,7 @@ export default function PedroGarciaDeHerreraYRojas() {
                   <Link
                     href="https://www.houseofherrera.com/dynasty"
                     rel="noopener external"
+                    title="House of Herrera — Dynasty"
                   >
                     House of Herrera — Dynasty
                   </Link>{" "}
@@ -338,6 +339,7 @@ export default function PedroGarciaDeHerreraYRojas() {
                   <Link
                     href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas"
                     rel="noopener external"
+                    title="House of Herrera — Pedro García de Herrera y Rojas"
                   >
                     House of Herrera — Pedro García de Herrera y Rojas
                   </Link>{" "}
@@ -354,16 +356,16 @@ export default function PedroGarciaDeHerreraYRojas() {
             <div className="overline">Related pages</div>
             <h2>Continue through the portal</h2>
             <div className="button-row">
-              <Link href="/entities/house-of-herrera/" className="button">
+              <Link href="/entities/house-of-herrera/" className="button" title="House of Herrera">
                 House of Herrera
               </Link>
-              <Link href="/heritage/" className="button-secondary">
+              <Link href="/heritage/" className="button-secondary" title="Heritage cluster">
                 Heritage cluster
               </Link>
-              <Link href="/timeline/" className="button-secondary">
+              <Link href="/timeline/" className="button-secondary" title="Timeline">
                 Timeline
               </Link>
-              <Link href="/entities/" className="button-secondary">
+              <Link href="/entities/" className="button-secondary" title="Entity hub">
                 Entity hub
               </Link>
             </div>
@@ -385,28 +387,28 @@ export default function PedroGarciaDeHerreraYRojas() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about/">About</Link>
+                <Link href="/about/" title="About">About</Link>
               </li>
               <li>
-                <Link href="/heritage/">Heritage</Link>
+                <Link href="/heritage/" title="Heritage">Heritage</Link>
               </li>
               <li>
-                <Link href="/families/">Families</Link>
+                <Link href="/families/" title="Families">Families</Link>
               </li>
               <li>
-                <Link href="/genealogy/">Genealogy</Link>
+                <Link href="/genealogy/" title="Genealogy">Genealogy</Link>
               </li>
               <li>
-                <Link href="/places/">Places</Link>
+                <Link href="/places/" title="Places">Places</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/timeline/">Timeline</Link>
+                <Link href="/timeline/" title="Timeline">Timeline</Link>
               </li>
               <li>
-                <Link href="/entities/">Entities</Link>
+                <Link href="/entities/" title="Entities">Entities</Link>
               </li>
             </ul>
           </div>
@@ -414,19 +416,19 @@ export default function PedroGarciaDeHerreraYRojas() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology/">Editorial Methodology</Link>
+                <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link>
               </li>
               <li>
-                <Link href="/sources/">Sources</Link>
+                <Link href="/sources/" title="Sources">Sources</Link>
               </li>
               <li>
-                <Link href="/editorial-desk/">Editorial Desk</Link>
+                <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link>
               </li>
               <li>
-                <Link href="/review-team/">Review Team</Link>
+                <Link href="/review-team/" title="Review Team">Review Team</Link>
               </li>
               <li>
-                <Link href="/knowledge/">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
               </li>
             </ul>
           </div>
@@ -434,18 +436,18 @@ export default function PedroGarciaDeHerreraYRojas() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
               </li>
               <li>
-                <Link href="/families/velutini/">Velutini Family</Link>
+                <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link>
               </li>
               <li>
-                <Link href="/places/caracas/">Caracas</Link>
+                <Link href="/places/caracas/" title="Caracas">Caracas</Link>
               </li>
               <li>
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link>
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>
               </li>
             </ul>
           </div>

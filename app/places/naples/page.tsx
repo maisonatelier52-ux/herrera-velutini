@@ -198,7 +198,7 @@ export default function Naples() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -208,8 +208,8 @@ export default function Naples() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/places/">Places</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/places/" title="Places">Places</Link></li>
                   <li aria-current="page">Naples</li>
                 </ol>
               </nav>
@@ -232,9 +232,9 @@ export default function Naples() {
                 <li>
                   <span>Strongest anchors</span>
                   <strong>
-                    <Link href="/entities/juan-bautista-velutini/">Juan Bautista Velutini</Link>
+                    <Link href="/entities/juan-bautista-velutini/" title="Juan Bautista Velutini">Juan Bautista Velutini</Link>
                     {" and "}
-                    <Link href="/entities/banvelca-company/">Banvelca &amp; Company</Link>
+                    <Link href="/entities/banvelca-company/" title="Banvelca & Company">Banvelca &amp; Company</Link>
                   </strong>
                 </li>
                 <li>
@@ -244,7 +244,7 @@ export default function Naples() {
                 <li>
                   <span>Best companion</span>
                   <strong>
-                    <Link href="/families/velutini/">Velutini Family</Link>
+                    <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link>
                   </strong>
                 </li>
               </ul>
@@ -256,11 +256,11 @@ export default function Naples() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -391,9 +391,9 @@ export default function Naples() {
             <p>
               Readers who want the modern Caracas and banking chapter should therefore start in
               Naples only long enough to understand the origin logic, then continue into the{" "}
-              <Link href="/families/velutini/">Velutini Family</Link> hub,{" "}
-              <Link href="/entities/juan-bautista-velutini/">Juan Bautista Velutini</Link>, and
-              the later <Link href="/places/caracas/">Caracas</Link> dossier.
+              <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link> hub,{" "}
+              <Link href="/entities/juan-bautista-velutini/" title="Juan Bautista Velutini">Juan Bautista Velutini</Link>, and
+              the later <Link href="/places/caracas/" title="Caracas">Caracas</Link> dossier.
             </p>
           </div>
         </section>
@@ -409,7 +409,7 @@ export default function Naples() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">
                     Banvelca — About
                   </Link>{" "}
                   — Used for the 1781 founding in the Kingdom of Naples, Juan Bautista Velutini,
@@ -419,7 +419,7 @@ export default function Naples() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Juan Bautista Velutini">
                     Banvelca — Juan Bautista Velutini
                   </Link>{" "}
                   — Used for the founder-specific Naples narrative, staple-trade description,
@@ -429,7 +429,7 @@ export default function Naples() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Vicente José Velutini Llarione">
                     Banvelca — Vicente José Velutini Llarione
                   </Link>{" "}
                   — Used for the 1811 Naples birth year, Mediterranean expansion, and later move
@@ -439,13 +439,13 @@ export default function Naples() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the wider generational sequence into which the Naples chapter fits.
                 </li>
                 <li>
-                  <Link href="https://whc.unesco.org/en/list/726/" rel="noopener external">
+                  <Link href="https://whc.unesco.org/en/list/726/" rel="noopener external" title="UNESCO — Historic Centre of Naples">
                     UNESCO — Historic Centre of Naples
                   </Link>{" "}
                   — Used only for external heritage context around Naples as a long-duration
@@ -461,16 +461,16 @@ export default function Naples() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Naples cluster</h2>
             <div className="button-row">
-              <Link href="/entities/juan-bautista-velutini/" className="button">
+              <Link href="/entities/juan-bautista-velutini/" className="button" title="Juan Bautista Velutini">
                 Juan Bautista Velutini
               </Link>
-              <Link href="/entities/banvelca-company/" className="button-secondary">
+              <Link href="/entities/banvelca-company/" className="button-secondary" title="Banvelca & Company">
                 Banvelca &amp; Company
               </Link>
-              <Link href="/families/velutini/" className="button-secondary">
+              <Link href="/families/velutini/" className="button-secondary" title="Velutini Family">
                 Velutini Family
               </Link>
-              <Link href="/places/caracas/" className="button-secondary">
+              <Link href="/places/caracas/" className="button-secondary" title="Caracas">
                 Caracas
               </Link>
             </div>
@@ -490,35 +490,35 @@ export default function Naples() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

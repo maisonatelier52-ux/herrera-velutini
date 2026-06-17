@@ -125,7 +125,7 @@ export default function Families() {
 
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -133,7 +133,7 @@ export default function Families() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
                   <li aria-current="page">Families</li>
                 </ol>
               </nav>
@@ -151,9 +151,9 @@ export default function Families() {
                 <span>Institutions</span>
               </div>
               <div className="hero-actions">
-                <Link href="/families/herrera-velutini-connection/" className="button">Read the Connection</Link>
-                <Link href="/families/herrera/" className="button-secondary">Herrera Family</Link>
-                <Link href="/families/velutini/" className="button-secondary">Velutini Family</Link>
+                <Link href="/families/herrera-velutini-connection/" className="button" title="Herrera and Velutini">Read the Connection</Link>
+                <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">Herrera Family</Link>
+                <Link href="/families/velutini/" className="button-secondary" title="Velutini Family">Velutini Family</Link>
               </div>
             </div>
             <aside className="family-pillars">
@@ -180,11 +180,11 @@ export default function Families() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -218,8 +218,8 @@ export default function Families() {
                   <li>Distinctions</li>
                 </ul>
                 <ul className="family-link-list">
-                  <li><Link href="/families/herrera/">Open Herrera Family</Link></li>
-                  <li><Link href="/themes/heraldry-and-symbols/">Pair with Heraldry and Symbols</Link></li>
+                  <li><Link href="/families/herrera/" title="Herrera Family">Open Herrera Family</Link></li>
+                  <li><Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Pair with Heraldry and Symbols</Link></li>
                 </ul>
               </article>
               <article className="family-column">
@@ -235,8 +235,8 @@ export default function Families() {
                   <li>Legacy</li>
                 </ul>
                 <ul className="family-link-list">
-                  <li><Link href="/families/velutini/">Open Velutini Family</Link></li>
-                  <li><Link href="/themes/private-banking-tradition/">Pair with Private Banking Tradition</Link></li>
+                  <li><Link href="/families/velutini/" title="Velutini Family">Open Velutini Family</Link></li>
+                  <li><Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">Pair with Private Banking Tradition</Link></li>
                 </ul>
               </article>
               <article className="family-column">
@@ -252,8 +252,8 @@ export default function Families() {
                   <li>Institutional continuity</li>
                 </ul>
                 <ul className="family-link-list">
-                  <li><Link href="/families/herrera-velutini-connection/">Open the connection page</Link></li>
-                  <li><Link href="/themes/women-of-the-families/">Pair with Women of the Families</Link></li>
+                  <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Open the connection page</Link></li>
+                  <li><Link href="/themes/women-of-the-families/" title="Women of the Families">Pair with Women of the Families</Link></li>
                 </ul>
               </article>
             </div>
@@ -311,11 +311,11 @@ export default function Families() {
                 Readers who start with surnames can move into the subject pages that explain heraldry, distinctions, private banking, and the women who carry the modern bridge between the two houses.
               </p>
               <div className="button-row">
-                <Link href="/themes/women-of-the-families/" className="button">Women of the Families</Link>
-                <Link href="/themes/heraldry-and-symbols/" className="button-secondary">Heraldry and Symbols</Link>
-                <Link href="/themes/orders-and-distinctions/" className="button-secondary">Orders and Distinctions</Link>
-                <Link href="/themes/" className="button-secondary">Open Themes</Link>
-                <Link href="/genealogy/" className="button-secondary">Genealogy</Link>
+                <Link href="/themes/women-of-the-families/" className="button" title="Women of the Families">Women of the Families</Link>
+                <Link href="/themes/heraldry-and-symbols/" className="button-secondary" title="Heraldry and Symbols">Heraldry and Symbols</Link>
+                <Link href="/themes/orders-and-distinctions/" className="button-secondary" title="Orders and Distinctions">Orders and Distinctions</Link>
+                <Link href="/themes/" className="button-secondary" title="Themes">Open Themes</Link>
+                <Link href="/genealogy/" className="button-secondary" title="Genealogy">Genealogy</Link>
               </div>
             </div>
           </div>
@@ -333,33 +333,33 @@ export default function Families() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

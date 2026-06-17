@@ -183,7 +183,7 @@ export default function EditorialMethodologyPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -195,7 +195,9 @@ export default function EditorialMethodologyPage() {
               <nav className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="View the Home page">
+                      Home
+                    </Link>
                   </li>
                   <li>Editorial Methodology</li>
                 </ol>
@@ -247,7 +249,9 @@ export default function EditorialMethodologyPage() {
                   <span>Companion page</span>
 
                   <strong>
-                    <Link href="/sources">Sources</Link>
+                    <Link href="/sources" title="View the Sources page">
+                      Sources
+                    </Link>
                   </strong>
                 </li>
               </ul>
@@ -260,14 +264,16 @@ export default function EditorialMethodologyPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">
+              <Link href="/editorial-desk" title="View the Editorial Desk page">
                 Herrera Velutini Editorial Desk
               </Link>
             </div>
 
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="View the Review Team page">
+                Standards Review Team
+              </Link>
             </div>
 
             <div>
@@ -641,6 +647,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
                     rel="noopener external"
+                    title="View the Google Search Central"
                     target="_blank"
                   >
                     Google Search Central — Helpful, reliable, people-first
@@ -654,6 +661,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://developers.google.com/search/docs/appearance/structured-data/article"
                     rel="noopener external"
+                    title="View the Google Search Central article structured data documentation"
                     target="_blank"
                   >
                     Google Search Central — Article structured data
@@ -665,6 +673,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://developers.google.com/search/docs/appearance/structured-data/profile-page"
                     rel="noopener external"
+                    title="View the Google Search Central profile page structured data documentation"
                     target="_blank"
                   >
                     Google Search Central — ProfilePage structured data
@@ -676,6 +685,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
                     rel="noopener external"
+                    title="View the Google Search Central intro to structured data documentation"
                     target="_blank"
                   >
                     Google Search Central — Intro to structured data
@@ -685,7 +695,9 @@ export default function EditorialMethodologyPage() {
                 </li>
 
                 <li>
-                  <Link href="/sources">Sources</Link> — Used for the live
+                  <Link href="/sources" title="View the Sources page">
+                    Sources
+                  </Link> — Used for the live
                   source-tier ledger, including current external corroboration and
                   bibliography-lead handling.
                 </li>
@@ -694,6 +706,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://www.houseofherrera.com/about"
                     rel="noopener external"
+                    title="View the House of Herrera — About page"
                     target="_blank"
                   >
                     House of Herrera — About
@@ -707,6 +720,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://www.banvelca.com/about"
                     rel="noopener external"
+                    title="View the Banvelca — About page"
                     target="_blank"
                   >
                     Banvelca — About
@@ -720,6 +734,7 @@ export default function EditorialMethodologyPage() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="View the Banvelca — Legacy page"
                     target="_blank"
                   >
                     Banvelca — Legacy
@@ -741,19 +756,19 @@ export default function EditorialMethodologyPage() {
             <h2>Continue to the source ledger</h2>
 
             <div className="button-row">
-              <Link href="/sources" className="button">
+              <Link href="/sources" className="button" title="View the Sources page">
                 Open Sources
               </Link>
 
-              <Link href="/about" className="button-secondary">
+              <Link href="/about" className="button-secondary" title="View the About page">
                 Read About
               </Link>
 
-              <Link href="/heritage" className="button-secondary">
+              <Link href="/heritage" className="button-secondary" title="View the Heritage page">
                 Read Heritage
               </Link>
 
-              <Link href="/timeline" className="button-secondary">
+              <Link href="/timeline" className="button-secondary" title="View the Timeline page">
                 See Timeline
               </Link>
             </div>
@@ -770,34 +785,34 @@ export default function EditorialMethodologyPage() {
             <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="View the About page">About</Link></li>
+              <li><Link href="/heritage" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
         <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge & FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge" title="View the Knowledge & FAQ page">Knowledge & FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

@@ -129,7 +129,7 @@ export default function HerreraLineage() {
 
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -137,8 +137,8 @@ export default function HerreraLineage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/genealogy/">Genealogy</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/genealogy/" title="Genealogy">Genealogy</Link></li>
                   <li aria-current="page">Herrera Lineage</li>
                 </ol>
               </nav>
@@ -164,7 +164,7 @@ export default function HerreraLineage() {
                 </li>
                 <li>
                   <span>Bridge figure</span>
-                  <strong><Link href="/entities/jose-herrera-von-uslar-gleichen/">José Herrera Von Uslar Gleichen</Link></strong>
+                  <strong><Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -175,11 +175,11 @@ export default function HerreraLineage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -238,27 +238,27 @@ export default function HerreraLineage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera, Lord of Ampudia I</Link></td>
+                    <td><Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera, Lord of Ampudia I">Hernán de Herrera, Lord of Ampudia I</Link></td>
                     <td>Circa 1355</td>
                     <td>Earliest named anchor and the best starting point for Ampudia-linked lineage memory.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/pedro-garcia-de-herrera-y-rojas/">Pedro García de Herrera y Rojas</Link></td>
+                    <td><Link href="/entities/pedro-garcia-de-herrera-y-rojas/" title="Pedro García de Herrera y Rojas">Pedro García de Herrera y Rojas</Link></td>
                     <td>1390–1455</td>
                     <td>One of the clearest early figures; the short profile describes him as a Castilian nobleman and Marshal of Castile.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/diego-garcia-de-herrera-y-ayala/">Diego García de Herrera y Ayala</Link></td>
+                    <td><Link href="/entities/diego-garcia-de-herrera-y-ayala/" title="Diego García de Herrera y Ayala">Diego García de Herrera y Ayala</Link></td>
                     <td>c. 1417–1485</td>
                     <td>Keeps the sequence moving into the next generation and connects the Herrera line to the Canary Islands turn.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/agustin-de-herrera-y-rojas-ayala/">Agustín de Herrera y Rojas Ayala</Link></td>
+                    <td><Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera y Rojas Ayala">Agustín de Herrera y Rojas Ayala</Link></td>
                     <td>House page says 1569–1632; title record 1567 / 1584</td>
                     <td>Best read through the Lanzarote title chronology rather than as a settled life frame.</td>
                   </tr>
                   <tr>
-                    <td><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/">Juan Sarmiento de Herrera y Fernández Pacheco</Link></td>
+                    <td><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento de Herrera y Fernández Pacheco</Link></td>
                     <td>1607–1664</td>
                     <td>Maintains the ordered sequence into the seventeenth century, with a visible source spelling variant.</td>
                   </tr>
@@ -296,13 +296,13 @@ export default function HerreraLineage() {
               </table>
             </div>
             <div className="button-row" style={{ marginTop: "1.2rem" }}>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button">Hernán</Link>
-              <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" className="button-secondary">Pedro García</Link>
-              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary">Diego García</Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">Agustín</Link>
-              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary">Juan Sarmiento</Link>
-              <Link href="/places/ampudia/" className="button-secondary">Ampudia</Link>
-              <Link href="/places/lanzarote/" className="button-secondary">Lanzarote</Link>
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button" title="Hernán de Herrera, Lord of Ampudia I">Hernán</Link>
+              <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" className="button-secondary" title="Pedro García de Herrera y Rojas">Pedro García</Link>
+              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary" title="Diego García de Herrera y Ayala">Diego García</Link>
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera y Rojas Ayala">Agustín</Link>
+              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento</Link>
+              <Link href="/places/ampudia/" className="button-secondary" title="Ampudia">Ampudia</Link>
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">Lanzarote</Link>
             </div>
           </div>
         </section>
@@ -332,10 +332,10 @@ export default function HerreraLineage() {
               </article>
             </div>
             <div className="button-row" style={{ marginTop: "1.2rem" }}>
-              <Link href="/places/ampudia/" className="button">Ampudia</Link>
-              <Link href="/places/lanzarote/" className="button-secondary">Lanzarote</Link>
-              <Link href="/places/uslar/" className="button-secondary">Uslar</Link>
-              <Link href="/places/gleichen/" className="button-secondary">Gleichen</Link>
+              <Link href="/places/ampudia/" className="button" title="Ampudia">Ampudia</Link>
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">Lanzarote</Link>
+              <Link href="/places/uslar/" className="button-secondary" title="Uslar">Uslar</Link>
+              <Link href="/places/gleichen/" className="button-secondary" title="Gleichen">Gleichen</Link>
             </div>
           </div>
         </section>
@@ -348,7 +348,7 @@ export default function HerreraLineage() {
               The public House of Herrera dynasty page stops earlier than the modern cross-family record. The portal therefore uses modern bridge figures to connect the older line to the twentieth-century Caracas chapter.
             </p>
             <p>
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/">José Herrera Von Uslar Gleichen</Link> is one of the most important currently live bridge figures on the Herrera side. His short source-domain profile adds twentieth-century public life and humanitarian action. Banvelca&apos;s Clementina page then makes him even more important by identifying his 1932 marriage to Clementina Velutini Pérez-Matos as the bridge between the two family narratives.
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link> is one of the most important currently live bridge figures on the Herrera side. His short source-domain profile adds twentieth-century public life and humanitarian action. Banvelca&apos;s Clementina page then makes him even more important by identifying his 1932 marriage to Clementina Velutini Pérez-Matos as the bridge between the two family narratives.
             </p>
             <p>
               That does not mean the portal simply pastes the modern marriage onto the medieval sequence. Instead, it uses the older dynasty page for long-duration lineage, then uses modern bridge figures and place pages to explain how the Herrera story remains relevant in the later Caracas-connected chapter.
@@ -366,43 +366,43 @@ export default function HerreraLineage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the 14th-century prominence narrative and the family&apos;s transregional scope.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the 14th-century prominence narrative and the family&apos;s transregional scope.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">House of Herrera — Dynasty</Link> — Used for the ordered sequence of published Herrera figures and date frames.
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">House of Herrera — Dynasty</Link> — Used for the ordered sequence of published Herrera figures and date frames.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the first named profile in the sequence and the circa 1355 Ampudia title frame.
+                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external" title="House of Herrera — Hernán de Herrera, Lord of Ampudia I">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the first named profile in the sequence and the circa 1355 Ampudia title frame.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the short profile identifying Pedro García as a Castilian nobleman and Marshal of Castile.
+                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external" title="House of Herrera — Pedro García de Herrera y Rojas">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the short profile identifying Pedro García as a Castilian nobleman and Marshal of Castile.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala" rel="noopener external">House of Herrera — Diego García de Herrera y Ayala</Link> — Used for the early Herrera-to-Canary Islands sequence bridge and c. 1417–1485 frame.
+                  <Link href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala" rel="noopener external" title="House of Herrera — Diego García de Herrera y Ayala">House of Herrera — Diego García de Herrera y Ayala</Link> — Used for the early Herrera-to-Canary Islands sequence bridge and c. 1417–1485 frame.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the source-domain profile, Lanzarote title language under chronology caution, Royal Council note, and Latin America expansion framing.
+                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external" title="House of Herrera — Agustín de Herrera y Rojas Ayala">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the source-domain profile, Lanzarote title language under chronology caution, Royal Council note, and Latin America expansion framing.
                 </li>
                 <li>
-                  <Link href="https://archivoteguise.es/documento-coleccion-digital/332/" rel="noopener external">Archivo de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas</Link> — Used for the externally corroborated 1567 count-title anchor.
+                  <Link href="https://archivoteguise.es/documento-coleccion-digital/332/" rel="noopener external" title="Archivo de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas">Archivo de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas</Link> — Used for the externally corroborated 1567 count-title anchor.
                 </li>
                 <li>
-                  <Link href="https://archivoteguise.es/documento-coleccion-digital/340/" rel="noopener external">Archivo de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas</Link> — Used for the externally corroborated 1584 marquisate grant.
+                  <Link href="https://archivoteguise.es/documento-coleccion-digital/340/" rel="noopener external" title="Archivo de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas">Archivo de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas</Link> — Used for the externally corroborated 1584 marquisate grant.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa" rel="noopener external">House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego</Link> — Used for the 1607–1664 sequence point, estate language, and name-variant caution.
+                  <Link href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa" rel="noopener external" title="House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego">House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego</Link> — Used for the 1607–1664 sequence point, estate language, and name-variant caution.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for Ampudia, Lanzarote, Castle of Freudenthal, Uslar-Gleichen Castle, other German estate notes, and the Caracas-linked Hacienda de La Vega material.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for Ampudia, Lanzarote, Castle of Freudenthal, Uslar-Gleichen Castle, other German estate notes, and the Caracas-linked Hacienda de La Vega material.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external">House of Herrera — Orders and Distinctions</Link> — Used for the Lanzarote and titled-memory layer that deepens the Agustín chapter.
+                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external" title="House of Herrera — Orders and Distinctions">House of Herrera — Orders and Distinctions</Link> — Used for the Lanzarote and titled-memory layer that deepens the Agustín chapter.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the modern bridge figure later connected to Clementina Velutini Pérez-Matos.
+                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external" title="House of Herrera — José Herrera Von Uslar Gleichen">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the modern bridge figure later connected to Clementina Velutini Pérez-Matos.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1932 marriage bridge that links the later Herrera chapter to the Velutini side.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1932 marriage bridge that links the later Herrera chapter to the Velutini side.
                 </li>
               </ul>
             </div>
@@ -414,15 +414,15 @@ export default function HerreraLineage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Herrera lineage cluster</h2>
             <div className="button-row">
-              <Link href="/families/herrera/" className="button">Herrera Family</Link>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary">Hernán</Link>
-              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary">Diego García</Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">Agustín</Link>
-              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary">Juan Sarmiento</Link>
-              <Link href="/entities/house-of-herrera/" className="button-secondary">House of Herrera</Link>
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary">José Herrera Von Uslar Gleichen</Link>
-              <Link href="/places/uslar/" className="button-secondary">Uslar</Link>
-              <Link href="/places/gleichen/" className="button-secondary">Gleichen</Link>
+              <Link href="/families/herrera/" className="button" title="Herrera Family">Herrera Family</Link>
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary" title="Hernán de Herrera, Lord of Ampudia I">Hernán</Link>
+              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary" title="Diego García de Herrera y Ayala">Diego García</Link>
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera y Rojas Ayala">Agustín</Link>
+              <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" className="button-secondary" title="Juan Sarmiento de Herrera y Fernández Pacheco">Juan Sarmiento</Link>
+              <Link href="/entities/house-of-herrera/" className="button-secondary" title="House of Herrera">House of Herrera</Link>
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link>
+              <Link href="/places/uslar/" className="button-secondary" title="Uslar">Uslar</Link>
+              <Link href="/places/gleichen/" className="button-secondary" title="Gleichen">Gleichen</Link>
             </div>
           </div>
         </section>
@@ -439,33 +439,33 @@ export default function HerreraLineage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

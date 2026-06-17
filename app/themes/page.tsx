@@ -163,7 +163,7 @@ export default function Themes() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -173,7 +173,7 @@ export default function Themes() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Themes</li>
                 </ol>
               </nav>
@@ -196,13 +196,13 @@ export default function Themes() {
                 <span>Bridge Figures</span>
               </div>
               <div className="hero-actions">
-                <Link href="/themes/heraldry-and-symbols/" className="button">
+                <Link href="/themes/heraldry-and-symbols/" className="button" title="Start With Heraldry">
                   Start With Heraldry
                 </Link>
-                <Link href="/themes/private-banking-tradition/" className="button-secondary">
+                <Link href="/themes/private-banking-tradition/" className="button-secondary" title="Private Banking Tradition">
                   Private Banking Tradition
                 </Link>
-                <Link href="/themes/women-of-the-families/" className="button-secondary">
+                <Link href="/themes/women-of-the-families/" className="button-secondary" title="Women of the Families">
                   Women of the Families
                 </Link>
               </div>
@@ -236,7 +236,7 @@ export default function Themes() {
                 <div className="atlas-stat">
                   <span>Bridge page</span>
                   <strong>
-                    <Link href="/themes/women-of-the-families/">Women of the Families</Link>
+                    <Link href="/themes/women-of-the-families/" title="Women of the Families">Women of the Families</Link>
                   </strong>
                 </div>
               </div>
@@ -248,11 +248,11 @@ export default function Themes() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -287,13 +287,13 @@ export default function Themes() {
                 </p>
                 <ul className="atlas-links">
                   <li>
-                    <Link href="/themes/heraldry-and-symbols/">Heraldry and Symbols</Link>
+                    <Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Heraldry and Symbols</Link>
                     <br />
                     Reads the House of Herrera symbols page as a map of branch identity across
                     Herrera, Lanzarote, Uslar, Gleichen, and Velutini.
                   </li>
                   <li>
-                    <Link href="/themes/orders-and-distinctions/">Orders and Distinctions</Link>
+                    <Link href="/themes/orders-and-distinctions/" title="Orders and Distinctions">Orders and Distinctions</Link>
                     <br />
                     Explains why the titles and marquisates matter mainly when tied back to places,
                     lineages, and named figures.
@@ -310,7 +310,7 @@ export default function Themes() {
                 </p>
                 <ul className="atlas-links">
                   <li>
-                    <Link href="/themes/private-banking-tradition/">
+                    <Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">
                       Private Banking Tradition
                     </Link>
                     <br />
@@ -318,7 +318,7 @@ export default function Themes() {
                     distinguishes it from public retail or branch banking.
                   </li>
                   <li>
-                    <Link href="/themes/finance-and-capital-stewardship/">
+                    <Link href="/themes/finance-and-capital-stewardship/" title="Finance and Capital Stewardship">
                       Finance and Capital Stewardship
                     </Link>
                     <br />
@@ -337,7 +337,7 @@ export default function Themes() {
                 </p>
                 <ul className="atlas-links">
                   <li>
-                    <Link href="/themes/art-investment-and-patronage/">
+                    <Link href="/themes/art-investment-and-patronage/" title="Art Investment and Patronage">
                       Art Investment and Patronage
                     </Link>
                     <br />
@@ -345,7 +345,7 @@ export default function Themes() {
                     Caracas, and Belén Clarisa&apos;s public legacy.
                   </li>
                   <li>
-                    <Link href="/themes/social-responsibility/">Social Responsibility</Link>
+                    <Link href="/themes/social-responsibility/" title="Social Responsibility">Social Responsibility</Link>
                     <br />
                     Interprets Banvelca&apos;s declared ethos of quiet social responsibility
                     through culture, education, and women&apos;s empowerment.
@@ -365,20 +365,20 @@ export default function Themes() {
                   </p>
                   <ul className="atlas-links">
                     <li>
-                      <Link href="/themes/women-of-the-families/">Women of the Families</Link>
+                      <Link href="/themes/women-of-the-families/" title="Women of the Families">Women of the Families</Link>
                       <br />
                       Shows why Belén María, Clementina, and Belén Clarisa are central to the
                       portal&apos;s modern family bridge.
                     </li>
                   </ul>
                   <div className="button-row">
-                    <Link href="/families/" className="button">
+                    <Link href="/families/" className="button" title="Open Families">
                       Open Families
                     </Link>
-                    <Link href="/heritage/" className="button-secondary">
+                    <Link href="/heritage/" className="button-secondary" title="Read Heritage">
                       Read Heritage
                     </Link>
-                    <Link href="/stewardship/" className="button-secondary">
+                    <Link href="/stewardship/" className="button-secondary" title="Read Stewardship">
                       Read Stewardship
                     </Link>
                   </div>
@@ -406,16 +406,16 @@ export default function Themes() {
             <div className="overline">Related sections</div>
             <h2>Move from motifs into the wider knowledge base</h2>
             <div className="button-row">
-              <Link href="/families/" className="button">
+              <Link href="/families/" className="button" title="Families">
                 Families
               </Link>
-              <Link href="/genealogy/" className="button-secondary">
+              <Link href="/genealogy/" className="button-secondary" title="Genealogy">
                 Genealogy
               </Link>
-              <Link href="/places/" className="button-secondary">
+              <Link href="/places/" className="button-secondary" title="Places">
                 Places
               </Link>
-              <Link href="/entities/" className="button-secondary">
+              <Link href="/entities/" className="button-secondary" title="Entities">
                 Entities
               </Link>
             </div>
@@ -436,39 +436,39 @@ export default function Themes() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/themes/women-of-the-families/">Women of the Families</Link>
+                <Link href="/themes/women-of-the-families/" title="Women of the Families">Women of the Families</Link>
               </li>
               <li>
-                <Link href="/themes/heraldry-and-symbols/">Heraldry and Symbols</Link>
+                <Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Heraldry and Symbols</Link>
               </li>
               <li>
-                <Link href="/themes/private-banking-tradition/">Private Banking Tradition</Link>
+                <Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">Private Banking Tradition</Link>
               </li>
               <li>
-                <Link href="/themes/social-responsibility/">Social Responsibility</Link>
+                <Link href="/themes/social-responsibility/" title="Social Responsibility">Social Responsibility</Link>
               </li>
             </ul>
           </div>

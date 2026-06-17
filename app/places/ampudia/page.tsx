@@ -185,7 +185,7 @@ export default function AmpudiaPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -195,8 +195,8 @@ export default function AmpudiaPage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/places/">Places</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/places/" title="Places">Places</Link></li>
                   <li aria-current="page">Ampudia</li>
                 </ol>
               </nav>
@@ -215,9 +215,9 @@ export default function AmpudiaPage() {
                 <li>
                   <span>Figure anchors</span>
                   <strong>
-                    <Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera</Link>
+                    <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera">Hernán de Herrera</Link>
                     {" · "}
-                    <Link href="/entities/pedro-garcia-de-herrera-y-rojas/">Pedro García</Link>
+                    <Link href="/entities/pedro-garcia-de-herrera-y-rojas/" title="Pedro García">Pedro García</Link>
                   </strong>
                 </li>
                 <li>
@@ -226,7 +226,7 @@ export default function AmpudiaPage() {
                 </li>
                 <li>
                   <span>Best companion</span>
-                  <strong><Link href="/genealogy/herrera-lineage/">Herrera Lineage</Link></strong>
+                  <strong><Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -237,11 +237,11 @@ export default function AmpudiaPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -340,7 +340,7 @@ export default function AmpudiaPage() {
               The Pedro García profile identifies him as a Castilian nobleman and Marshal of Castile, while the estate page anchors his descendants in the castle and manor of Ampudia. That lets the portal route readers from a short medieval profile into a longer territorial memory. It also makes the later estate and symbol pages feel like part of one evolving family geography rather than isolated prestige references.
             </p>
             <p>
-              With <Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera, Lord of Ampudia I</Link> now live, Ampudia can do its strongest work: it links the first named Herrera anchor to the later Pedro García profile and the Castle of Ampudia place-memory layer.
+              With <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera, Lord of Ampudia I">Hernán de Herrera, Lord of Ampudia I</Link> now live, Ampudia can do its strongest work: it links the first named Herrera anchor to the later Pedro García profile and the Castle of Ampudia place-memory layer.
             </p>
           </div>
         </section>
@@ -355,22 +355,22 @@ export default function AmpudiaPage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">House of Herrera — Dynasty</Link> — Used for Hernán de Herrera, Lord of Ampudia I, and the ordered early Herrera sequence.
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">House of Herrera — Dynasty</Link> — Used for Hernán de Herrera, Lord of Ampudia I, and the ordered early Herrera sequence.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the sparse first-anchor profile and the circa 1355 Ampudia title frame.
+                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external" title="House of Herrera — Hernán de Herrera, Lord of Ampudia I">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the sparse first-anchor profile and the circa 1355 Ampudia title frame.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the identification of Pedro García as a Castilian nobleman and Marshal of Castile.
+                  <Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external" title="House of Herrera — Pedro García de Herrera y Rojas">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the identification of Pedro García as a Castilian nobleman and Marshal of Castile.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for the Castle of Ampudia, the manor connection, the Gothic-fortress description, and later local-history notes.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for the Castle of Ampudia, the manor connection, the Gothic-fortress description, and later local-history notes.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the wider long-duration framing of the Herrera family record.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the wider long-duration framing of the Herrera family record.
                 </li>
                 <li>
-                  <Link href="https://www.turismocastillayleon.com/en/heritage-culture/castle-ampudia" rel="noopener external">Castilla y León Tourism — Castle of Ampudia</Link> — Used only for external local place context around the castle and Ampudia setting.
+                  <Link href="https://www.turismocastillayleon.com/en/heritage-culture/castle-ampudia" rel="noopener external" title="Castilla y León Tourism — Castle of Ampudia">Castilla y León Tourism — Castle of Ampudia</Link> — Used only for external local place context around the castle and Ampudia setting.
                 </li>
               </ul>
             </div>
@@ -382,11 +382,11 @@ export default function AmpudiaPage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Ampudia cluster</h2>
             <div className="button-row">
-              <Link className="button" href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera</Link>
-              <Link className="button-secondary" href="/entities/pedro-garcia-de-herrera-y-rojas/">Pedro García de Herrera y Rojas</Link>
-              <Link className="button-secondary" href="/genealogy/herrera-lineage/">Herrera Lineage</Link>
-              <Link className="button-secondary" href="/entities/house-of-herrera/">House of Herrera</Link>
-              <Link className="button-secondary" href="/estates/">Estates</Link>
+              <Link className="button" href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera">Hernán de Herrera</Link>
+              <Link className="button-secondary" href="/entities/pedro-garcia-de-herrera-y-rojas/" title="Pedro García de Herrera y Rojas">Pedro García de Herrera y Rojas</Link>
+              <Link className="button-secondary" href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link>
+              <Link className="button-secondary" href="/entities/house-of-herrera/" title="House of Herrera">House of Herrera</Link>
+              <Link className="button-secondary" href="/estates/" title="Estates">Estates</Link>
             </div>
           </div>
         </section>
@@ -403,33 +403,33 @@ export default function AmpudiaPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

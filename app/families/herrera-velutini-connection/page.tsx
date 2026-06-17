@@ -128,7 +128,7 @@ export default function HerreraVelutiniConnection() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -136,8 +136,8 @@ export default function HerreraVelutiniConnection() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/families/">Families</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/families/" title="Families">Families</Link></li>
                   <li aria-current="page">Herrera and Velutini</li>
                 </ol>
               </nav>
@@ -163,7 +163,7 @@ export default function HerreraVelutiniConnection() {
                 </li>
                 <li>
                   <span>Best companion</span>
-                  <strong><Link href="/genealogy/">Genealogy</Link></strong>
+                  <strong><Link href="/genealogy/" title="Genealogy">Genealogy</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -174,11 +174,11 @@ export default function HerreraVelutiniConnection() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -205,9 +205,9 @@ export default function HerreraVelutiniConnection() {
                 </p>
                 <p>
                   The strongest bridge is the one Banvelca states directly:{" "}
-                  <Link href="/entities/clementina-velutini-perez-matos/">Clementina Velutini Pérez-Matos</Link>{" "}
+                  <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina Velutini Pérez-Matos">Clementina Velutini Pérez-Matos</Link>{" "}
                   married José Herrera Von Uslar in 1932, and that union merged the Herreras and the Velutinis in the public family narrative. But the bridge is wider than one marriage. It also runs through Belén María&apos;s matriarchal role, Caracas as a shared place, Banco Caracas as an institutional anchor, and later figures such as{" "}
-                  <Link href="/entities/julio-jose-herrera-velutini/">Julio José Herrera Velutini</Link>.
+                  <Link href="/entities/julio-jose-herrera-velutini/" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link>.
                 </p>
               </div>
               <figure className="feature-figure">
@@ -263,7 +263,7 @@ export default function HerreraVelutiniConnection() {
                   </tr>
                   <tr>
                     <td>Modern surname continuity</td>
-                    <td><Link href="/entities/julio-jose-herrera-velutini/">Julio José Herrera Velutini</Link></td>
+                    <td><Link href="/entities/julio-jose-herrera-velutini/" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link></td>
                     <td>The surname itself makes the convergence visible in the post-war Americas chapter.</td>
                   </tr>
                 </tbody>
@@ -280,13 +280,13 @@ export default function HerreraVelutiniConnection() {
               Caracas is the place where family, estate, social prominence, and banking history overlap in the public material used by the portal.
             </p>
             <p>
-              <Link href="/entities/hacienda-de-la-vega/">Hacienda de La Vega </Link>gives the Herrera side a landmark estate in the Caracas Valley. Banvelca&apos;s ancestor pages add the Pérez-Matos family, Clementina and Belén Clarisa, and the Banco Caracas storyline. Together, these elements make Caracas the clearest urban setting in which the two families stop being parallel narratives and become a shared one.
+              <Link href="/entities/hacienda-de-la-vega/" title="Hacienda de La Vega">Hacienda de La Vega </Link>gives the Herrera side a landmark estate in the Caracas Valley. Banvelca&apos;s ancestor pages add the Pérez-Matos family, Clementina and Belén Clarisa, and the Banco Caracas storyline. Together, these elements make Caracas the clearest urban setting in which the two families stop being parallel narratives and become a shared one.
             </p>
             <p>
               That is why the portal now gives Caracas its own place dossier. It is the city where the connection can be seen most concretely: estate memory, elite family circles, marriage alliance, banking leadership, and later cultural patronage all accumulate there.
             </p>
             <p>
-              <Link href="/places/caracas/">Open the Caracas dossier</Link> to see the place layer that sits behind this connection page.
+              <Link href="/places/caracas/" title="Caracas">Open the Caracas dossier</Link> to see the place layer that sits behind this connection page.
             </p>
           </div>
         </section>
@@ -306,14 +306,14 @@ export default function HerreraVelutiniConnection() {
               <article className="card">
                 <h3>Use genealogy pages for sequence</h3>
                 <p>
-                  Move next to <Link href="/genealogy/herrera-lineage/">Herrera Lineage</Link> and{" "}
-                  <Link href="/genealogy/velutini-lineage/">Velutini Lineage</Link> for ordered public-family sequences.
+                  Move next to <Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link> and{" "}
+                  <Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">Velutini Lineage</Link> for ordered public-family sequences.
                 </p>
               </article>
               <article className="card">
                 <h3>Use place pages for geography</h3>
                 <p>
-                  The link is strongest when read alongside <Link href="/places/caracas/">Caracas</Link> and the estate dossier for Hacienda de La Vega.
+                  The link is strongest when read alongside <Link href="/places/caracas/" title="Caracas">Caracas</Link> and the estate dossier for Hacienda de La Vega.
                 </p>
               </article>
               <article className="card">
@@ -334,22 +334,22 @@ export default function HerreraVelutiniConnection() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the long-duration Herrera family framing and the Caracas-linked estate references within the wider family narrative.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the long-duration Herrera family framing and the Caracas-linked estate references within the wider family narrative.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth year, 1932 marriage to José Herrera Von Uslar, and the explicit statement that the union merged the Herreras and the Velutinis.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth year, 1932 marriage to José Herrera Von Uslar, and the explicit statement that the union merged the Herreras and the Velutinis.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos and the later Herrera-linked line.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos and the later Herrera-linked line.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">Banvelca — Legacy</Link> — Used for the generational context around Clementina, Belén Clarisa, Julio José Herrera Velutini, and the Banco Caracas thread.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the generational context around Clementina, Belén Clarisa, Julio José Herrera Velutini, and the Banco Caracas thread.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family continuity under the combined surname.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family continuity under the combined surname.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for the Caracas-linked Hacienda de La Vega narrative that anchors the Herrera side in the city where the family connection becomes clearest.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for the Caracas-linked Hacienda de La Vega narrative that anchors the Herrera side in the city where the family connection becomes clearest.
                 </li>
               </ul>
             </div>
@@ -361,11 +361,11 @@ export default function HerreraVelutiniConnection() {
             <div className="overline">Related pages</div>
             <h2>Continue through the connection cluster</h2>
             <div className="button-row">
-              <Link href="/places/caracas/" className="button">Caracas</Link>
-              <Link href="/entities/clementina-velutini-perez-matos/" className="button-secondary">Clementina Velutini Pérez-Matos</Link>
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary">José Herrera Von Uslar Gleichen</Link>
-              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary">Julio José Herrera Velutini</Link>
-              <Link href="/genealogy/" className="button-secondary">Genealogy</Link>
+              <Link href="/places/caracas/" className="button" title="Caracas">Caracas</Link>
+              <Link href="/entities/clementina-velutini-perez-matos/" className="button-secondary" title="Clementina Velutini Pérez-Matos">Clementina Velutini Pérez-Matos</Link>
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" className="button-secondary" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link>
+              <Link href="/entities/julio-jose-herrera-velutini/" className="button-secondary" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link>
+              <Link href="/genealogy/" className="button-secondary" title="Genealogy">Genealogy</Link>
             </div>
           </div>
         </section>
@@ -382,33 +382,33 @@ export default function HerreraVelutiniConnection() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

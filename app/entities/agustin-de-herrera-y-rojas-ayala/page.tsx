@@ -193,7 +193,7 @@ export default function Page() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -205,11 +205,11 @@ export default function Page() {
               <nav className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="View the Home page">Home</Link>
                   </li>
 
                   <li>
-                    <Link href="/entities">Entities</Link>
+                    <Link href="/entities" title="View the Entities page">Entities</Link>
                   </li>
 
                   <li>Agustín de Herrera y Rojas Ayala</li>
@@ -245,7 +245,7 @@ export default function Page() {
                   <span>Place anchor</span>
 
                   <strong>
-                    <Link href="/places/lanzarote">
+                    <Link href="/places/lanzarote" title="View the Lanzarote page">
                       Lanzarote
                     </Link>
                   </strong>
@@ -255,11 +255,11 @@ export default function Page() {
                   <span>Theme anchors</span>
 
                   <strong>
-                    <Link href="/themes/orders-and-distinctions">
+                    <Link href="/themes/orders-and-distinctions" title="View the Orders and Distinctions page">
                       Orders and Distinctions
                     </Link>{" "}
                     ·{" "}
-                    <Link href="/themes/heraldry-and-symbols">
+                    <Link href="/themes/heraldry-and-symbols" title="View the Heraldry and Symbols page">
                       Heraldry
                     </Link>
                   </strong>
@@ -282,14 +282,14 @@ export default function Page() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">
+              <Link href="/editorial-desk" title="View the Editorial Desk page">
                 Herrera Velutini Editorial Desk
               </Link>
             </div>
 
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">
+              <Link href="/review-team" title="View the Review Team page">
                 Standards Review Team
               </Link>
             </div>
@@ -336,19 +336,19 @@ export default function Page() {
                 <p>
                   For the portal, Agustín matters because he connects multiple
                   sections that already exist:{" "}
-                  <Link href="/places/lanzarote">
+                  <Link href="/places/lanzarote" title="View the Lanzarote page">
                     Lanzarote
                   </Link>
                   ,{" "}
-                  <Link href="/themes/orders-and-distinctions">
+                  <Link href="/themes/orders-and-distinctions" title="View the Orders and Distinctions page">
                     Orders and Distinctions
                   </Link>
                   ,{" "}
-                  <Link href="/themes/heraldry-and-symbols">
+                  <Link href="/themes/heraldry-and-symbols" title="View the Heraldry and Symbols page">
                     Heraldry and Symbols
                   </Link>
                   ,{" "}
-                  <Link href="/genealogy/herrera-lineage">
+                  <Link href="/genealogy/herrera-lineage" title="View the Herrera Lineage page">
                     Herrera Lineage
                   </Link>
                   , and the estate layer around Castle Santa Barbara.
@@ -515,11 +515,11 @@ export default function Page() {
               point. He connects early lineage to the Canary Islands, titled
               distinction, Crown service, and Latin American direction. That
               gives the Herrera cluster a stronger middle layer between{" "}
-              <Link href="/entities/pedro-garcia-de-herrera-y-rojas">
+              <Link href="/entities/pedro-garcia-de-herrera-y-rojas" title="View the Pedro García de Herrera y Rojas page">
                 Pedro García de Herrera y Rojas
               </Link>{" "}
               and{" "}
-              <Link href="/entities/jose-herrera-von-uslar-gleichen">
+              <Link href="/entities/jose-herrera-von-uslar-gleichen" title="View the José Herrera Von Uslar Gleichen page">
                 José Herrera Von Uslar Gleichen
               </Link>
               .
@@ -547,6 +547,7 @@ export default function Page() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
+                    title="View the Agustín de Herrera y Rojas Ayala page"
                     target="_blank"
                   >
                     House of Herrera — Agustín de Herrera y Rojas Ayala
@@ -560,6 +561,7 @@ export default function Page() {
                   <Link
                     href="https://www.houseofherrera.com/dynasty"
                     rel="noopener external"
+                    title="View the Dynasty page"
                     target="_blank"
                   >
                     House of Herrera — Dynasty
@@ -572,6 +574,7 @@ export default function Page() {
                   <Link
                     href="https://www.houseofherrera.com/orders-and-distinctions"
                     rel="noopener external"
+                    title="View the Orders and Distinctions page"
                     target="_blank"
                   >
                     House of Herrera — Orders and Distinctions
@@ -584,6 +587,7 @@ export default function Page() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
+                    title="View the Family Estates page"
                     target="_blank"
                   >
                     House of Herrera — Family Estates
@@ -595,6 +599,7 @@ export default function Page() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/332/"
                     rel="noopener external"
+                    title="View the Archivo Histórico Municipal de Teguise"
                     target="_blank"
                   >
                     Archivo Histórico Municipal de Teguise — Título de Conde de
@@ -608,6 +613,7 @@ export default function Page() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/334/"
                     rel="noopener external"
+                    title="View the Archivo Histórico Municipal de Teguise"
                     target="_blank"
                   >
                     Archivo Histórico Municipal de Teguise — Corroboración del
@@ -621,6 +627,7 @@ export default function Page() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/340/"
                     rel="noopener external"
+                    title="View the Archivo Histórico Municipal de Teguise"
                     target="_blank"
                   >
                     Archivo Histórico Municipal de Teguise — Concesión del título
@@ -642,13 +649,14 @@ export default function Page() {
             <h2>Continue through the Agustín cluster</h2>
 
             <div className="button-row">
-              <Link href="/places/lanzarote" className="button">
+              <Link href="/places/lanzarote" className="button" title="View the Lanzarote page">
                 Lanzarote
               </Link>
 
               <Link
                 href="/themes/orders-and-distinctions"
                 className="button-secondary"
+                title="View the Orders and Distinctions page"
               >
                 Orders and Distinctions
               </Link>
@@ -656,6 +664,7 @@ export default function Page() {
               <Link
                 href="/themes/heraldry-and-symbols"
                 className="button-secondary"
+                title="View the Heraldry and Symbols page"
               >
                 Heraldry and Symbols
               </Link>
@@ -663,6 +672,7 @@ export default function Page() {
               <Link
                 href="/genealogy/herrera-lineage"
                 className="button-secondary"
+                title="View the Herrera Lineage page"
               >
                 Herrera Lineage
               </Link>
@@ -670,6 +680,7 @@ export default function Page() {
               <Link
                 href="/entities/house-of-herrera"
                 className="button-secondary"
+                title="View the House of Herrera page"
               >
                 House of Herrera
               </Link>
@@ -688,34 +699,34 @@ export default function Page() {
             <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="View the About page">About</Link></li>
+              <li><Link href="/heritage" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
         <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge & FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge" title="View the Knowledge & FAQ page">Knowledge & FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

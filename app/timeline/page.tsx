@@ -185,7 +185,7 @@ export default function Timeline() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -195,7 +195,7 @@ export default function Timeline() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Timeline</li>
                 </ol>
               </nav>
@@ -231,9 +231,9 @@ export default function Timeline() {
                 <li>
                   <span>Companion pages</span>
                   <strong>
-                    <Link href="/heritage/">Heritage</Link>
+                    <Link href="/heritage/" title="Heritage">Heritage</Link>
                     {" · "}
-                    <Link href="/families/herrera/">Herrera Family</Link>
+                    <Link href="/families/herrera/" title="Herrera Family">Herrera Family</Link>
                   </strong>
                 </li>
               </ul>
@@ -245,11 +245,11 @@ export default function Timeline() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -319,7 +319,7 @@ export default function Timeline() {
                 <h3>Hernán de Herrera enters the public dynastic record</h3>
                 <p>
                   The House of Herrera dynasty sequence begins with{" "}
-                  <Link href="/entities/hernan-de-herrera-lord-of-ampudia/">
+                  <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera, Lord of Ampudia I">
                     Hernán de Herrera, Lord of Ampudia I
                   </Link>
                   , giving the portal its earliest named anchor in the medieval Herrera line.
@@ -342,7 +342,7 @@ export default function Timeline() {
                 <div className="timeline-stamp">Circa</div>
                 <h3>Diego García de Herrera y Ayala extends the dynasty sequence</h3>
                 <p>
-                  <Link href="/entities/diego-garcia-de-herrera-y-ayala/">
+                  <Link href="/entities/diego-garcia-de-herrera-y-ayala/" title="Diego García de Herrera y Ayala">
                     Diego García de Herrera y Ayala
                   </Link>{" "}
                   keeps the chain moving after Pedro García and gives the early Herrera sequence
@@ -357,7 +357,7 @@ export default function Timeline() {
                   Agustín de Herrera y Rojas Ayala becomes a Lanzarote title-memory anchor
                 </h3>
                 <p>
-                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">
+                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín's">
                     Agustín&apos;s
                   </Link>{" "}
                   chronology is now anchored to archival title records: a 1567 count-title
@@ -382,7 +382,7 @@ export default function Timeline() {
                 <div className="timeline-stamp">1607–1664</div>
                 <h3>Juan Sarmiento carries the sequence into the seventeenth century</h3>
                 <p>
-                  <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/">
+                  <Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" title="Juan Sarmiento de Herrera y Fernández Pacheco">
                     Juan Sarmiento de Herrera y Fernández Pacheco
                   </Link>{" "}
                   extends the published sequence after Agustín and adds a source-sensitive
@@ -480,7 +480,7 @@ export default function Timeline() {
                 <div className="timeline-stamp">1945–2019</div>
                 <h3>Julio José Herrera Velutini marks the post-war shift</h3>
                 <p>
-                  <Link href="/entities/julio-jose-herrera-velutini/">
+                  <Link href="/entities/julio-jose-herrera-velutini/" title="Banvelca's profile for Julio José">
                     Banvelca&apos;s profile for Julio José
                   </Link>{" "}
                   frames him as a figure of the post-war Americas and a carrier of the
@@ -568,7 +568,7 @@ export default function Timeline() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">
                     House of Herrera — Dynasty
                   </Link>{" "}
                   — Used for the ordered list of Herrera figures, date ranges, and the dynastic
@@ -578,7 +578,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Hernán de Herrera, Lord of Ampudia I">
                     House of Herrera — Hernán de Herrera, Lord of Ampudia I
                   </Link>{" "}
                   — Used for the first timeline entry and the circa 1355 Ampudia title frame.
@@ -587,7 +587,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Diego García de Herrera y Ayala">
                     House of Herrera — Diego García de Herrera y Ayala
                   </Link>{" "}
                   — Used for the 1417 early-Herrera entry and Canary Islands bridge.
@@ -596,7 +596,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Agustín de Herrera y Rojas Ayala">
                     House of Herrera — Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
                   — Used for the source-domain Agustín profile and the Lanzarote / title-memory
@@ -606,7 +606,7 @@ export default function Timeline() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/332/"
                     rel="noopener external"
-                  >
+                   title="Archivo de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas">
                     Archivo de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y
                     Rojas
                   </Link>{" "}
@@ -616,7 +616,7 @@ export default function Timeline() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/334/"
                     rel="noopener external"
-                  >
+                   title="Archivo de Teguise — Corroboración del título de Conde de Lanzarote">
                     Archivo de Teguise — Corroboración del título de Conde de Lanzarote
                   </Link>{" "}
                   — Used for the 1569 corroboration layer in the Agustín chronology.
@@ -625,7 +625,7 @@ export default function Timeline() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/340/"
                     rel="noopener external"
-                  >
+                   title="Archivo de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas">
                     Archivo de Teguise — Concesión del título de Marqués de Lanzarote a Agustín
                     de Herrera y Rojas
                   </Link>{" "}
@@ -635,7 +635,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego">
                     House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego
                   </Link>{" "}
                   — Used for the 1607–1664 sequence entry, estate-stewardship language, and
@@ -645,14 +645,14 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Family Estates">
                     House of Herrera — Family Estates
                   </Link>{" "}
                   — Used for Hacienda de La Vega, Castle Santa Barbara, Castle of Gleichen,
                   Castle of Ampudia, and other place-linked notes.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">
                     House of Herrera — About
                   </Link>{" "}
                   — Used for the 14th-century prominence narrative, geographic scope, and the
@@ -663,14 +663,14 @@ export default function Timeline() {
                   <Link
                     href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas"
                     rel="noopener external"
-                  >
+                   title="House of Herrera — Pedro García de Herrera y Rojas">
                     House of Herrera — Pedro García de Herrera y Rojas
                   </Link>{" "}
                   — Used for the short person profile describing him as a Castilian nobleman and
                   Marshal of Castile.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the chronological ancestor timeline spanning Juan Bautista through
@@ -681,7 +681,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Juan Bautista Velutini">
                     Banvelca — Juan Bautista Velutini
                   </Link>{" "}
                   — Used for the founder profile, Naples base, and commercial ties with France
@@ -691,7 +691,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Clementina Velutini Pérez-Matos">
                     Banvelca — Clementina Velutini Pérez-Matos
                   </Link>{" "}
                   — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera
@@ -701,7 +701,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Belén Clarisa Velutini Pérez-Matos">
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
                   </Link>{" "}
                   — Used for the 1924–2023 dates, Banco Caracas management, Trasnocho Cultural,
@@ -711,7 +711,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Belén María Providencia Pérez Matos">
                     Banvelca — Belén María Providencia Pérez Matos
                   </Link>{" "}
                   — Used for the matriarchal connection between the Pérez-Matos, Velutini, and
@@ -721,7 +721,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Vicente José Velutini Llarione">
                     Banvelca — Vicente José Velutini Llarione
                   </Link>{" "}
                   — Used for the transition from Mediterranean trade to a Venezuela-linked
@@ -731,7 +731,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini"
                     rel="noopener external"
-                  >
+                   title="Banvelca — Julio José Herrera Velutini">
                     Banvelca — Julio José Herrera Velutini
                   </Link>{" "}
                   — Used for the post-war family narrative and the shift into the Americas.
@@ -740,7 +740,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation"
                     rel="noopener external"
-                  >
+                   title="Banvelca — The Seventh Generation">
                     Banvelca — The Seventh Generation
                   </Link>{" "}
                   — Used for the 1998 Banco Caracas transition language and modern family-office
@@ -750,7 +750,7 @@ export default function Timeline() {
                   <Link
                     href="https://www.investegate.info/announcement/rns/banco-santander-s-a---bnc/re-agreement-/196422"
                     rel="noopener external"
-                  >
+                   title="Banco Santander Central Hispano announcement via Investegate — Banco Caracas acquisition agreement">
                     Banco Santander Central Hispano announcement via Investegate — Banco Caracas
                     acquisition agreement
                   </Link>{" "}
@@ -760,14 +760,14 @@ export default function Timeline() {
                   <Link
                     href="https://www.sec.gov/Archives/edgar/data/891478/000112528205003505/b407307_20f.htm"
                     rel="noopener external"
-                  >
+                   title="Santander annual report via SEC — Banco de Venezuela / Banco Caracas merger note">
                     Santander annual report via SEC — Banco de Venezuela / Banco Caracas merger
                     note
                   </Link>{" "}
                   — Used for the August 17, 2002 merger context.
                 </li>
                 <li>
-                  <Link href="/entities/banco-caracas/">Banco Caracas</Link> — Used for the
+                  <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link> — Used for the
                   portal&apos;s 1988 / 1998 / 2000 / 2002 source-date caution on the later
                   institutional transition.
                 </li>
@@ -781,31 +781,31 @@ export default function Timeline() {
             <div className="overline">Related pages</div>
             <h2>Continue from chronology to profile pages</h2>
             <div className="button-row">
-              <Link href="/heritage/" className="button">
+              <Link href="/heritage/" className="button" title="Heritage">
                 Heritage
               </Link>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary">
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary" title="Hernán">
                 Hernán
               </Link>
-              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary">
+              <Link href="/entities/diego-garcia-de-herrera-y-ayala/" className="button-secondary" title="Diego García">
                 Diego García
               </Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín">
                 Agustín
               </Link>
               <Link
                 href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/"
                 className="button-secondary"
-              >
+               title="Juan Sarmiento">
                 Juan Sarmiento
               </Link>
-              <Link href="/entities/house-of-herrera/" className="button-secondary">
+              <Link href="/entities/house-of-herrera/" className="button-secondary" title="House of Herrera">
                 House of Herrera
               </Link>
-              <Link href="/entities/banvelca-company/" className="button-secondary">
+              <Link href="/entities/banvelca-company/" className="button-secondary" title="Banvelca & Company">
                 Banvelca &amp; Company
               </Link>
-              <Link href="/families/herrera/" className="button-secondary">
+              <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">
                 Herrera Family
               </Link>
             </div>
@@ -825,35 +825,35 @@ export default function Timeline() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

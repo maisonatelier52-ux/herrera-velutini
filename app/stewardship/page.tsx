@@ -161,7 +161,7 @@ export default function StewardshipPage() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -169,7 +169,7 @@ export default function StewardshipPage() {
             <div>
               <nav className="breadcrumbs" aria-label="Breadcrumb">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Stewardship</li>
                 </ol>
               </nav>
@@ -187,9 +187,9 @@ export default function StewardshipPage() {
                 <span>Social Responsibility</span>
               </div>
               <div className="hero-actions">
-                <Link className="button" href="/themes/private-banking-tradition/">Private Banking</Link>
-                <Link className="button-secondary" href="/themes/finance-and-capital-stewardship/">Capital Stewardship</Link>
-                <Link className="button-secondary" href="/themes/art-investment-and-patronage/">Art and Patronage</Link>
+                <Link className="button" href="/themes/private-banking-tradition/" title="Private Banking">Private Banking</Link>
+                <Link className="button-secondary" href="/themes/finance-and-capital-stewardship/" title="Capital Stewardship">Capital Stewardship</Link>
+                <Link className="button-secondary" href="/themes/art-investment-and-patronage/" title="Art and Patronage">Art and Patronage</Link>
               </div>
             </div>
             <aside className="dossier-note">
@@ -217,7 +217,7 @@ export default function StewardshipPage() {
                 <div className="dossier-entry">
                   <span>Supporting pages</span>
                   <strong>
-                    <Link href="/themes/">Themes</Link> · Juan Bautista · Belén Clarisa · Timeline
+                    <Link href="/themes/" title="Themes">Themes</Link> · Juan Bautista · Belén Clarisa · Timeline
                   </strong>
                 </div>
               </div>
@@ -226,14 +226,14 @@ export default function StewardshipPage() {
         </section>
 
         <div className="container">
-          <div className="byline">
+              <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -259,12 +259,12 @@ export default function StewardshipPage() {
                   through-line is not sales but intergenerational management.
                 </p>
                 <p>
-                  The live <Link href="/themes/">Themes</Link> cluster now breaks that stewardship model into dedicated
+                  The live <Link href="/themes/" title="Themes">Themes</Link> cluster now breaks that stewardship model into dedicated
                   essays on{" "}
-                  <Link href="/themes/private-banking-tradition/">Private Banking Tradition</Link>,{" "}
-                  <Link href="/themes/finance-and-capital-stewardship/">Finance and Capital Stewardship</Link>,{" "}
-                  <Link href="/themes/art-investment-and-patronage/">Art Investment and Patronage</Link>, and{" "}
-                  <Link href="/themes/social-responsibility/">Social Responsibility</Link>, making the Banvelca
+                  <Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">Private Banking Tradition</Link>,{" "}
+                  <Link href="/themes/finance-and-capital-stewardship/" title="Finance and Capital Stewardship">Finance and Capital Stewardship</Link>,{" "}
+                  <Link href="/themes/art-investment-and-patronage/" title="Art Investment and Patronage">Art Investment and Patronage</Link>, and{" "}
+                  <Link href="/themes/social-responsibility/" title="Social Responsibility">Social Responsibility</Link>, making the Banvelca
                   vocabulary easier to navigate without losing its chronology.
                 </p>
                 <figure className="feature-figure">
@@ -286,22 +286,22 @@ export default function StewardshipPage() {
               <div className="dossier-entry">
                 <span>Founding logic</span>
                 <strong>Naples and the 1781 origin story explain why the institution is framed through continuity and inherited responsibility.</strong>
-                <p><Link href="/entities/juan-bautista-velutini/">Read Juan Bautista Velutini</Link></p>
+                <p><Link href="/entities/juan-bautista-velutini/" title="Read Juan Bautista Velutini">Read Juan Bautista Velutini</Link></p>
               </div>
               <div className="dossier-entry">
                 <span>Operating model</span>
                 <strong>Finance and private-banking pages frame Banvelca as serving the family's own capital architecture rather than the general public.</strong>
-                <p><Link href="/themes/private-banking-tradition/">Read Private Banking Tradition</Link></p>
+                <p><Link href="/themes/private-banking-tradition/" title="Read Private Banking Tradition">Read Private Banking Tradition</Link></p>
               </div>
               <div className="dossier-entry">
                 <span>Culture</span>
                 <strong>Art language and public legacy become more concrete when paired with Belén Clarisa and Caracas.</strong>
-                <p><Link href="/themes/art-investment-and-patronage/">Read Art Investment and Patronage</Link></p>
+                <p><Link href="/themes/art-investment-and-patronage/" title="Read Art Investment and Patronage">Read Art Investment and Patronage</Link></p>
               </div>
               <div className="dossier-entry">
                 <span>Responsibility</span>
                 <strong>Social impact is presented as a quiet, durable responsibility rather than an advertising posture.</strong>
-                <p><Link href="/themes/social-responsibility/">Read Social Responsibility</Link></p>
+                <p><Link href="/themes/social-responsibility/" title="Read Social Responsibility">Read Social Responsibility</Link></p>
               </div>
             </div>
           </div>
@@ -318,7 +318,7 @@ export default function StewardshipPage() {
                   Clarifies that Banvelca's public language is about private coordination and discretion, not public
                   branch or retail banking.
                 </p>
-                <p><Link href="/themes/private-banking-tradition/">Open theme page</Link></p>
+                <p><Link href="/themes/private-banking-tradition/" title="Open theme page: Private Banking Tradition">Open theme page</Link></p>
               </article>
               <article className="dossier-essay">
                 <h3>Finance and Capital Stewardship</h3>
@@ -326,7 +326,7 @@ export default function StewardshipPage() {
                   Frames finance pages as policy, portfolio continuity, mergers, and long-horizon management across
                   generations.
                 </p>
-                <p><Link href="/themes/finance-and-capital-stewardship/">Open theme page</Link></p>
+                <p><Link href="/themes/finance-and-capital-stewardship/" title="Open theme page: Finance and Capital Stewardship">Open theme page</Link></p>
               </article>
               <article className="dossier-essay">
                 <h3>Art Investment and Patronage</h3>
@@ -334,7 +334,7 @@ export default function StewardshipPage() {
                   Shows how art language on the Banvelca domain works as custodianship and cultural memory, not simply
                   asset display.
                 </p>
-                <p><Link href="/themes/art-investment-and-patronage/">Open theme page</Link></p>
+                <p><Link href="/themes/art-investment-and-patronage/" title="Open theme page: Art Investment and Patronage">Open theme page</Link></p>
               </article>
               <article className="dossier-essay">
                 <h3>Social Responsibility</h3>
@@ -342,7 +342,7 @@ export default function StewardshipPage() {
                   Interprets the social-responsibility pages as durable impact work in culture, education, and women's
                   empowerment.
                 </p>
-                <p><Link href="/themes/social-responsibility/">Open theme page</Link></p>
+                <p><Link href="/themes/social-responsibility/" title="Open theme page: Social Responsibility">Open theme page</Link></p>
               </article>
             </div>
           </div>
@@ -352,12 +352,12 @@ export default function StewardshipPage() {
           <div className="container panel">
             <div className="overline">Related pages</div>
             <h2>Use the stewardship cluster with these supporting entities.</h2>
-            <div className="button-row">
-              <Link className="button" href="/entities/banvelca-company/">Banvelca &amp; Company</Link>
-              <Link className="button-secondary" href="/themes/">Open Themes</Link>
-              <Link className="button-secondary" href="/entities/juan-bautista-velutini/">Juan Bautista Velutini</Link>
-              <Link className="button-secondary" href="/entities/belen-clarisa-velutini-perez-matos/">Belén Clarisa Velutini Pérez-Matos</Link>
-              <Link className="button-secondary" href="/timeline/">Timeline</Link>
+              <div className="button-row">
+              <Link className="button" href="/entities/banvelca-company/" title="Banvelca & Company">Banvelca &amp; Company</Link>
+              <Link className="button-secondary" href="/themes/" title="Open Themes">Open Themes</Link>
+              <Link className="button-secondary" href="/entities/juan-bautista-velutini/" title="Juan Bautista Velutini">Juan Bautista Velutini</Link>
+              <Link className="button-secondary" href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">Belén Clarisa Velutini Pérez-Matos</Link>
+              <Link className="button-secondary" href="/timeline/" title="Timeline">Timeline</Link>
             </div>
           </div>
         </section>
@@ -372,31 +372,31 @@ export default function StewardshipPage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">Banvelca — About</Link> — Used for the
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">Banvelca — About</Link> — Used for the
                   1781 founding context, Naples origin, and multi-continent framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external">Banvelca — Private Banking</Link>{" "}
+                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link>{" "}
                   — Used for the distinction between internal family coordination and public branch banking.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external">Banvelca — Finance</Link> — Used for
+                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for
                   the custodianship and family-office language.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/m-and-a" rel="noopener external">Banvelca — Mergers &amp; Acquisitions</Link>{" "}
+                  <Link href="https://www.banvelca.com/m-and-a" rel="noopener external" title="Banvelca — Mergers & Acquisitions">Banvelca — Mergers &amp; Acquisitions</Link>{" "}
                   — Used for the internal-portfolio framing rather than outside advisory work.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/art-investments" rel="noopener external">Banvelca — Art Investments</Link>{" "}
+                  <Link href="https://www.banvelca.com/art-investments" rel="noopener external" title="Banvelca — Art Investments">Banvelca — Art Investments</Link>{" "}
                   — Used for the art-custodianship interpretation.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/social-responsibility" rel="noopener external">Banvelca — Social Responsibility</Link>{" "}
+                  <Link href="https://www.banvelca.com/social-responsibility" rel="noopener external" title="Banvelca — Social Responsibility">Banvelca — Social Responsibility</Link>{" "}
                   — Used for the social-impact section of this cluster.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">Banvelca — Legacy</Link> —
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> —
                   Used for chronology and succession.
                 </li>
               </ul>
@@ -416,34 +416,34 @@ export default function StewardshipPage() {
           </div>
           <div>
             <h2 className="overline">Explore</h2>
-            <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <ul className="footer-links">
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

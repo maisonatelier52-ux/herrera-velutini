@@ -193,7 +193,7 @@ export default function EntitiesHub() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -203,8 +203,8 @@ export default function EntitiesHub() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li aria-current="page">Entities</li>
+                  <li><Link href="/" title="View the Home page">Home</Link></li>
+                  <li aria-current="page" title="View the Entities page">Entities</li>
                 </ol>
               </nav>
               <div className="eyebrow">Entity hub</div>
@@ -240,11 +240,11 @@ export default function EntitiesHub() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="View the Editorial Desk page">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="View the Review Team page">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -297,7 +297,7 @@ export default function EntitiesHub() {
                   <span className="tag">Heritage</span>
                   <span className="tag">Dynasty</span>
                 </div>
-                <p><Link href="/entities/house-of-herrera/">Open page</Link></p>
+                <p><Link href="/entities/house-of-herrera/" title="View the House of Herrera page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -308,7 +308,7 @@ export default function EntitiesHub() {
                   <span className="tag">Stewardship</span>
                   <span className="tag">Finance</span>
                 </div>
-                <p><Link href="/entities/banvelca-company/">Open page</Link></p>
+                <p><Link href="/entities/banvelca-company/" title="View the Banvelca & Company page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -319,7 +319,7 @@ export default function EntitiesHub() {
                   <span className="tag">Caracas</span>
                   <span className="tag">Estate</span>
                 </div>
-                <p><Link href="/entities/hacienda-de-la-vega/">Open page</Link></p>
+                <p><Link href="/entities/hacienda-de-la-vega/" title="View the Hacienda de La Vega page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -330,7 +330,7 @@ export default function EntitiesHub() {
                   <span className="tag">Lanzarote</span>
                   <span className="tag">Estate</span>
                 </div>
-                <p><Link href="/entities/castle-santa-barbara/">Open page</Link></p>
+                <p><Link href="/entities/castle-santa-barbara/" title="View the Castle Santa Barbara page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -341,7 +341,7 @@ export default function EntitiesHub() {
                   <span className="tag">Finance</span>
                   <span className="tag">Caracas</span>
                 </div>
-                <p><Link href="/entities/banco-caracas/">Open page</Link></p>
+                <p><Link href="/entities/banco-caracas/" title="View the Banco Caracas page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -352,7 +352,7 @@ export default function EntitiesHub() {
                   <span className="tag">Ampudia</span>
                   <span className="tag">Medieval</span>
                 </div>
-                <p><Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Open page</Link></p>
+                <p><Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="View the Hernán de Herrera, Lord of Ampudia I page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -363,7 +363,7 @@ export default function EntitiesHub() {
                   <span className="tag">Medieval</span>
                   <span className="tag">Castile</span>
                 </div>
-                <p><Link href="/entities/pedro-garcia-de-herrera-y-rojas/">Open page</Link></p>
+                <p><Link href="/entities/pedro-garcia-de-herrera-y-rojas/" title="View the Pedro García de Herrera y Rojas page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -374,7 +374,7 @@ export default function EntitiesHub() {
                   <span className="tag">Canaries</span>
                   <span className="tag">Lineage</span>
                 </div>
-                <p><Link href="/entities/diego-garcia-de-herrera-y-ayala/">Open page</Link></p>
+                <p><Link href="/entities/diego-garcia-de-herrera-y-ayala/" title="View the Diego García de Herrera y Ayala page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -385,7 +385,7 @@ export default function EntitiesHub() {
                   <span className="tag">Lanzarote</span>
                   <span className="tag">Titles</span>
                 </div>
-                <p><Link href="/entities/agustin-de-herrera-y-rojas-ayala/">Open page</Link></p>
+                <p><Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="View the Agustín de Herrera y Rojas Ayala page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -396,7 +396,7 @@ export default function EntitiesHub() {
                   <span className="tag">Sequence</span>
                   <span className="tag">Source note</span>
                 </div>
-                <p><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/">Open page</Link></p>
+                <p><Link href="/entities/juan-sarmiento-de-herrera-y-fernandez-pacheco/" title="View the Juan Sarmiento de Herrera y Fernández Pacheco page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -407,7 +407,7 @@ export default function EntitiesHub() {
                   <span className="tag">Diplomacy</span>
                   <span className="tag">Humanitarian</span>
                 </div>
-                <p><Link href="/entities/jose-herrera-von-uslar-gleichen/">Open page</Link></p>
+                <p><Link href="/entities/jose-herrera-von-uslar-gleichen/" title="View the José Herrera Von Uslar Gleichen page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -418,7 +418,7 @@ export default function EntitiesHub() {
                   <span className="tag">Founder</span>
                   <span className="tag">Naples</span>
                 </div>
-                <p><Link href="/entities/juan-bautista-velutini/">Open page</Link></p>
+                <p><Link href="/entities/juan-bautista-velutini/" title="View the Juan Bautista Velutini page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -429,7 +429,7 @@ export default function EntitiesHub() {
                   <span className="tag">Expansion</span>
                   <span className="tag">Bridge</span>
                 </div>
-                <p><Link href="/entities/vicente-jose-velutini-llarione/">Open page</Link></p>
+                <p><Link href="/entities/vicente-jose-velutini-llarione/" title="View the Vicente José Velutini Llarione page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -440,7 +440,7 @@ export default function EntitiesHub() {
                   <span className="tag">Statecraft</span>
                   <span className="tag">Fiscal</span>
                 </div>
-                <p><Link href="/entities/jose-antonio-velutini-ron/">Open page</Link></p>
+                <p><Link href="/entities/jose-antonio-velutini-ron/" title="View the José Antonio Velutini Ron page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -451,7 +451,7 @@ export default function EntitiesHub() {
                   <span className="tag">Banking</span>
                   <span className="tag">Caracas</span>
                 </div>
-                <p><Link href="/entities/julio-cesar-velutini-couturier/">Open page</Link></p>
+                <p><Link href="/entities/julio-cesar-velutini-couturier/" title="View the Julio César Velutini Couturier page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -462,7 +462,7 @@ export default function EntitiesHub() {
                   <span className="tag">Continuity</span>
                   <span className="tag">Americas</span>
                 </div>
-                <p><Link href="/entities/julio-jose-herrera-velutini/">Open page</Link></p>
+                <p><Link href="/entities/julio-jose-herrera-velutini/" title="View the Julio José Herrera Velutini page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -473,7 +473,7 @@ export default function EntitiesHub() {
                   <span className="tag">Matriarch</span>
                   <span className="tag">Connection</span>
                 </div>
-                <p><Link href="/entities/belen-maria-providencia-perez-matos/">Open page</Link></p>
+                <p><Link href="/entities/belen-maria-providencia-perez-matos/" title="View the Belén María Providencia Pérez Matos page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -484,7 +484,7 @@ export default function EntitiesHub() {
                   <span className="tag">Connection</span>
                   <span className="tag">Banking</span>
                 </div>
-                <p><Link href="/entities/clementina-velutini-perez-matos/">Open page</Link></p>
+                <p><Link href="/entities/clementina-velutini-perez-matos/" title="View the Clementina Velutini Pérez-Matos page">Open page</Link></p>
               </article>
 
               <article className="card">
@@ -495,7 +495,7 @@ export default function EntitiesHub() {
                   <span className="tag">Culture</span>
                   <span className="tag">Philanthropy</span>
                 </div>
-                <p><Link href="/entities/belen-clarisa-velutini-perez-matos/">Open page</Link></p>
+                <p><Link href="/entities/belen-clarisa-velutini-perez-matos/" title="View the Belén Clarisa Velutini Pérez-Matos page">Open page</Link></p>
               </article>
             </div>
           </div>
@@ -506,10 +506,10 @@ export default function EntitiesHub() {
             <div className="overline">Use entities with clusters</div>
             <h2>Entity pages become more powerful when paired with the topic pages.</h2>
             <div className="button-row">
-              <Link href="/heritage/" className="button">Heritage</Link>
-              <Link href="/stewardship/" className="button-secondary">Stewardship</Link>
-              <Link href="/estates/" className="button-secondary">Estates</Link>
-              <Link href="/timeline/" className="button-secondary">Timeline</Link>
+              <Link href="/heritage/" className="button" title="View the Heritage page">Heritage</Link>
+              <Link href="/stewardship/" className="button-secondary" title="View the Stewardship page">Stewardship</Link>
+              <Link href="/estates/" className="button-secondary" title="View the Estates page">Estates</Link>
+              <Link href="/timeline/" className="button-secondary" title="View the Timeline page">Timeline</Link>
             </div>
           </div>
         </section>
@@ -526,33 +526,33 @@ export default function EntitiesHub() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="View the About page">About</Link></li>
+              <li><Link href="/heritage/" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families/" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy/" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places/" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates/" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline/" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities/" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="View the Knowledge & FAQ page">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="View the Herrera and Velutini page">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

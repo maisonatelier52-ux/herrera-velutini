@@ -204,7 +204,7 @@ export default function VicenteJoseVelutiniLlarione() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -215,10 +215,10 @@ export default function VicenteJoseVelutiniLlarione() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="https://herreravelutini.com/">Home</Link>
+                    <Link href="https://herreravelutini.com/" title="Home">Home</Link>
                   </li>
                   <li>
-                    <Link href="https://herreravelutini.com/entities/">
+                    <Link href="https://herreravelutini.com/entities/" title="Entities">
                       Entities
                     </Link>
                   </li>
@@ -245,7 +245,7 @@ export default function VicenteJoseVelutiniLlarione() {
                 <li>
                   <span>Origin point</span>
                   <strong>
-                    <Link href="/places/naples/">Naples</Link>
+                    <Link href="/places/naples/" title="Naples">Naples</Link>
                   </strong>
                 </li>
                 <li>
@@ -265,11 +265,11 @@ export default function VicenteJoseVelutiniLlarione() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -402,12 +402,12 @@ export default function VicenteJoseVelutiniLlarione() {
               expanding family record.
             </p>
             <p>
-              <Link href="/entities/jose-antonio-velutini-ron/">
+              <Link href="/entities/jose-antonio-velutini-ron/" title="José Antonio Velutini Ron">
                 José Antonio Velutini Ron
               </Link>{" "}
               becomes the statecraft and fiscal bridge that follows a generation
               already associated with movement and widening geography.{" "}
-              <Link href="/entities/julio-cesar-velutini-couturier/">
+              <Link href="/entities/julio-cesar-velutini-couturier/" title="Julio César Velutini Couturier">
                 Julio César Velutini Couturier
               </Link>{" "}
               then becomes easier to place as the later institutional-banking
@@ -440,6 +440,7 @@ export default function VicenteJoseVelutiniLlarione() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
                     rel="noopener external"
+                    title="Banvelca — Vicente José Velutini Llarione"
                   >
                     Banvelca — Vicente José Velutini Llarione
                   </Link>{" "}
@@ -450,6 +451,7 @@ export default function VicenteJoseVelutiniLlarione() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="Banvelca — Legacy"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -460,6 +462,7 @@ export default function VicenteJoseVelutiniLlarione() {
                   <Link
                     href="https://www.banvelca.com/about"
                     rel="noopener external"
+                    title="Banvelca — About"
                   >
                     Banvelca — About
                   </Link>{" "}
@@ -476,33 +479,37 @@ export default function VicenteJoseVelutiniLlarione() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Vicente José cluster</h2>
             <div className="button-row">
-              <Link href="/places/naples/" className="button">
+              <Link href="/places/naples/" className="button" title="Naples">
                 Naples
               </Link>
               <Link
                 href="/entities/juan-bautista-velutini/"
                 className="button-secondary"
+                title="Juan Bautista Velutini"
               >
                 Juan Bautista Velutini
               </Link>
               <Link
                 href="/entities/jose-antonio-velutini-ron/"
                 className="button-secondary"
+                title="José Antonio Velutini Ron"
               >
                 José Antonio Velutini Ron
               </Link>
               <Link
                 href="/genealogy/velutini-lineage/"
                 className="button-secondary"
+                title="Velutini Lineage"
               >
                 Velutini Lineage
               </Link>
-              <Link href="/families/velutini/" className="button-secondary">
+              <Link href="/families/velutini/" className="button-secondary" title="Velutini Family">
                 Velutini Family
               </Link>
               <Link
                 href="/entities/banvelca-company/"
                 className="button-secondary"
+                title="Banvelca & Company"
               >
                 Banvelca &amp; Company
               </Link>
@@ -525,28 +532,28 @@ export default function VicenteJoseVelutiniLlarione() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about/">About</Link>
+                <Link href="/about/" title="About">About</Link>
               </li>
               <li>
-                <Link href="/heritage/">Heritage</Link>
+                <Link href="/heritage/" title="Heritage">Heritage</Link>
               </li>
               <li>
-                <Link href="/families/">Families</Link>
+                <Link href="/families/" title="Families">Families</Link>
               </li>
               <li>
-                <Link href="/genealogy/">Genealogy</Link>
+                <Link href="/genealogy/" title="Genealogy">Genealogy</Link>
               </li>
               <li>
-                <Link href="/places/">Places</Link>
+                <Link href="/places/" title="Places">Places</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/timeline/">Timeline</Link>
+                <Link href="/timeline/" title="Timeline">Timeline</Link>
               </li>
               <li>
-                <Link href="/entities/">Entities</Link>
+                <Link href="/entities/" title="Entities">Entities</Link>
               </li>
             </ul>
           </div>
@@ -554,19 +561,19 @@ export default function VicenteJoseVelutiniLlarione() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology/">Editorial Methodology</Link>
+                <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link>
               </li>
               <li>
-                <Link href="/sources/">Sources</Link>
+                <Link href="/sources/" title="Sources">Sources</Link>
               </li>
               <li>
-                <Link href="/editorial-desk/">Editorial Desk</Link>
+                <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link>
               </li>
               <li>
-                <Link href="/review-team/">Review Team</Link>
+                <Link href="/review-team/" title="Review Team">Review Team</Link>
               </li>
               <li>
-                <Link href="/knowledge/">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
               </li>
             </ul>
           </div>
@@ -574,18 +581,18 @@ export default function VicenteJoseVelutiniLlarione() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
               </li>
               <li>
-                <Link href="/families/velutini/">Velutini Family</Link>
+                <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link>
               </li>
               <li>
-                <Link href="/places/caracas/">Caracas</Link>
+                <Link href="/places/caracas/" title="Caracas">Caracas</Link>
               </li>
               <li>
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link>
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>
               </li>
             </ul>
           </div>

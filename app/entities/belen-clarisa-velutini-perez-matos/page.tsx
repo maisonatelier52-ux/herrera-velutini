@@ -158,7 +158,7 @@ export default function BelenClarisaPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -169,9 +169,11 @@ export default function BelenClarisaPage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/entities">Entities</Link></li>
-                  <li aria-current="page">Belén Clarisa Velutini Pérez-Matos</li>
+                  <li><Link href="/" title="View the Home page">Home</Link></li>
+                  <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
+                  <li aria-current="page" title="You are here">
+                    Belén Clarisa Velutini Pérez-Matos
+                  </li>
                 </ol>
               </nav>
               <div className="eyebrow">Person profile</div>
@@ -213,11 +215,15 @@ export default function BelenClarisaPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk" title="View the Editorial Desk page">
+                Herrera Velutini Editorial Desk
+              </Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="View the Review Team page">
+                Standards Review Team
+              </Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -254,7 +260,9 @@ export default function BelenClarisaPage() {
                   portal collapse into a single-sector story.
                 </p>
                 <p>
-                  <Link href="/entities/banvelca-company">Open page</Link>
+                  <Link href="/entities/banvelca-company" title="View the Banvelca Company page">
+                    Open page
+                  </Link>
                 </p>
               </article>
               <article className="card">
@@ -264,7 +272,9 @@ export default function BelenClarisaPage() {
                   point for readers who arrive through arts or Caracas topics.
                 </p>
                 <p>
-                  <Link href="/stewardship">Open page</Link>
+                  <Link href="/stewardship" title="View the Stewardship page">
+                    Open page
+                  </Link>
                 </p>
               </article>
               <article className="card">
@@ -274,7 +284,9 @@ export default function BelenClarisaPage() {
                   expression beyond internal wealth coordination.
                 </p>
                 <p>
-                  <Link href="/about">Open page</Link>
+                  <Link href="/about" title="View the About page">
+                    Open page
+                  </Link>
                 </p>
               </article>
             </div>
@@ -329,6 +341,7 @@ export default function BelenClarisaPage() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="View the Banvelca Legacy page"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -338,6 +351,7 @@ export default function BelenClarisaPage() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
                     rel="noopener external"
+                    title="View the Belén Clarisa Velutini Pérez-Matos page"
                   >
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
                   </Link>{" "}
@@ -355,16 +369,16 @@ export default function BelenClarisaPage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the portal</h2>
             <div className="button-row">
-              <Link className="button" href="/entities/banvelca-company">
+              <Link className="button" href="/entities/banvelca-company" title="View the Banvelca Company page">
                 Banvelca &amp; Company
               </Link>
-              <Link className="button-secondary" href="/stewardship">
+              <Link className="button-secondary" href="/stewardship" title="View the Stewardship page">
                 Stewardship cluster
               </Link>
-              <Link className="button-secondary" href="/timeline">
+              <Link className="button-secondary" href="/timeline" title="View the Timeline page">
                 Timeline
               </Link>
-              <Link className="button-secondary" href="/entities">
+              <Link className="button-secondary" href="/entities" title="View the Entities page">
                 Entity hub
               </Link>
             </div>
@@ -385,37 +399,37 @@ export default function BelenClarisaPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="View the About page">About</Link></li>
+              <li><Link href="/heritage" title="View the Heritage page">Heritage</Link></li>
+              <li><Link href="/families" title="View the Families page">Families</Link></li>
+              <li><Link href="/genealogy" title="View the Genealogy page">Genealogy</Link></li>
+              <li><Link href="/places" title="View the Places page">Places</Link></li>
+              <li><Link href="/estates" title="View the Estates page">Estates</Link></li>
+              <li><Link href="/timeline" title="View the Timeline page">Timeline</Link></li>
+              <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="View the Editorial Methodology page">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="View the Sources page">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="View the Editorial Desk page">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="View the Review Team page">Review Team</Link></li>
+              <li><Link href="/knowledge" title="View the Knowledge & FAQ page">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection">
+                <Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">
                   Herrera and Velutini
                 </Link>
               </li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini" title="View the Velutini Family page">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="View the Caracas page">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="View the Banco Caracas page">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

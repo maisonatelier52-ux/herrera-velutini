@@ -201,7 +201,7 @@ export default function JulioCesarVelutiniCouturier() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -212,10 +212,10 @@ export default function JulioCesarVelutiniCouturier() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="https://herreravelutini.com/">Home</Link>
+                    <Link href="https://herreravelutini.com/" title="Home">Home</Link>
                   </li>
                   <li>
-                    <Link href="https://herreravelutini.com/entities/">
+                    <Link href="https://herreravelutini.com/entities/" title="Entities">
                       Entities
                     </Link>
                   </li>
@@ -241,7 +241,7 @@ export default function JulioCesarVelutiniCouturier() {
                 <li>
                   <span>Core institution</span>
                   <strong>
-                    <Link href="/entities/banco-caracas/">Banco Caracas</Link>
+                    <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>
                   </strong>
                 </li>
                 <li>
@@ -263,11 +263,11 @@ export default function JulioCesarVelutiniCouturier() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -437,7 +437,7 @@ export default function JulioCesarVelutiniCouturier() {
               together.
             </p>
             <p>
-              <Link href="/entities/jose-antonio-velutini-ron/">
+              <Link href="/entities/jose-antonio-velutini-ron/" title="José Antonio Velutini Ron">
                 José Antonio Velutini Ron
               </Link>{" "}
               now gives the site a clearer prelude to Julio César&apos;s chapter by
@@ -454,7 +454,7 @@ export default function JulioCesarVelutiniCouturier() {
             </p>
             <p>
               Readers coming through{" "}
-              <Link href="/entities/banco-caracas/">Banco Caracas</Link> should
+              <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link> should
               use this page to understand why the institution belongs in the
               family graph. Readers coming through the family graph should use
               this page to see why Banco Caracas is not an optional side note.
@@ -479,6 +479,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier"
                     rel="noopener external"
+                    title="Banvelca — Julio César Velutini Couturier"
                   >
                     Banvelca — Julio César Velutini Couturier
                   </Link>{" "}
@@ -491,6 +492,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron"
                     rel="noopener external"
+                    title="Banvelca — José Antonio Velutini Ron"
                   >
                     Banvelca — José Antonio Velutini Ron
                   </Link>{" "}
@@ -501,6 +503,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
                     rel="noopener external"
+                    title="Banvelca — Belén María Providencia Pérez Matos"
                   >
                     Banvelca — Belén María Providencia Pérez Matos
                   </Link>{" "}
@@ -511,6 +514,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="Banvelca — Legacy"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -522,6 +526,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.investegate.info/announcement/rns/banco-santander-s-a---bnc/re-agreement-/196422"
                     rel="noopener external"
+                    title="Banco Santander Central Hispano announcement via Investegate — Banco Caracas acquisition agreement"
                   >
                     Banco Santander Central Hispano announcement via Investegate
                     — Banco Caracas acquisition agreement
@@ -533,6 +538,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.sec.gov/Archives/edgar/data/891478/000112528205003505/b407307_20f.htm"
                     rel="noopener external"
+                    title="Santander annual report via SEC — Banco de Venezuela / Banco Caracas merger note"
                   >
                     Santander annual report via SEC — Banco de Venezuela / Banco
                     Caracas merger note
@@ -540,7 +546,7 @@ export default function JulioCesarVelutiniCouturier() {
                   — Used for the August 17, 2002 merger context.
                 </li>
                 <li>
-                  <Link href="/entities/banco-caracas/">Banco Caracas</Link> —
+                  <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link> —
                   Used as the portal&apos;s dedicated place for the 1988 / 1998 /
                   2000 / 2002 source-date audit.
                 </li>
@@ -548,6 +554,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.houseofherrera.com/about"
                     rel="noopener external"
+                    title="House of Herrera — About"
                   >
                     House of Herrera — About
                   </Link>{" "}
@@ -558,6 +565,7 @@ export default function JulioCesarVelutiniCouturier() {
                   <Link
                     href="https://www.banvelca.com/about"
                     rel="noopener external"
+                    title="Banvelca — About"
                   >
                     Banvelca — About
                   </Link>{" "}
@@ -574,28 +582,31 @@ export default function JulioCesarVelutiniCouturier() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Julio César cluster</h2>
             <div className="button-row">
-              <Link href="/entities/banco-caracas/" className="button">
+              <Link href="/entities/banco-caracas/" className="button" title="Banco Caracas">
                 Banco Caracas
               </Link>
               <Link
                 href="/entities/jose-antonio-velutini-ron/"
                 className="button-secondary"
+                title="José Antonio Velutini Ron"
               >
                 José Antonio Velutini Ron
               </Link>
               <Link
                 href="/entities/belen-maria-providencia-perez-matos/"
                 className="button-secondary"
+                title="Belén María Providencia Pérez Matos"
               >
                 Belén María Providencia Pérez Matos
               </Link>
               <Link
                 href="/entities/clementina-velutini-perez-matos/"
                 className="button-secondary"
+                title="Clementina Velutini Pérez-Matos"
               >
                 Clementina Velutini Pérez-Matos
               </Link>
-              <Link href="/places/caracas/" className="button-secondary">
+              <Link href="/places/caracas/" className="button-secondary" title="Caracas">
                 Caracas
               </Link>
             </div>
@@ -617,28 +628,28 @@ export default function JulioCesarVelutiniCouturier() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about/">About</Link>
+                <Link href="/about/" title="About">About</Link>
               </li>
               <li>
-                <Link href="/heritage/">Heritage</Link>
+                <Link href="/heritage/" title="Heritage">Heritage</Link>
               </li>
               <li>
-                <Link href="/families/">Families</Link>
+                <Link href="/families/" title="Families">Families</Link>
               </li>
               <li>
-                <Link href="/genealogy/">Genealogy</Link>
+                <Link href="/genealogy/" title="Genealogy">Genealogy</Link>
               </li>
               <li>
-                <Link href="/places/">Places</Link>
+                <Link href="/places/" title="Places">Places</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/timeline/">Timeline</Link>
+                <Link href="/timeline/" title="Timeline">Timeline</Link>
               </li>
               <li>
-                <Link href="/entities/">Entities</Link>
+                <Link href="/entities/" title="Entities">Entities</Link>
               </li>
             </ul>
           </div>
@@ -646,19 +657,19 @@ export default function JulioCesarVelutiniCouturier() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology/">Editorial Methodology</Link>
+                <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link>
               </li>
               <li>
-                <Link href="/sources/">Sources</Link>
+                <Link href="/sources/" title="Sources">Sources</Link>
               </li>
               <li>
-                <Link href="/editorial-desk/">Editorial Desk</Link>
+                <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link>
               </li>
               <li>
-                <Link href="/review-team/">Review Team</Link>
+                <Link href="/review-team/" title="Review Team">Review Team</Link>
               </li>
               <li>
-                <Link href="/knowledge/">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
               </li>
             </ul>
           </div>
@@ -666,18 +677,16 @@ export default function JulioCesarVelutiniCouturier() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">
-                  Herrera and Velutini
-                </Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
               <li>
-                <Link href="/families/velutini/">Velutini Family</Link>
+                <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link>
               </li>
               <li>
-                <Link href="/places/caracas/">Caracas</Link>
+                <Link href="/places/caracas/" title="Caracas">Caracas</Link>
               </li>
               <li>
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link>
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>
               </li>
             </ul>
           </div>

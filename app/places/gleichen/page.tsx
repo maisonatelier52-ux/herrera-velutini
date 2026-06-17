@@ -188,7 +188,7 @@ export default function GleichenPage() {
         }}
       />
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -198,8 +198,8 @@ export default function GleichenPage() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/places/">Places</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/places/" title="Places">Places</Link></li>
                   <li aria-current="page">Gleichen</li>
                 </ol>
               </nav>
@@ -225,7 +225,7 @@ export default function GleichenPage() {
                 </li>
                 <li>
                   <span>Best companion</span>
-                  <strong><Link href="/places/uslar/">Uslar</Link></strong>
+                  <strong><Link href="/places/uslar/" title="Uslar">Uslar</Link></strong>
                 </li>
               </ul>
             </aside>
@@ -236,11 +236,11 @@ export default function GleichenPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -337,7 +337,7 @@ export default function GleichenPage() {
             </p>
             <p>
               Start here if you are trying to understand the German castle cluster, the Drei Gleichen setting, or the reason the compound surname carries both Uslar and Gleichen. Move next to{" "}
-              <Link href="/places/uslar/">Uslar </Link> if you want the town chronology, the Freudenthal detail, and the branch&apos;s more local town-level anchor.
+              <Link href="/places/uslar/" title="Uslar">Uslar </Link> if you want the town chronology, the Freudenthal detail, and the branch&apos;s more local town-level anchor.
             </p>
             <p>
               That pairing gives the site a cleaner German geography: one page for the wider castle-memory landscape and one for the branch town tied to Freudenthal and heraldry.
@@ -355,19 +355,19 @@ export default function GleichenPage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for the Drei Gleichen description, the conservation-area note near Erfurt, and the detailed Uslar-Gleichen castle sequence from about 1100 through the 1825 naming.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for the Drei Gleichen description, the conservation-area note near Erfurt, and the detailed Uslar-Gleichen castle sequence from about 1100 through the 1825 naming.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">House of Herrera — Symbols</Link> — Used for the Gleichen coat of arms and the place&apos;s role in the heraldic branch system.
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">House of Herrera — Symbols</Link> — Used for the Gleichen coat of arms and the place&apos;s role in the heraldic branch system.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the modern bridge figure whose surname preserves the Uslar-Gleichen layer in the current public record.
+                  <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external" title="House of Herrera — José Herrera Von Uslar Gleichen">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the modern bridge figure whose surname preserves the Uslar-Gleichen layer in the current public record.
                 </li>
                 <li>
-                  <Link href="https://www.geopark-thueringen.de/" rel="noopener external">UNESCO Global Geopark Thüringen Inselsberg - Drei Gleichen</Link> — Used as external landscape context for the wider Drei Gleichen setting.
+                  <Link href="https://www.geopark-thueringen.de/" rel="noopener external" title="UNESCO Global Geopark Thüringen Inselsberg - Drei Gleichen">UNESCO Global Geopark Thüringen Inselsberg - Drei Gleichen</Link> — Used as external landscape context for the wider Drei Gleichen setting.
                 </li>
                 <li>
-                  <Link href="https://www.erfurt-tourismus.de/en/all-about-erfurt/days-out/surrounding-area/thuringian-castle-landscape/gleichen-castle/" rel="noopener external">Erfurt Tourismus — Gleichen Castle</Link> — Used as external castle context for Gleichen Castle and the three-castle grouping.
+                  <Link href="https://www.erfurt-tourismus.de/en/all-about-erfurt/days-out/surrounding-area/thuringian-castle-landscape/gleichen-castle/" rel="noopener external" title="Erfurt Tourismus — Gleichen Castle">Erfurt Tourismus — Gleichen Castle</Link> — Used as external castle context for Gleichen Castle and the three-castle grouping.
                 </li>
               </ul>
             </div>
@@ -379,10 +379,10 @@ export default function GleichenPage() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Gleichen cluster</h2>
             <div className="button-row">
-              <Link className="button" href="/places/uslar/">Uslar</Link>
-              <Link className="button-secondary" href="/entities/jose-herrera-von-uslar-gleichen/">José Herrera Von Uslar Gleichen</Link>
-              <Link className="button-secondary" href="/families/herrera/">Herrera Family</Link>
-              <Link className="button-secondary" href="/estates/">Estates</Link>
+              <Link className="button" href="/places/uslar/" title="Uslar">Uslar</Link>
+              <Link className="button-secondary" href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">José Herrera Von Uslar Gleichen</Link>
+              <Link className="button-secondary" href="/families/herrera/" title="Herrera Family">Herrera Family</Link>
+              <Link className="button-secondary" href="/estates/" title="Estates">Estates</Link>
             </div>
           </div>
         </section>
@@ -399,33 +399,33 @@ export default function GleichenPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

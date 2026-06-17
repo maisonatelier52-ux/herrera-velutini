@@ -128,7 +128,7 @@ export default function Estates() {
 
       </Head>
 
-      <Link className="skip-link" href="#main">Skip to content</Link>
+      <Link className="skip-link" href="#main" title="Skip to content">Skip to content</Link>
 
       <main id="main">
         <section className="page-hero">
@@ -136,7 +136,7 @@ export default function Estates() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Estates</li>
                 </ol>
               </nav>
@@ -163,8 +163,8 @@ export default function Estates() {
                 <li>
                   <span>Related pages</span>
                   <strong>
-                    <Link href="/entities/hacienda-de-la-vega/">Hacienda de La Vega</Link>{" "}·{" "}
-                    <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>
+                    <Link href="/entities/hacienda-de-la-vega/" title="Hacienda de La Vega">Hacienda de La Vega</Link>{" "}·{" "}
+                    <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>
                   </strong>
                 </li>
               </ul>
@@ -176,11 +176,11 @@ export default function Estates() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -207,8 +207,8 @@ export default function Estates() {
                 </p>
                 <p>
                   The portal therefore treats estate pages as more than visual galleries. They are reference anchors. A reader who starts with{" "}
-                  <Link href="/entities/hacienda-de-la-vega/">Hacienda de La Vega</Link> should be able to move to Caracas, family figures, source notes, and timeline entries. A reader who starts with{" "}
-                  <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link> should be able to understand why Lanzarote, symbols, and distinctions keep appearing in the wider Herrera record.
+                  <Link href="/entities/hacienda-de-la-vega/" title="Hacienda de La Vega">Hacienda de La Vega</Link> should be able to move to Caracas, family figures, source notes, and timeline entries. A reader who starts with{" "}
+                  <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link> should be able to understand why Lanzarote, symbols, and distinctions keep appearing in the wider Herrera record.
                 </p>
               </div>
               <figure className="feature-figure">
@@ -284,7 +284,7 @@ export default function Estates() {
             <p>
               That is why the portal already gives the estate its own entity page and now extends the place network outward to the live Caracas and Banco Caracas pages. That makes the estate layer much richer than abstract lineage alone because readers can move directly from the hacienda to the city and institution that surround it.
             </p>
-            <p><Link href="/entities/hacienda-de-la-vega/">Open the Hacienda de La Vega entity page</Link></p>
+            <p><Link href="/entities/hacienda-de-la-vega/" title="Hacienda de La Vega">Open the Hacienda de La Vega entity page</Link></p>
           </div>
         </section>
 
@@ -327,8 +327,8 @@ export default function Estates() {
             </p>
             <p>
               Ampudia, Uslar, and Gleichen now all have live place pages, which lets the early Castilian and German branch chapters stand on their own. The new{" "}
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/">Hernán de Herrera</Link> profile also gives Ampudia a direct person-level opening anchor, while{" "}
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">Agustín de Herrera y Rojas Ayala</Link> gives Lanzarote a stronger early-modern person route. Freudenthal remains folded into the Uslar dossier, where the town chronology, branch heraldry, and castle-memory layer are easier to read together.
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" title="Hernán de Herrera">Hernán de Herrera</Link> profile also gives Ampudia a direct person-level opening anchor, while{" "}
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera y Rojas Ayala">Agustín de Herrera y Rojas Ayala</Link> gives Lanzarote a stronger early-modern person route. Freudenthal remains folded into the Uslar dossier, where the town chronology, branch heraldry, and castle-memory layer are easier to read together.
             </p>
           </div>
         </section>
@@ -344,37 +344,37 @@ export default function Estates() {
               <article className="card">
                 <h3>Caracas</h3>
                 <p>The dossier connects Hacienda de La Vega, Banco Caracas, Clementina, Belén Clarisa, and local cultural geography in one page.</p>
-                <p><Link href="/places/caracas/">Open Caracas</Link></p>
+                <p><Link href="/places/caracas/" title="Caracas">Open Caracas</Link></p>
               </article>
               <article className="card">
                 <h3>Naples</h3>
                 <p>The place page gives the Banvelca and Velutini record a real founding geography instead of a floating origin story.</p>
-                <p><Link href="/places/naples/">Open Naples</Link></p>
+                <p><Link href="/places/naples/" title="Naples">Open Naples</Link></p>
               </article>
               <article className="card">
                 <h3>Paris</h3>
                 <p>The Europe bridge page connects Clementina&apos;s Paris education to Banvelca&apos;s later operating geography.</p>
-                <p><Link href="/places/paris/">Open Paris</Link></p>
+                <p><Link href="/places/paris/" title="Paris">Open Paris</Link></p>
               </article>
               <article className="card">
                 <h3>Lanzarote</h3>
                 <p>The island dossier connects Castle Santa Barbara, heraldry, and the Agustín / Marquisate of Lanzarote title-memory cluster.</p>
-                <p><Link href="/places/lanzarote/">Open Lanzarote</Link></p>
+                <p><Link href="/places/lanzarote/" title="Lanzarote">Open Lanzarote</Link></p>
               </article>
               <article className="card">
                 <h3>Ampudia</h3>
                 <p>The early-lineage place page now links Hernán, Pedro García, and the Castilian territorial anchor.</p>
-                <p><Link href="/places/ampudia/">Open Ampudia</Link></p>
+                <p><Link href="/places/ampudia/" title="Ampudia">Open Ampudia</Link></p>
               </article>
               <article className="card">
                 <h3>Uslar</h3>
                 <p>The branch dossier makes Freudenthal, the Uslar coat of arms, and German town memory legible together.</p>
-                <p><Link href="/places/uslar/">Open Uslar</Link></p>
+                <p><Link href="/places/uslar/" title="Uslar">Open Uslar</Link></p>
               </article>
               <article className="card">
                 <h3>Gleichen</h3>
                 <p>The castle-memory page explains the Drei Gleichen landscape and the Uslar-Gleichen layer.</p>
-                <p><Link href="/places/gleichen/">Open Gleichen</Link></p>
+                <p><Link href="/places/gleichen/" title="Gleichen">Open Gleichen</Link></p>
               </article>
             </div>
           </div>
@@ -390,40 +390,40 @@ export default function Estates() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external">House of Herrera — Family Estates</Link> — Used for Hacienda de La Vega, Castle Santa Barbara, Castle of Gleichen, Castle of Ampudia, Castle of Freudenthal, Uslar-Gleichen Castle, and other place-linked notes.
+                  <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for Hacienda de La Vega, Castle Santa Barbara, Castle of Gleichen, Castle of Ampudia, Castle of Freudenthal, Uslar-Gleichen Castle, and other place-linked notes.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">House of Herrera — Symbols</Link> — Used for the set of coats of arms associated with Herrera, Lanzarote, Uslar, Gleichen, and Velutini.
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">House of Herrera — Symbols</Link> — Used for the set of coats of arms associated with Herrera, Lanzarote, Uslar, Gleichen, and Velutini.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external">House of Herrera — Orders and Distinctions</Link> — Used for titles, distinctions, and the Lanzarote / Herrera / Torre Casa / Fuerteventura cluster.
+                  <Link href="https://www.houseofherrera.com/orders-and-distinctions" rel="noopener external" title="House of Herrera — Orders and Distinctions">House of Herrera — Orders and Distinctions</Link> — Used for titles, distinctions, and the Lanzarote / Herrera / Torre Casa / Fuerteventura cluster.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the direct Ampudia figure anchor now connected to the estates layer.
+                  <Link href="https://www.houseofherrera.com/hernan-de-herrera-lord-of-ampudia-i" rel="noopener external" title="House of Herrera — Hernán de Herrera, Lord of Ampudia I">House of Herrera — Hernán de Herrera, Lord of Ampudia I</Link> — Used for the direct Ampudia figure anchor now connected to the estates layer.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the person-level Lanzarote and title-memory route.
+                  <Link href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala" rel="noopener external" title="House of Herrera — Agustín de Herrera y Rojas Ayala">House of Herrera — Agustín de Herrera y Rojas Ayala</Link> — Used for the person-level Lanzarote and title-memory route.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/bibliography" rel="noopener external">House of Herrera — Bibliography</Link> — Used for reading leads surfaced on the family domain, including Los Amos del Valle, Don Agustín de Herrera y Rojas, and La Vega.
+                  <Link href="https://www.houseofherrera.com/bibliography" rel="noopener external" title="House of Herrera — Bibliography">House of Herrera — Bibliography</Link> — Used for reading leads surfaced on the family domain, including Los Amos del Valle, Don Agustín de Herrera y Rojas, and La Vega.
                 </li>
                 <li>
-                  <Link href="/sources/#external-corroboration">Sources — external corroboration table</Link> — Used as the central roll-up for institutional and local place references now attached to the estates and place-memory pages.
+                  <Link href="/sources/#external-corroboration" title="Sources — external corroboration table">Sources — external corroboration table</Link> — Used as the central roll-up for institutional and local place references now attached to the estates and place-memory pages.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the 14th-century prominence narrative, geographic scope, and the source-domain linkage between family history, Hacienda de La Vega, and later banking references.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">Banvelca — Legacy</Link> — Used for the chronological ancestor timeline spanning Juan Bautista through later generations, including Banco Caracas, Clementina, Belén Clarisa, Julio José, and later generations.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the chronological ancestor timeline spanning Juan Bautista through later generations, including Banco Caracas, Clementina, Belén Clarisa, Julio José, and later generations.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 dates, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 dates, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.
+                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.
                 </li>
               </ul>
             </div>
@@ -435,12 +435,12 @@ export default function Estates() {
             <div className="overline">Related pages</div>
             <h2>Continue into estate and place profiles</h2>
             <div className="button-row">
-              <Link href="/entities/hacienda-de-la-vega/" className="button">Hacienda de La Vega</Link>
-              <Link href="/entities/castle-santa-barbara/" className="button-secondary">Castle Santa Barbara</Link>
-              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary">Hernán</Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">Agustín</Link>
-              <Link href="/places/uslar/" className="button-secondary">Uslar</Link>
-              <Link href="/places/gleichen/" className="button-secondary">Gleichen</Link>
+              <Link href="/entities/hacienda-de-la-vega/" className="button" title="Hacienda de La Vega">Hacienda de La Vega</Link>
+              <Link href="/entities/castle-santa-barbara/" className="button-secondary" title="Castle Santa Barbara">Castle Santa Barbara</Link>
+              <Link href="/entities/hernan-de-herrera-lord-of-ampudia/" className="button-secondary" title="Hernán de Herrera">Hernán</Link>
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera y Rojas Ayala">Agustín</Link>
+              <Link href="/places/uslar/" className="button-secondary" title="Uslar">Uslar</Link>
+              <Link href="/places/gleichen/" className="button-secondary" title="Gleichen">Gleichen</Link>
             </div>
           </div>
         </section>
@@ -457,33 +457,33 @@ export default function Estates() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

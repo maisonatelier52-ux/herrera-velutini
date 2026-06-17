@@ -209,7 +209,7 @@ export default function JulioJoseHerreraVelutini() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -220,10 +220,10 @@ export default function JulioJoseHerreraVelutini() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="https://herreravelutini.com/">Home</Link>
+                    <Link href="https://herreravelutini.com/" title="Home">Home</Link>
                   </li>
                   <li>
-                    <Link href="https://herreravelutini.com/entities/">
+                    <Link href="https://herreravelutini.com/entities/" title="Entities">
                       Entities
                     </Link>
                   </li>
@@ -259,11 +259,11 @@ export default function JulioJoseHerreraVelutini() {
                 <li>
                   <span>Best companions</span>
                   <strong>
-                    <Link href="/entities/banvelca-company/">
+                    <Link href="/entities/banvelca-company/" title="Banvelca & Company">
                       Banvelca &amp; Company
                     </Link>{" "}
                     ·{" "}
-                    <Link href="/families/herrera-velutini-connection/">
+                    <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                       Herrera and Velutini
                     </Link>
                   </strong>
@@ -277,11 +277,11 @@ export default function JulioJoseHerreraVelutini() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -314,7 +314,7 @@ export default function JulioJoseHerreraVelutini() {
                   connection-page concept.
                 </p>
                 <p>
-                  <Link href="/families/herrera-velutini-connection/">
+                  <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                     Open the connection page
                   </Link>
                 </p>
@@ -326,7 +326,7 @@ export default function JulioJoseHerreraVelutini() {
                   Latin America and a wider North-and-South-America frame.
                 </p>
                 <p>
-                  <Link href="/families/velutini/">Open Velutini Family</Link>
+                  <Link href="/families/velutini/" title="Velutini Family">Open Velutini Family</Link>
                 </p>
               </article>
               <article className="card">
@@ -336,7 +336,7 @@ export default function JulioJoseHerreraVelutini() {
                   into the later seventh-generation restructuring chapter.
                 </p>
                 <p>
-                  <Link href="/timeline/">Open Timeline</Link>
+                  <Link href="/timeline/" title="Timeline">Open Timeline</Link>
                 </p>
               </article>
               <article className="card">
@@ -347,7 +347,7 @@ export default function JulioJoseHerreraVelutini() {
                   gives that role a dedicated landing page.
                 </p>
                 <p>
-                  <Link href="/entities/banvelca-company/">
+                  <Link href="/entities/banvelca-company/" title="Banvelca & Company">
                     Open Banvelca &amp; Company
                   </Link>
                 </p>
@@ -448,20 +448,20 @@ export default function JulioJoseHerreraVelutini() {
             <p>
               On the Herrera side, he makes the later family connection legible
               beyond the marriage of{" "}
-              <Link href="/entities/clementina-velutini-perez-matos/">
+              <Link href="/entities/clementina-velutini-perez-matos/" title="Clementina Velutini Pérez-Matos">
                 Clementina Velutini Pérez-Matos
               </Link>{" "}
               and{" "}
-              <Link href="/entities/jose-herrera-von-uslar-gleichen/">
+              <Link href="/entities/jose-herrera-von-uslar-gleichen/" title="José Herrera Von Uslar Gleichen">
                 José Herrera Von Uslar Gleichen
               </Link>
               . On the Velutini side, he keeps the lineage from jumping too
               abruptly from{" "}
-              <Link href="/entities/belen-clarisa-velutini-perez-matos/">
+              <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">
                 Belén Clarisa Velutini Pérez-Matos
               </Link>{" "}
               and{" "}
-              <Link href="/entities/julio-cesar-velutini-couturier/">
+              <Link href="/entities/julio-cesar-velutini-couturier/" title="Julio César Velutini Couturier">
                 Julio César Velutini Couturier
               </Link>{" "}
               straight into unnamed later generations. On the Banvelca side, he
@@ -473,7 +473,7 @@ export default function JulioJoseHerreraVelutini() {
               <div className="overline">Scope boundary</div>
               <p>
                 This page does not replace the{" "}
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link>{" "}
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>{" "}
                 chronology audit and does not try to prove every later family
                 branch. Its job is narrower: to document the post-war
                 continuity chapter that `BV17` and `BV03` make publicly
@@ -494,33 +494,33 @@ export default function JulioJoseHerreraVelutini() {
             <ol className="number-list">
               <li>
                 <strong>For the combined-family bridge</strong>, move next to{" "}
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
                 .
               </li>
               <li>
                 <strong>For the institutional frame</strong>, move next to{" "}
-                <Link href="/entities/banvelca-company/">
+                <Link href="/entities/banvelca-company/" title="Banvelca & Company">
                   Banvelca &amp; Company
                 </Link>
                 .
               </li>
               <li>
                 <strong>For sequence placement</strong>, move next to{" "}
-                <Link href="/genealogy/velutini-lineage/">
+                <Link href="/genealogy/velutini-lineage/" title="Velutini Lineage">
                   Velutini Lineage
                 </Link>{" "}
-                and <Link href="/timeline/">Timeline</Link>.
+                and <Link href="/timeline/" title="Timeline">Timeline</Link>.
               </li>
               <li>
                 <strong>For the earlier finance chapter</strong>, compare this
                 page with{" "}
-                <Link href="/entities/julio-cesar-velutini-couturier/">
+                <Link href="/entities/julio-cesar-velutini-couturier/" title="Julio César Velutini Couturier">
                   Julio César Velutini Couturier
                 </Link>{" "}
                 and{" "}
-                <Link href="/entities/belen-clarisa-velutini-perez-matos/">
+                <Link href="/entities/belen-clarisa-velutini-perez-matos/" title="Belén Clarisa Velutini Pérez-Matos">
                   Belén Clarisa Velutini Pérez-Matos
                 </Link>
                 .
@@ -544,6 +544,7 @@ export default function JulioJoseHerreraVelutini() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini"
                     rel="noopener external"
+                    title="Banvelca — Julio José Herrera Velutini"
                   >
                     Banvelca — Julio José Herrera Velutini
                   </Link>{" "}
@@ -556,6 +557,7 @@ export default function JulioJoseHerreraVelutini() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="Banvelca — Legacy"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -573,28 +575,30 @@ export default function JulioJoseHerreraVelutini() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Julio José cluster</h2>
             <div className="button-row">
-              <Link href="/entities/banvelca-company/" className="button">
+              <Link href="/entities/banvelca-company/" className="button" title="Banvelca & Company">
                 Banvelca &amp; Company
               </Link>
               <Link
                 href="/families/herrera-velutini-connection/"
                 className="button-secondary"
+                title="Herrera and Velutini"
               >
                 Herrera and Velutini
               </Link>
-              <Link href="/families/velutini/" className="button-secondary">
+              <Link href="/families/velutini/" className="button-secondary" title="Velutini Family">
                 Velutini Family
               </Link>
-              <Link href="/families/herrera/" className="button-secondary">
+              <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">
                 Herrera Family
               </Link>
               <Link
                 href="/genealogy/velutini-lineage/"
                 className="button-secondary"
+                title="Velutini Lineage"
               >
                 Velutini Lineage
               </Link>
-              <Link href="/timeline/" className="button-secondary">
+              <Link href="/timeline/" className="button-secondary" title="Timeline">
                 Timeline
               </Link>
             </div>
@@ -616,28 +620,28 @@ export default function JulioJoseHerreraVelutini() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about/">About</Link>
+                <Link href="/about/" title="About">About</Link>
               </li>
               <li>
-                <Link href="/heritage/">Heritage</Link>
+                <Link href="/heritage/" title="Heritage">Heritage</Link>
               </li>
               <li>
-                <Link href="/families/">Families</Link>
+                <Link href="/families/" title="Families">Families</Link>
               </li>
               <li>
-                <Link href="/genealogy/">Genealogy</Link>
+                <Link href="/genealogy/" title="Genealogy">Genealogy</Link>
               </li>
               <li>
-                <Link href="/places/">Places</Link>
+                <Link href="/places/" title="Places">Places</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/timeline/">Timeline</Link>
+                <Link href="/timeline/" title="Timeline">Timeline</Link>
               </li>
               <li>
-                <Link href="/entities/">Entities</Link>
+                <Link href="/entities/" title="Entities">Entities</Link>
               </li>
             </ul>
           </div>
@@ -645,19 +649,19 @@ export default function JulioJoseHerreraVelutini() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology/">Editorial Methodology</Link>
+                <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link>
               </li>
               <li>
-                <Link href="/sources/">Sources</Link>
+                <Link href="/sources/" title="Sources">Sources</Link>
               </li>
               <li>
-                <Link href="/editorial-desk/">Editorial Desk</Link>
+                <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link>
               </li>
               <li>
-                <Link href="/review-team/">Review Team</Link>
+                <Link href="/review-team/" title="Review Team">Review Team</Link>
               </li>
               <li>
-                <Link href="/knowledge/">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
               </li>
             </ul>
           </div>
@@ -665,18 +669,18 @@ export default function JulioJoseHerreraVelutini() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">
                   Herrera and Velutini
                 </Link>
               </li>
               <li>
-                <Link href="/families/velutini/">Velutini Family</Link>
+                <Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link>
               </li>
               <li>
-                <Link href="/places/caracas/">Caracas</Link>
+                <Link href="/places/caracas/" title="Caracas">Caracas</Link>
               </li>
               <li>
-                <Link href="/entities/banco-caracas/">Banco Caracas</Link>
+                <Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link>
               </li>
             </ul>
           </div>

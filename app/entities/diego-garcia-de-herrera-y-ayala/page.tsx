@@ -207,7 +207,7 @@ export default function DiegoGarciaDeHerreraYAyala() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -217,9 +217,11 @@ export default function DiegoGarciaDeHerreraYAyala() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/entities">Entities</Link></li>
-                  <li aria-current="page">Diego García de Herrera y Ayala</li>
+                  <li><Link href="/" title="View the Home page">Home</Link></li>
+                  <li><Link href="/entities" title="View the Entities page">Entities</Link></li>
+                  <li aria-current="page" title="View the Diego García de Herrera y Ayala page">
+                    Diego García de Herrera y Ayala
+                  </li>
                 </ol>
               </nav>
               <div className="eyebrow">Person profile</div>
@@ -249,9 +251,13 @@ export default function DiegoGarciaDeHerreraYAyala() {
                 <li>
                   <span>Best companions</span>
                   <strong>
-                    <Link href="/genealogy/herrera-lineage">Herrera Lineage</Link>
+                    <Link href="/genealogy/herrera-lineage" title="View the Herrera Lineage page">
+                      Herrera Lineage
+                    </Link>
                     {" · "}
-                    <Link href="/places/lanzarote">Lanzarote</Link>
+                    <Link href="/places/lanzarote" title="View the Lanzarote page">
+                      Lanzarote
+                    </Link>
                   </strong>
                 </li>
               </ul>
@@ -263,11 +269,15 @@ export default function DiegoGarciaDeHerreraYAyala() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk" title="View the Herrera Velutini Editorial Desk page">
+                Herrera Velutini Editorial Desk
+              </Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="View the Standards Review Team page">
+                Standards Review Team
+              </Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -293,11 +303,11 @@ export default function DiegoGarciaDeHerreraYAyala() {
               <div>
                 <p>
                   The Dynasty page already places Diego García de Herrera y Ayala between{" "}
-                  <Link href="/entities/pedro-garcia-de-herrera-y-rojas">
+                  <Link href="/entities/pedro-garcia-de-herrera-y-rojas" title="View the Pedro García de Herrera y Rojas page">
                     Pedro García de Herrera y Rojas
                   </Link>{" "}
                   and{" "}
-                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala">
+                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala" title="View the Agustín de Herrera y Rojas Ayala page">
                     Agustín de Herrera y Rojas Ayala
                   </Link>
                   . The standalone Diego page adds the reason he deserves a live profile: it ties
@@ -410,9 +420,15 @@ export default function DiegoGarciaDeHerreraYAyala() {
               The next responsible expansion would be outside corroboration for the Canary Islands
               and Lanzarote material. Until then, the page keeps claims attributed to the
               family-domain source and routes readers toward the live{" "}
-              <Link href="/places/lanzarote">Lanzarote</Link>,{" "}
-              <Link href="/themes/orders-and-distinctions">Orders and Distinctions</Link>, and{" "}
-              <Link href="/themes/heraldry-and-symbols">Heraldry and Symbols</Link> pages.
+              <Link href="/places/lanzarote" title="View the Lanzarote page">
+                Lanzarote
+              </Link>,{" "}
+              <Link href="/themes/orders-and-distinctions" title="View the Orders and Distinctions page">
+                Orders and Distinctions
+              </Link>, and{" "}
+              <Link href="/themes/heraldry-and-symbols" title="View the Heraldry and Symbols page">
+                Heraldry and Symbols
+              </Link> pages.
             </p>
           </div>
         </section>
@@ -432,6 +448,7 @@ export default function DiegoGarciaDeHerreraYAyala() {
                   <Link
                     href="https://www.houseofherrera.com/diego-garcia-de-herrera-y-ayala"
                     rel="noopener external"
+                    title="View the Diego García de Herrera y Ayala page"
                   >
                     House of Herrera — Diego García de Herrera y Ayala
                   </Link>{" "}
@@ -442,6 +459,7 @@ export default function DiegoGarciaDeHerreraYAyala() {
                   <Link
                     href="https://www.houseofherrera.com/dynasty"
                     rel="noopener external"
+                    title="View the Dynasty page"
                   >
                     House of Herrera — Dynasty
                   </Link>{" "}
@@ -452,6 +470,7 @@ export default function DiegoGarciaDeHerreraYAyala() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
+                    title="View the Agustín de Herrera y Rojas Ayala page"
                   >
                     House of Herrera — Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
@@ -461,6 +480,7 @@ export default function DiegoGarciaDeHerreraYAyala() {
                   <Link
                     href="https://www.houseofherrera.com/symbols"
                     rel="noopener external"
+                    title="View the Symbols page"
                   >
                     House of Herrera — Symbols
                   </Link>{" "}
@@ -477,19 +497,19 @@ export default function DiegoGarciaDeHerreraYAyala() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Diego cluster</h2>
             <div className="button-row">
-              <Link href="/genealogy/herrera-lineage" className="button">
+              <Link href="/genealogy/herrera-lineage" className="button" title="Herrera Lineage">
                 Herrera Lineage
               </Link>
-              <Link href="/entities/pedro-garcia-de-herrera-y-rojas" className="button-secondary">
+              <Link href="/entities/pedro-garcia-de-herrera-y-rojas" className="button-secondary" title="Pedro García">
                 Pedro García
               </Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala" className="button-secondary">
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala" className="button-secondary" title="Agustín">
                 Agustín
               </Link>
-              <Link href="/places/lanzarote" className="button-secondary">
+              <Link href="/places/lanzarote" className="button-secondary" title="Lanzarote">
                 Lanzarote
               </Link>
-              <Link href="/entities/house-of-herrera" className="button-secondary">
+              <Link href="/entities/house-of-herrera" className="button-secondary" title="House of Herrera">
                 House of Herrera
               </Link>
             </div>
@@ -509,33 +529,72 @@ export default function DiegoGarciaDeHerreraYAyala() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li>
+                <Link href="/about" title="Learn about Julio Herrera Velutini">
+                  About
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/heritage" title="Explore the Herrera family heritage and banking legacy">
+                  Heritage
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/families" title="Discover the Herrera family and related banking families">
+                  Families
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/genealogy" title="View the Herrera family genealogy and lineage">
+                  Genealogy
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/places" title="Explore places associated with Julio Herrera Velutini and the Herrera family">
+                  Places
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/estates" title="Learn about the Herrera family estates and historic properties">
+                  Estates
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/timeline" title="View the Julio Herrera Velutini timeline and historical milestones">
+                  Timeline
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/entities" title="Browse notable people, organizations, places, and related entities">
+                  Entities
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge" title="Knowledge">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera">Herrera Family</Link></li>
-              <li><Link href="/genealogy/herrera-lineage">Herrera Lineage</Link></li>
-              <li><Link href="/places/lanzarote">Lanzarote</Link></li>
-              <li><Link href="/themes/heraldry-and-symbols">Heraldry and Symbols</Link></li>
+              <li><Link href="/families/herrera" title="Herrera Family">Herrera Family</Link></li>
+              <li><Link href="/genealogy/herrera-lineage" title="Herrera Lineage">Herrera Lineage</Link></li>
+              <li><Link href="/places/lanzarote" title="Lanzarote">Lanzarote</Link></li>
+              <li><Link href="/themes/heraldry-and-symbols" title="Heraldry and Symbols">Heraldry and Symbols</Link></li>
             </ul>
           </div>
         </div>

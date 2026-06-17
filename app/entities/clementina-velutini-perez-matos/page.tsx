@@ -202,7 +202,7 @@ export default function ClementinaVelutiniPerezMatos() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to main content">
         Skip to content
       </Link>
 
@@ -213,10 +213,14 @@ export default function ClementinaVelutiniPerezMatos() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" title="View the Home page">
+                      Home
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/entities">Entities</Link>
+                    <Link href="/entities" title="View the Entities page">
+                      Entities
+                    </Link>
                   </li>
                   <li aria-current="page">Clementina Velutini Pérez-Matos</li>
                 </ol>
@@ -258,11 +262,15 @@ export default function ClementinaVelutiniPerezMatos() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk" title="View the Herrera Velutini Editorial Desk page">
+                Herrera Velutini Editorial Desk
+              </Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="View the Standards Review Team page">
+                Standards Review Team
+              </Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -408,7 +416,7 @@ export default function ClementinaVelutiniPerezMatos() {
               remained rooted within the Herrera lineage. That is why Clementina
               appears not only on the Velutini side of the site, but also at the
               center of the{" "}
-              <Link href="/families/herrera-velutini-connection">
+              <Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">
                 Herrera and Velutini
               </Link>{" "}
               bridge page.
@@ -476,28 +484,37 @@ export default function ClementinaVelutiniPerezMatos() {
               <li>
                 <strong>To understand the family connection</strong>, move next
                 to{" "}
-                <Link href="/families/herrera-velutini-connection">
+                <Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">
                   Herrera and Velutini
                 </Link>
                 .
               </li>
               <li>
                 <strong>To understand the city context</strong>, move next to{" "}
-                <Link href="/places/caracas">Caracas</Link>.
+                <Link href="/places/caracas" title="View the Caracas page">
+                  Caracas
+                </Link>
+                .
               </li>
               <li>
                 <strong>To understand the Europe bridge</strong>, move next to{" "}
-                <Link href="/places/paris">Paris</Link>.
+                <Link href="/places/paris" title="View the Paris page">
+                  Paris
+                </Link>
+                .
               </li>
               <li>
                 <strong>To understand the banking-institution context</strong>,
                 move next to{" "}
-                <Link href="/entities/banco-caracas">Banco Caracas</Link>.
+                <Link href="/entities/banco-caracas" title="View the Banco Caracas page">
+                  Banco Caracas
+                </Link>
+                .
               </li>
               <li>
                 <strong>To understand the modern Herrera bridge</strong>,
                 compare this page with{" "}
-                <Link href="/entities/jose-herrera-von-uslar-gleichen">
+                <Link href="/entities/jose-herrera-von-uslar-gleichen" title="View the José Herrera Von Uslar Gleichen page">
                   José Herrera Von Uslar Gleichen
                 </Link>
                 .
@@ -521,6 +538,7 @@ export default function ClementinaVelutiniPerezMatos() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
                     rel="noopener external"
+                    title="View the Banvelca — Clementina Velutini Pérez-Matos page"
                   >
                     Banvelca — Clementina Velutini Pérez-Matos
                   </Link>{" "}
@@ -532,6 +550,7 @@ export default function ClementinaVelutiniPerezMatos() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="View the Banvelca — Legacy page"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -543,6 +562,7 @@ export default function ClementinaVelutiniPerezMatos() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
                     rel="noopener external"
+                    title="View the Banvelca — Belén María Providencia Pérez Matos page"
                   >
                     Banvelca — Belén María Providencia Pérez Matos
                   </Link>{" "}
@@ -553,6 +573,7 @@ export default function ClementinaVelutiniPerezMatos() {
                   <Link
                     href="https://www.houseofherrera.com/about"
                     rel="noopener external"
+                    title="View the House of Herrera — About page"
                   >
                     House of Herrera — About
                   </Link>{" "}
@@ -563,6 +584,7 @@ export default function ClementinaVelutiniPerezMatos() {
                   <Link
                     href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen"
                     rel="noopener external"
+                    title="View the House of Herrera — José Herrera Von Uslar Gleichen page"
                   >
                     House of Herrera — José Herrera Von Uslar Gleichen
                   </Link>{" "}
@@ -581,22 +603,24 @@ export default function ClementinaVelutiniPerezMatos() {
               <Link
                 href="/families/herrera-velutini-connection"
                 className="button"
+                title="View the Herrera and Velutini page"
               >
                 Herrera and Velutini
               </Link>
-              <Link href="/places/paris" className="button-secondary">
+              <Link href="/places/paris" className="button-secondary" title="View the Paris page">
                 Paris
               </Link>
               <Link
                 href="/entities/jose-herrera-von-uslar-gleichen"
                 className="button-secondary"
+                title="View the José Herrera Von Uslar Gleichen page"
               >
                 José Herrera Von Uslar Gleichen
               </Link>
-              <Link href="/places/caracas" className="button-secondary">
+              <Link href="/places/caracas" className="button-secondary" title="View the Caracas page">
                 Caracas
               </Link>
-              <Link href="/entities/banco-caracas" className="button-secondary">
+              <Link href="/entities/banco-caracas" className="button-secondary" title="View the Banco Caracas page">
                 Banco Caracas
               </Link>
             </div>
@@ -618,28 +642,44 @@ export default function ClementinaVelutiniPerezMatos() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about">About</Link>
+                <Link href="/about" title="View the About page">
+                  About
+                </Link>
               </li>
               <li>
-                <Link href="/heritage">Heritage</Link>
+                <Link href="/heritage" title="View the Heritage page">
+                  Heritage
+                </Link>
               </li>
               <li>
-                <Link href="/families">Families</Link>
+                <Link href="/families" title="View the Families page">
+                  Families
+                </Link>
               </li>
               <li>
-                <Link href="/genealogy">Genealogy</Link>
+                <Link href="/genealogy" title="View the Genealogy page">
+                  Genealogy
+                </Link>
               </li>
               <li>
-                <Link href="/places">Places</Link>
+                <Link href="/places" title="View the Places page">
+                  Places
+                </Link>
               </li>
               <li>
-                <Link href="/estates">Estates</Link>
+                <Link href="/estates" title="View the Estates page">
+                  Estates
+                </Link>
               </li>
               <li>
-                <Link href="/timeline">Timeline</Link>
+                <Link href="/timeline" title="View the Timeline page">
+                  Timeline
+                </Link>
               </li>
               <li>
-                <Link href="/entities">Entities</Link>
+                <Link href="/entities" title="View the Entities page">
+                  Entities
+                </Link>
               </li>
             </ul>
           </div>
@@ -647,19 +687,29 @@ export default function ClementinaVelutiniPerezMatos() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology">Editorial Methodology</Link>
+                <Link href="/editorial-methodology" title="View the Editorial Methodology page">
+                  Editorial Methodology
+                </Link>
               </li>
               <li>
-                <Link href="/sources">Sources</Link>
+                <Link href="/sources" title="View the Sources page">
+                  Sources
+                </Link>
               </li>
               <li>
-                <Link href="/editorial-desk">Editorial Desk</Link>
+                <Link href="/editorial-desk" title="View the Editorial Desk page">
+                  Editorial Desk
+                </Link>
               </li>
               <li>
-                <Link href="/review-team">Review Team</Link>
+                <Link href="/review-team" title="View the Review Team page">
+                  Review Team
+                </Link>
               </li>
               <li>
-                <Link href="/knowledge">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge" title="View the Knowledge & FAQ page">
+                  Knowledge &amp; FAQ
+                </Link>
               </li>
             </ul>
           </div>
@@ -667,18 +717,24 @@ export default function ClementinaVelutiniPerezMatos() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection">
+                <Link href="/families/herrera-velutini-connection" title="View the Herrera and Velutini page">
                   Herrera and Velutini
                 </Link>
               </li>
               <li>
-                <Link href="/families/velutini">Velutini Family</Link>
+                <Link href="/families/velutini" title="View the Velutini Family page">
+                  Velutini Family
+                </Link>
               </li>
               <li>
-                <Link href="/places/caracas">Caracas</Link>
+                <Link href="/places/caracas" title="View the Caracas page">
+                  Caracas
+                </Link>
               </li>
               <li>
-                <Link href="/entities/banco-caracas">Banco Caracas</Link>
+                <Link href="/entities/banco-caracas" title="View the Banco Caracas page">
+                  Banco Caracas
+                </Link>
               </li>
             </ul>
           </div>

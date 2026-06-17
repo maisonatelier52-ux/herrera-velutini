@@ -206,7 +206,7 @@ export default function JoseAntonioVelutiniRon() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -216,8 +216,8 @@ export default function JoseAntonioVelutiniRon() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/entities">Entities</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/entities" title="Entities">Entities</Link></li>
                   <li aria-current="page">José Antonio Velutini Ron</li>
                 </ol>
               </nav>
@@ -248,9 +248,9 @@ export default function JoseAntonioVelutiniRon() {
                 <li>
                   <span>Best companions</span>
                   <strong>
-                    <Link href="/entities/agustin-de-herrera-y-rojas-ayala">Velutini Lineage</Link>
+                    <Link href="/entities/agustin-de-herrera-y-rojas-ayala" title="Velutini Lineage">Velutini Lineage</Link>
                     {" · "}
-                    <Link href="/entities/julio-cesar-velutini-couturier">Julio César</Link>
+                    <Link href="/entities/julio-cesar-velutini-couturier" title="Julio César">Julio César</Link>
                   </strong>
                 </li>
               </ul>
@@ -262,11 +262,11 @@ export default function JoseAntonioVelutiniRon() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team">Standards Review Team</Link>
+              <Link href="/review-team" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -377,13 +377,13 @@ export default function JoseAntonioVelutiniRon() {
             </p>
             <p>
               Readers who arrive through{" "}
-              <Link href="/entities/julio-cesar-velutini-couturier">
+              <Link href="/entities/julio-cesar-velutini-couturier" title="Julio César Velutini Couturier">
                 Julio César Velutini Couturier
               </Link>{" "}
               can now see a clearer prehistory: first the founder in Naples, then Vicente
               José&apos;s expansion chapter, then José Antonio&apos;s statecraft and fiscal frame,
               and only after that the full Banco Caracas era. Readers who arrive through{" "}
-              <Link href="/genealogy/velutini-lineage">Velutini Lineage</Link> get a direct stop
+              <Link href="/genealogy/velutini-lineage" title="Velutini Lineage">Velutini Lineage</Link> get a direct stop
               for the figure who had previously existed only as a row in a table.
             </p>
             <p>
@@ -408,6 +408,7 @@ export default function JoseAntonioVelutiniRon() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron"
                     rel="noopener external"
+                    title="Banvelca — José Antonio Velutini Ron"
                   >
                     Banvelca — José Antonio Velutini Ron
                   </Link>{" "}
@@ -418,6 +419,7 @@ export default function JoseAntonioVelutiniRon() {
                   <Link
                     href="https://www.banvelca.com/ancestors/legacy/"
                     rel="noopener external"
+                    title="Banvelca — Legacy"
                   >
                     Banvelca — Legacy
                   </Link>{" "}
@@ -425,7 +427,7 @@ export default function JoseAntonioVelutiniRon() {
                   the published family sequence.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">
                     Banvelca — About
                   </Link>{" "}
                   — Used for the longer intergenerational frame in which this nineteenth-century
@@ -441,22 +443,23 @@ export default function JoseAntonioVelutiniRon() {
             <div className="overline">Related pages</div>
             <h2>Continue through the José Antonio cluster</h2>
             <div className="button-row">
-              <Link href="/entities/vicente-jose-velutini-llarione" className="button">
+              <Link href="/entities/vicente-jose-velutini-llarione" className="button" title="Vicente José Velutini Llarione">
                 Vicente José Velutini Llarione
               </Link>
               <Link
                 href="/entities/julio-cesar-velutini-couturier"
                 className="button-secondary"
+                title="Julio César Velutini Couturier"
               >
                 Julio César Velutini Couturier
               </Link>
-              <Link href="/genealogy/velutini-lineage" className="button-secondary">
+              <Link href="/genealogy/velutini-lineage" className="button-secondary" title="Velutini Lineage">
                 Velutini Lineage
               </Link>
-              <Link href="/families/velutini" className="button-secondary">
+              <Link href="/families/velutini" className="button-secondary" title="Velutini Family">
                 Velutini Family
               </Link>
-              <Link href="/entities/banco-caracas" className="button-secondary">
+              <Link href="/entities/banco-caracas" className="button-secondary" title="Banco Caracas">
                 Banco Caracas
               </Link>
             </div>
@@ -476,33 +479,33 @@ export default function JoseAntonioVelutiniRon() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/heritage">Heritage</Link></li>
-              <li><Link href="/families">Families</Link></li>
-              <li><Link href="/genealogy">Genealogy</Link></li>
-              <li><Link href="/places">Places</Link></li>
-              <li><Link href="/estates">Estates</Link></li>
-              <li><Link href="/timeline">Timeline</Link></li>
-              <li><Link href="/entities">Entities</Link></li>
+              <li><Link href="/about" title="About">About</Link></li>
+              <li><Link href="/heritage" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families" title="Families">Families</Link></li>
+              <li><Link href="/genealogy" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places" title="Places">Places</Link></li>
+              <li><Link href="/estates" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology">Editorial Methodology</Link></li>
-              <li><Link href="/sources">Sources</Link></li>
-              <li><Link href="/editorial-desk">Editorial Desk</Link></li>
-              <li><Link href="/review-team">Review Team</Link></li>
-              <li><Link href="/knowledge">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
-              <li><Link href="/families/herrera-velutini-connection">Herrera and Velutini</Link></li>
-              <li><Link href="/families/velutini">Velutini Family</Link></li>
-              <li><Link href="/places/caracas">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas">Banco Caracas</Link></li>
+              <li><Link href="/families/herrera-velutini-connection" title="Herrera and Velutini">Herrera and Velutini</Link></li>
+              <li><Link href="/families/velutini" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

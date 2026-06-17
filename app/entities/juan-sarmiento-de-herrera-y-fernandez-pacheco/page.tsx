@@ -209,7 +209,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -220,10 +220,10 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
                   <li>
-                    <Link href="https://herreravelutini.com/">Home</Link>
+                    <Link href="https://herreravelutini.com/" title="Home">Home</Link>
                   </li>
                   <li>
-                    <Link href="https://herreravelutini.com/entities/">Entities</Link>
+                    <Link href="https://herreravelutini.com/entities/" title="Entities">Entities</Link>
                   </li>
                   <li aria-current="page">
                     Juan Sarmiento de Herrera y Fernández Pacheco
@@ -270,11 +270,11 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -304,7 +304,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
                 <p>
                   The House of Herrera Dynasty page places Juan Sarmiento
                   directly after{" "}
-                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">
+                  <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera y Rojas Ayala">
                     Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
                   and gives him the 1607–1664 date range. His standalone source
@@ -453,12 +453,12 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
             </p>
             <p>
               For now, the strongest next route is from Juan into{" "}
-              <Link href="/genealogy/herrera-lineage/">Herrera Lineage</Link>,{" "}
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">
+              <Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link>,{" "}
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín">
                 Agustín
               </Link>
-              , <Link href="/estates/">Estates</Link>, and the{" "}
-              <Link href="/sources/">Sources</Link> ledger.
+              , <Link href="/estates/" title="Estates">Estates</Link>, and the{" "}
+              <Link href="/sources/" title="Sources">Sources</Link> ledger.
             </p>
           </div>
         </section>
@@ -478,6 +478,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
                   <Link
                     href="https://www.houseofherrera.com/juan-sarmiento-de-herrera-y-fernandez-pa"
                     rel="noopener external"
+                    title="House of Herrera — Juan Sarmiento De Herrera Y Fernandez Pachego"
                   >
                     House of Herrera — Juan Sarmiento De Herrera Y Fernandez
                     Pachego
@@ -490,6 +491,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
                   <Link
                     href="https://www.houseofherrera.com/dynasty"
                     rel="noopener external"
+                    title="House of Herrera — Dynasty"
                   >
                     House of Herrera — Dynasty
                   </Link>{" "}
@@ -500,6 +502,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
+                    title="House of Herrera — Agustín de Herrera y Rojas Ayala"
                   >
                     House of Herrera — Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
@@ -510,6 +513,7 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
                   <Link
                     href="https://www.houseofherrera.com/symbols"
                     rel="noopener external"
+                    title="House of Herrera — Symbols"
                   >
                     House of Herrera — Symbols
                   </Link>{" "}
@@ -526,25 +530,27 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Juan Sarmiento cluster</h2>
             <div className="button-row">
-              <Link href="/genealogy/herrera-lineage/" className="button">
+              <Link href="/genealogy/herrera-lineage/" className="button" title="Herrera Lineage">
                 Herrera Lineage
               </Link>
               <Link
                 href="/entities/agustin-de-herrera-y-rojas-ayala/"
                 className="button-secondary"
+                title="Agustín de Herrera y Rojas Ayala"
               >
                 Agustín
               </Link>
-              <Link href="/estates/" className="button-secondary">
+              <Link href="/estates/" className="button-secondary" title="Estates">
                 Estates
               </Link>
               <Link
                 href="/themes/heraldry-and-symbols/"
                 className="button-secondary"
+                title="Heraldry and Symbols"
               >
                 Heraldry and Symbols
               </Link>
-              <Link href="/sources/" className="button-secondary">
+              <Link href="/sources/" className="button-secondary" title="Sources">
                 Sources
               </Link>
             </div>
@@ -566,28 +572,28 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/about/">About</Link>
+                <Link href="/about/" title="About">About</Link>
               </li>
               <li>
-                <Link href="/heritage/">Heritage</Link>
+                <Link href="/heritage/" title="Heritage">Heritage</Link>
               </li>
               <li>
-                <Link href="/families/">Families</Link>
+                <Link href="/families/" title="Families">Families</Link>
               </li>
               <li>
-                <Link href="/genealogy/">Genealogy</Link>
+                <Link href="/genealogy/" title="Genealogy">Genealogy</Link>
               </li>
               <li>
-                <Link href="/places/">Places</Link>
+                <Link href="/places/" title="Places">Places</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/timeline/">Timeline</Link>
+                <Link href="/timeline/" title="Timeline">Timeline</Link>
               </li>
               <li>
-                <Link href="/entities/">Entities</Link>
+                <Link href="/entities/" title="Entities">Entities</Link>
               </li>
             </ul>
           </div>
@@ -595,19 +601,19 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/editorial-methodology/">Editorial Methodology</Link>
+                <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link>
               </li>
               <li>
-                <Link href="/sources/">Sources</Link>
+                <Link href="/sources/" title="Sources">Sources</Link>
               </li>
               <li>
-                <Link href="/editorial-desk/">Editorial Desk</Link>
+                <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link>
               </li>
               <li>
-                <Link href="/review-team/">Review Team</Link>
+                <Link href="/review-team/" title="Review Team">Review Team</Link>
               </li>
               <li>
-                <Link href="/knowledge/">Knowledge &amp; FAQ</Link>
+                <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
               </li>
             </ul>
           </div>
@@ -615,16 +621,16 @@ export default function JuanSarmientoDeHerreraYFernandezPacheco() {
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera/">Herrera Family</Link>
+                <Link href="/families/herrera/" title="Herrera Family">Herrera Family</Link>
               </li>
               <li>
-                <Link href="/genealogy/herrera-lineage/">Herrera Lineage</Link>
+                <Link href="/genealogy/herrera-lineage/" title="Herrera Lineage">Herrera Lineage</Link>
               </li>
               <li>
-                <Link href="/estates/">Estates</Link>
+                <Link href="/estates/" title="Estates">Estates</Link>
               </li>
               <li>
-                <Link href="/entities/house-of-herrera/">House of Herrera</Link>
+                <Link href="/entities/house-of-herrera/" title="House of Herrera">House of Herrera</Link>
               </li>
             </ul>
           </div>

@@ -178,7 +178,7 @@ export default function OrdersAndDistinctions() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -188,8 +188,8 @@ export default function OrdersAndDistinctions() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Orders and Distinctions</li>
                 </ol>
               </nav>
@@ -231,11 +231,11 @@ export default function OrdersAndDistinctions() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -361,9 +361,9 @@ export default function OrdersAndDistinctions() {
             </p>
             <p>
               That is why this page routes readers into{" "}
-              <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>, the{" "}
-              <Link href="/estates/">Estates</Link> section, and the{" "}
-              <Link href="/families/herrera/">Herrera Family</Link> hub. The distinctions
+              <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>, the{" "}
+              <Link href="/estates/" title="Estates">Estates</Link> section, and the{" "}
+              <Link href="/families/herrera/" title="Herrera Family">Herrera Family</Link> hub. The distinctions
               material becomes easier to interpret once the reader can see how titled language,
               island geography, and the dynastic record reinforce each other.
             </p>
@@ -392,6 +392,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://www.houseofherrera.com/orders-and-distinctions"
                     rel="noopener external"
+                    title="House of Herrera — Orders and Distinctions"
                   >
                     House of Herrera — Orders and Distinctions
                   </Link>{" "}
@@ -402,6 +403,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
+                    title="House of Herrera — Agustín de Herrera y Rojas Ayala"
                   >
                     House of Herrera — Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
@@ -409,7 +411,7 @@ export default function OrdersAndDistinctions() {
                   life frame remain under caution.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">
                     House of Herrera — Symbols
                   </Link>{" "}
                   — Used to connect titled language back to the symbolic identity of Lanzarote
@@ -419,6 +421,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
+                    title="House of Herrera — Family Estates"
                   >
                     House of Herrera — Family Estates
                   </Link>{" "}
@@ -426,7 +429,7 @@ export default function OrdersAndDistinctions() {
                   to interpret.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/dynasty" rel="noopener external" title="House of Herrera — Dynasty">
                     House of Herrera — Dynasty
                   </Link>{" "}
                   — Used for the named figures who anchor the longer Herrera sequence.
@@ -435,6 +438,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/332/"
                     rel="noopener external"
+                    title="Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas"
                   >
                     Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para
                     Agustín de Herrera y Rojas
@@ -446,6 +450,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/334/"
                     rel="noopener external"
+                    title="Archivo Histórico Municipal de Teguise — Corroboración del título de Conde de Lanzarote"
                   >
                     Archivo Histórico Municipal de Teguise — Corroboración del título de Conde
                     de Lanzarote
@@ -457,6 +462,7 @@ export default function OrdersAndDistinctions() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/340/"
                     rel="noopener external"
+                    title="Archivo Histórico Municipal de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas"
                   >
                     Archivo Histórico Municipal de Teguise — Concesión del título de Marqués de
                     Lanzarote a Agustín de Herrera y Rojas
@@ -474,19 +480,19 @@ export default function OrdersAndDistinctions() {
             <div className="overline">Related pages</div>
             <h2>Continue through the titled Herrera layer</h2>
             <div className="button-row">
-              <Link href="/themes/heraldry-and-symbols/" className="button">
+              <Link href="/themes/heraldry-and-symbols/" className="button" title="Heraldry and Symbols">
                 Heraldry and Symbols
               </Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera">
                 Agustín de Herrera
               </Link>
-              <Link href="/places/lanzarote/" className="button-secondary">
+              <Link href="/places/lanzarote/" className="button-secondary" title="Lanzarote">
                 Lanzarote
               </Link>
-              <Link href="/entities/castle-santa-barbara/" className="button-secondary">
+              <Link href="/entities/castle-santa-barbara/" className="button-secondary" title="Castle Santa Barbara">
                 Castle Santa Barbara
               </Link>
-              <Link href="/families/herrera/" className="button-secondary">
+              <Link href="/families/herrera/" className="button-secondary" title="Herrera Family">
                 Herrera Family
               </Link>
             </div>
@@ -507,33 +513,33 @@ export default function OrdersAndDistinctions() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/themes/heraldry-and-symbols/">Heraldry and Symbols</Link>
+                <Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Heraldry and Symbols</Link>
               </li>
-              <li><Link href="/entities/house-of-herrera/">House of Herrera</Link></li>
-              <li><Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
+              <li><Link href="/entities/house-of-herrera/" title="House of Herrera">House of Herrera</Link></li>
+              <li><Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
             </ul>
           </div>
         </div>

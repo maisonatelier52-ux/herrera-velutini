@@ -193,7 +193,7 @@ export default function Lanzarote() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -203,8 +203,8 @@ export default function Lanzarote() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="https://herreravelutini.com/">Home</Link></li>
-                  <li><Link href="https://herreravelutini.com/places/">Places</Link></li>
+                  <li><Link href="https://herreravelutini.com/" title="Home">Home</Link></li>
+                  <li><Link href="https://herreravelutini.com/places/" title="Places">Places</Link></li>
                   <li aria-current="page">Lanzarote</li>
                 </ol>
               </nav>
@@ -226,9 +226,9 @@ export default function Lanzarote() {
                 <li>
                   <span>Strongest anchors</span>
                   <strong>
-                    <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>
+                    <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>
                     {" · "}
-                    <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">
+                    <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera">
                       Agustín de Herrera
                     </Link>
                   </strong>
@@ -236,9 +236,9 @@ export default function Lanzarote() {
                 <li>
                   <span>Theme links</span>
                   <strong>
-                    <Link href="/themes/heraldry-and-symbols/">Heraldry and Symbols</Link>
+                    <Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Heraldry and Symbols</Link>
                     {" and "}
-                    <Link href="/themes/orders-and-distinctions/">Orders and Distinctions</Link>
+                    <Link href="/themes/orders-and-distinctions/" title="Orders and Distinctions">Orders and Distinctions</Link>
                   </strong>
                 </li>
                 <li>
@@ -254,11 +254,11 @@ export default function Lanzarote() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -372,14 +372,14 @@ export default function Lanzarote() {
             </p>
             <p>
               If a reader arrives through{" "}
-              <Link href="/entities/castle-santa-barbara/">Castle Santa Barbara</Link>, this page
+              <Link href="/entities/castle-santa-barbara/" title="Castle Santa Barbara">Castle Santa Barbara</Link>, this page
               explains why the castle matters beyond architecture. If a reader arrives through{" "}
-              <Link href="/themes/heraldry-and-symbols/">Heraldry and Symbols</Link>, this page
+              <Link href="/themes/heraldry-and-symbols/" title="Heraldry and Symbols">Heraldry and Symbols</Link>, this page
               gives the island a concrete setting. If a reader arrives through{" "}
-              <Link href="/themes/orders-and-distinctions/">Orders and Distinctions</Link>, this
+              <Link href="/themes/orders-and-distinctions/" title="Orders and Distinctions">Orders and Distinctions</Link>, this
               page shows that the title language is also tied to a defensible and symbolically
               dense place. The new{" "}
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/">
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" title="Agustín de Herrera y Rojas Ayala">
                 Agustín de Herrera y Rojas Ayala
               </Link>{" "}
               profile adds the person-level route into that same Lanzarote cluster.
@@ -429,14 +429,14 @@ export default function Lanzarote() {
                   <Link
                     href="https://www.houseofherrera.com/family-estates"
                     rel="noopener external"
-                  >
+                    title="House of Herrera — Family Estates">
                     House of Herrera — Family Estates
                   </Link>{" "}
                   — Used for Castle Santa Barbara, Teguise, the defensive-fortification framing,
                   and the island&rsquo;s administrative role.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/symbols" rel="noopener external" title="House of Herrera — Symbols">
                     House of Herrera — Symbols
                   </Link>{" "}
                   — Used for the Lanzarote coat-of-arms layer and the island&rsquo;s place in
@@ -446,7 +446,7 @@ export default function Lanzarote() {
                   <Link
                     href="https://www.houseofherrera.com/orders-and-distinctions"
                     rel="noopener external"
-                  >
+                    title="House of Herrera — Orders and Distinctions">
                     House of Herrera — Orders and Distinctions
                   </Link>{" "}
                   — Used for the Marquisate of Lanzarote and its May 1, 1584 creation note for
@@ -456,14 +456,14 @@ export default function Lanzarote() {
                   <Link
                     href="https://www.houseofherrera.com/agustin-de-herrera-y-rojas-ayala"
                     rel="noopener external"
-                  >
+                    title="House of Herrera — Agustín de Herrera y Rojas Ayala">
                     House of Herrera — Agustín de Herrera y Rojas Ayala
                   </Link>{" "}
                   — Used for the person-level route into Lanzarote, Crown service, and the
                   separate 1548 title language that remains under caution.
                 </li>
                 <li>
-                  <Link href="https://www.houseofherrera.com/about" rel="noopener external">
+                  <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">
                     House of Herrera — About
                   </Link>{" "}
                   — Used for the wider Canary-Islands and multi-regional scope of the Herrera
@@ -473,7 +473,7 @@ export default function Lanzarote() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/332/"
                     rel="noopener external"
-                  >
+                    title="Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas">
                     Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para
                     Agustín de Herrera y Rojas
                   </Link>{" "}
@@ -484,7 +484,7 @@ export default function Lanzarote() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/334/"
                     rel="noopener external"
-                  >
+                    title="Archivo Histórico Municipal de Teguise — Corroboración del título de Conde de Lanzarote">
                     Archivo Histórico Municipal de Teguise — Corroboración del título de Conde
                     de Lanzarote
                   </Link>{" "}
@@ -495,7 +495,7 @@ export default function Lanzarote() {
                   <Link
                     href="https://archivoteguise.es/documento-coleccion-digital/340/"
                     rel="noopener external"
-                  >
+                    title="Archivo Histórico Municipal de Teguise — Concesión del título de Marqués de Lanzarote a Agustín de Herrera y Rojas">
                     Archivo Histórico Municipal de Teguise — Concesión del título de Marqués de
                     Lanzarote a Agustín de Herrera y Rojas
                   </Link>{" "}
@@ -503,7 +503,7 @@ export default function Lanzarote() {
                   with data crónica of May 1, 1584.
                 </li>
                 <li>
-                  <Link href="https://www.unesco.org/en/mab/lanzarote" rel="noopener external">
+                  <Link href="https://www.unesco.org/en/mab/lanzarote" rel="noopener external" title="UNESCO MAB — Lanzarote">
                     UNESCO MAB — Lanzarote
                   </Link>{" "}
                   — Used only for external island-level context around Lanzarote&rsquo;s volcanic
@@ -513,7 +513,7 @@ export default function Lanzarote() {
                   <Link
                     href="https://memoriadelanzarote.com/item/10707-don-agustin-de-herrera-y-rojas-i-marques-de-lanzarote"
                     rel="noopener external"
-                  >
+                    title="Memoria de Lanzarote — Don Agustín de Herrera y Rojas, I Marqués de Lanzarote">
                     Memoria de Lanzarote — Don Agustín de Herrera y Rojas, I Marqués de
                     Lanzarote
                   </Link>{" "}
@@ -530,19 +530,19 @@ export default function Lanzarote() {
             <div className="overline">Related pages</div>
             <h2>Continue through the Lanzarote cluster</h2>
             <div className="button-row">
-              <Link href="/entities/castle-santa-barbara/" className="button">
+              <Link href="/entities/castle-santa-barbara/" className="button" title="Castle Santa Barbara">
                 Castle Santa Barbara
               </Link>
-              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary">
+              <Link href="/entities/agustin-de-herrera-y-rojas-ayala/" className="button-secondary" title="Agustín de Herrera">
                 Agustín de Herrera
               </Link>
-              <Link href="/themes/heraldry-and-symbols/" className="button-secondary">
+              <Link href="/themes/heraldry-and-symbols/" className="button-secondary" title="Heraldry and Symbols">
                 Heraldry and Symbols
               </Link>
-              <Link href="/themes/orders-and-distinctions/" className="button-secondary">
+              <Link href="/themes/orders-and-distinctions/" className="button-secondary" title="Orders and Distinctions">
                 Orders and Distinctions
               </Link>
-              <Link href="/entities/house-of-herrera/" className="button-secondary">
+              <Link href="/entities/house-of-herrera/" className="button-secondary" title="House of Herrera">
                 House of Herrera
               </Link>
             </div>
@@ -562,35 +562,35 @@ export default function Lanzarote() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>

@@ -163,7 +163,7 @@ export default function FinanceAndCapitalStewardship() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -173,8 +173,8 @@ export default function FinanceAndCapitalStewardship() {
             <div>
               <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/themes/">Themes</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
+                  <li><Link href="/themes/" title="Themes">Themes</Link></li>
                   <li aria-current="page">Finance and Capital Stewardship</li>
                 </ol>
               </nav>
@@ -204,7 +204,7 @@ export default function FinanceAndCapitalStewardship() {
                 <li>
                   <span>Related theme</span>
                   <strong>
-                    <Link href="/themes/private-banking-tradition/">
+                    <Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">
                       Private Banking Tradition
                     </Link>
                   </strong>
@@ -218,11 +218,11 @@ export default function FinanceAndCapitalStewardship() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -291,9 +291,9 @@ export default function FinanceAndCapitalStewardship() {
             </p>
             <p>
               That is why this page belongs beside the{" "}
-              <Link href="/timeline/">Timeline</Link>,{" "}
-              <Link href="/entities/juan-bautista-velutini/">Juan Bautista Velutini</Link>, and{" "}
-              <Link href="/entities/banvelca-company/">Banvelca &amp; Company</Link> profiles.
+              <Link href="/timeline/" title="Timeline">Timeline</Link>,{" "}
+              <Link href="/entities/juan-bautista-velutini/" title="Juan Bautista Velutini">Juan Bautista Velutini</Link>, and{" "}
+              <Link href="/entities/banvelca-company/" title="Banvelca & Company">Banvelca &amp; Company</Link> profiles.
               The portal does not take the finance language as a stand-alone claim; it places it
               inside a longer lineage and institution story.
             </p>
@@ -356,28 +356,28 @@ export default function FinanceAndCapitalStewardship() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external">
+                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">
                     Banvelca — Finance
                   </Link>{" "}
                   — Used for the policy, portfolio, holdings, and purchasing-power framing of
                   finance as multi-generational stewardship.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external">
+                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">
                     Banvelca — Private Banking
                   </Link>{" "}
                   — Used for the adjacent internal-governance language around coordination and
                   confidentiality.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/about" rel="noopener external">
+                  <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">
                     Banvelca — About
                   </Link>{" "}
                   — Used for the 1781 Naples founding story and the broader intergenerational
                   framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external">
+                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the chronology that gives the finance theme historical depth.
@@ -392,19 +392,19 @@ export default function FinanceAndCapitalStewardship() {
             <div className="overline">Related pages</div>
             <h2>Continue through the capital stewardship layer</h2>
             <div className="button-row">
-              <Link href="/themes/private-banking-tradition/" className="button">
+              <Link href="/themes/private-banking-tradition/" className="button" title="Private Banking Tradition">
                 Private Banking Tradition
               </Link>
-              <Link href="/stewardship/" className="button-secondary">
+              <Link href="/stewardship/" className="button-secondary" title="Stewardship">
                 Stewardship
               </Link>
-              <Link href="/entities/banvelca-company/" className="button-secondary">
+              <Link href="/entities/banvelca-company/" className="button-secondary" title="Banvelca & Company">
                 Banvelca &amp; Company
               </Link>
-              <Link href="/timeline/" className="button-secondary">
+              <Link href="/timeline/" className="button-secondary" title="Timeline">
                 Timeline
               </Link>
-              <Link href="/families/velutini/" className="button-secondary">
+              <Link href="/families/velutini/" className="button-secondary" title="Velutini Family">
                 Velutini Family
               </Link>
             </div>
@@ -425,35 +425,35 @@ export default function FinanceAndCapitalStewardship() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/themes/">Themes</Link></li>
-              <li><Link href="/stewardship/">Stewardship</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/themes/" title="Themes">Themes</Link></li>
+              <li><Link href="/stewardship/" title="Stewardship">Stewardship</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/themes/private-banking-tradition/">
+                <Link href="/themes/private-banking-tradition/" title="Private Banking Tradition">
                   Private Banking Tradition
                 </Link>
               </li>
-              <li><Link href="/entities/banvelca-company/">Banvelca &amp; Company</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
+              <li><Link href="/entities/banvelca-company/" title="Banvelca & Company">Banvelca &amp; Company</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
             </ul>
           </div>
         </div>

@@ -180,7 +180,7 @@ export default function ReviewTeamPage() {
         />
       </Head>
 
-      <Link className="skip-link" href="#main">
+      <Link className="skip-link" href="#main" title="Skip to content">
         Skip to content
       </Link>
 
@@ -190,7 +190,7 @@ export default function ReviewTeamPage() {
             <div>
               <nav className="breadcrumbs" aria-label="Breadcrumb">
                 <ol>
-                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/" title="Home">Home</Link></li>
                   <li aria-current="page">Review Team</li>
                 </ol>
               </nav>
@@ -229,11 +229,11 @@ export default function ReviewTeamPage() {
           <div className="byline">
             <div>
               <span className="byline-label">Prepared by</span>{" "}
-              <Link href="/editorial-desk/">Herrera Velutini Editorial Desk</Link>
+              <Link href="/editorial-desk/" title="Herrera Velutini Editorial Desk">Herrera Velutini Editorial Desk</Link>
             </div>
             <div>
               <span className="byline-label">Reviewed by</span>{" "}
-              <Link href="/review-team/">Standards Review Team</Link>
+              <Link href="/review-team/" title="Standards Review Team">Standards Review Team</Link>
             </div>
             <div>
               <span className="byline-label">Published</span>{" "}
@@ -458,19 +458,19 @@ export default function ReviewTeamPage() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="/editorial-methodology/">Editorial Methodology</Link> — Used for
+                  <Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link> — Used for
                   rules around names, dates, source-model tiers, and technical standards.
                 </li>
                 <li>
-                  <Link href="/sources/">Sources</Link> — Used for source-led review
+                  <Link href="/sources/" title="Sources">Sources</Link> — Used for source-led review
                   expectations and the source-group framework.
                 </li>
                 <li>
-                  <Link href="/editorial-desk/">Editorial Desk</Link> — Used for the handoff
+                  <Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link> — Used for the handoff
                   boundary between drafting, integration, and review.
                 </li>
                 <li>
-                  <Link href="/knowledge/">Knowledge &amp; FAQ</Link> — Used for reader-facing
+                  <Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link> — Used for reader-facing
                   source-caution terminology and known caution flags.
                 </li>
               </ul>
@@ -483,10 +483,10 @@ export default function ReviewTeamPage() {
             <div className="overline">Linked pages</div>
             <h2>Where the review process is made visible.</h2>
             <div className="button-row">
-              <Link className="button" href="/about/">About</Link>
-              <Link className="button-secondary" href="/editorial-methodology/">Methodology</Link>
-              <Link className="button-secondary" href="/sources/">Sources</Link>
-              <Link className="button-secondary" href="/knowledge/">Knowledge &amp; FAQ</Link>
+              <Link className="button" href="/about/" title="About">About</Link>
+              <Link className="button-secondary" href="/editorial-methodology/" title="Methodology">Methodology</Link>
+              <Link className="button-secondary" href="/sources/" title="Sources">Sources</Link>
+              <Link className="button-secondary" href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link>
             </div>
           </div>
         </section>
@@ -504,35 +504,35 @@ export default function ReviewTeamPage() {
           <div>
             <h2 className="overline">Explore</h2>
             <ul className="footer-links">
-              <li><Link href="/about/">About</Link></li>
-              <li><Link href="/heritage/">Heritage</Link></li>
-              <li><Link href="/families/">Families</Link></li>
-              <li><Link href="/genealogy/">Genealogy</Link></li>
-              <li><Link href="/places/">Places</Link></li>
-              <li><Link href="/estates/">Estates</Link></li>
-              <li><Link href="/timeline/">Timeline</Link></li>
-              <li><Link href="/entities/">Entities</Link></li>
+              <li><Link href="/about/" title="About">About</Link></li>
+              <li><Link href="/heritage/" title="Heritage">Heritage</Link></li>
+              <li><Link href="/families/" title="Families">Families</Link></li>
+              <li><Link href="/genealogy/" title="Genealogy">Genealogy</Link></li>
+              <li><Link href="/places/" title="Places">Places</Link></li>
+              <li><Link href="/estates/" title="Estates">Estates</Link></li>
+              <li><Link href="/timeline/" title="Timeline">Timeline</Link></li>
+              <li><Link href="/entities/" title="Entities">Entities</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Trust</h2>
             <ul className="footer-links">
-              <li><Link href="/editorial-methodology/">Editorial Methodology</Link></li>
-              <li><Link href="/sources/">Sources</Link></li>
-              <li><Link href="/editorial-desk/">Editorial Desk</Link></li>
-              <li><Link href="/review-team/">Review Team</Link></li>
-              <li><Link href="/knowledge/">Knowledge &amp; FAQ</Link></li>
+              <li><Link href="/editorial-methodology/" title="Editorial Methodology">Editorial Methodology</Link></li>
+              <li><Link href="/sources/" title="Sources">Sources</Link></li>
+              <li><Link href="/editorial-desk/" title="Editorial Desk">Editorial Desk</Link></li>
+              <li><Link href="/review-team/" title="Review Team">Review Team</Link></li>
+              <li><Link href="/knowledge/" title="Knowledge & FAQ">Knowledge &amp; FAQ</Link></li>
             </ul>
           </div>
           <div>
             <h2 className="overline">Featured pages</h2>
             <ul className="footer-links">
               <li>
-                <Link href="/families/herrera-velutini-connection/">Herrera and Velutini</Link>
+                <Link href="/families/herrera-velutini-connection/" title="Herrera and Velutini">Herrera and Velutini</Link>
               </li>
-              <li><Link href="/families/velutini/">Velutini Family</Link></li>
-              <li><Link href="/places/caracas/">Caracas</Link></li>
-              <li><Link href="/entities/banco-caracas/">Banco Caracas</Link></li>
+              <li><Link href="/families/velutini/" title="Velutini Family">Velutini Family</Link></li>
+              <li><Link href="/places/caracas/" title="Caracas">Caracas</Link></li>
+              <li><Link href="/entities/banco-caracas/" title="Banco Caracas">Banco Caracas</Link></li>
             </ul>
           </div>
         </div>
