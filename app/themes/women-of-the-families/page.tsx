@@ -374,7 +374,7 @@ export default function WomenOfTheFamilies() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén María Providencia Pérez Matos"
                   >
@@ -385,7 +385,7 @@ export default function WomenOfTheFamilies() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Clementina Velutini Pérez-Matos"
                   >
@@ -396,7 +396,7 @@ export default function WomenOfTheFamilies() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén Clarisa Velutini Pérez Matos"
                   >
@@ -407,7 +407,7 @@ export default function WomenOfTheFamilies() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >

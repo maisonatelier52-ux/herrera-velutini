@@ -417,7 +417,7 @@ export default function Naples() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Juan Bautista Velutini">
                     Banvelca — Juan Bautista Velutini
@@ -427,7 +427,7 @@ export default function Naples() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Vicente José Velutini Llarione">
                     Banvelca — Vicente José Velutini Llarione
@@ -437,7 +437,7 @@ export default function Naples() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                    title="Banvelca — Legacy">
                     Banvelca — Legacy

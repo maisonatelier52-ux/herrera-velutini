@@ -354,7 +354,7 @@ export default function ArtInvestmentAndPatronage() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/art-investments"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Art Investments"
                   >
@@ -372,7 +372,7 @@ export default function ArtInvestmentAndPatronage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén Clarisa Velutini Pérez-Matos"
                   >
@@ -383,7 +383,7 @@ export default function ArtInvestmentAndPatronage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/social-responsibility"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Social Responsibility"
                   >

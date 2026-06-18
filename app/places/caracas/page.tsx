@@ -402,19 +402,19 @@ export default function CaracasPage() {
                   <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the broader Latin American and later banking reach attached to the Herrera family narrative.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the Caracas-linked sequence of Julio César, Belén María, Clementina, Belén Clarisa, Julio José, and later generations.
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the Caracas-linked sequence of Julio César, Belén María, Clementina, Belén Clarisa, Julio José, and later generations.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the Caracas social-elite and family-link chapter.
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the Caracas social-elite and family-link chapter.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 Caracas birth year, marriage alliance, and elite-circle language.
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 Caracas birth year, marriage alliance, and elite-circle language.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for Banco Caracas, Trasnocho Cultural, and Fundación Centro El Portal.
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for Banco Caracas, Trasnocho Cultural, and Fundación Centro El Portal.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier" rel="noopener external" title="Banvelca — Julio César Velutini Couturier">Banvelca — Julio César Velutini Couturier</Link> — Used for Banco Caracas leadership and the bank&apos;s historical importance in Caracas.
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Julio César Velutini Couturier">Banvelca — Julio César Velutini Couturier</Link> — Used for Banco Caracas leadership and the bank&apos;s historical importance in Caracas.
                 </li>
                 <li>
                   <Link href="https://www.britannica.com/place/Caracas" rel="noopener external" title="Britannica — Caracas">Britannica — Caracas</Link> — Used only for external city-level context: Caracas as Venezuela&apos;s capital and the Santiago de León de Caracas founding frame.

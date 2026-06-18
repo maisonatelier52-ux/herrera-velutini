@@ -367,7 +367,7 @@ export default function SocialResponsibility() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/social-responsibility"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Social Responsibility"
                   >
@@ -378,7 +378,7 @@ export default function SocialResponsibility() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén Clarisa Velutini Pérez-Matos"
                   >
@@ -388,7 +388,7 @@ export default function SocialResponsibility() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén María Providencia Pérez Matos"
                   >

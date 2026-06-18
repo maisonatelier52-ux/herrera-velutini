@@ -150,9 +150,6 @@ export default function JulioCesarVelutiniCouturier() {
                 name: "Julio César Velutini Couturier",
                 url: "https://herreravelutini.com/entities/julio-cesar-velutini-couturier/",
                 birthDate: "1881",
-                sameAs: [
-                  "https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier",
-                ],
                 description:
                   "Person profile for Julio César Velutini Couturier across Banco Caracas, industrial-age finance, Caracas, and the modern Velutini family bridge.",
               },
@@ -477,7 +474,7 @@ export default function JulioCesarVelutiniCouturier() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Julio César Velutini Couturier"
                   >
@@ -490,7 +487,7 @@ export default function JulioCesarVelutiniCouturier() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — José Antonio Velutini Ron"
                   >
@@ -501,7 +498,7 @@ export default function JulioCesarVelutiniCouturier() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Belén María Providencia Pérez Matos"
                   >
@@ -512,7 +509,7 @@ export default function JulioCesarVelutiniCouturier() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >

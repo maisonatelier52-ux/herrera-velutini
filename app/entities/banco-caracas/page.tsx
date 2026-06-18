@@ -632,7 +632,7 @@ export default function Page() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Legacy page"
                     target="_blank"
@@ -646,7 +646,7 @@ export default function Page() {
 
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Julio César Velutini Couturier page"
                     target="_blank"
@@ -661,7 +661,7 @@ export default function Page() {
 
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Belén Clarisa Velutini Pérez-Matos page"
                     target="_blank"
@@ -674,7 +674,7 @@ export default function Page() {
 
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — The Seventh Generation page"
                     target="_blank"

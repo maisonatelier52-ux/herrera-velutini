@@ -344,7 +344,7 @@ export default function JuanBautistaVelutini() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >
@@ -355,7 +355,7 @@ export default function JuanBautistaVelutini() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Juan Bautista Velutini"
                   >

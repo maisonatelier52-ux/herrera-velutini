@@ -337,16 +337,16 @@ export default function HerreraVelutiniConnection() {
                   <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the long-duration Herrera family framing and the Caracas-linked estate references within the wider family narrative.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth year, 1932 marriage to José Herrera Von Uslar, and the explicit statement that the union merged the Herreras and the Velutinis.
+                  <Link href="https://www.banvelca.com/" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth year, 1932 marriage to José Herrera Von Uslar, and the explicit statement that the union merged the Herreras and the Velutinis.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos and the later Herrera-linked line.
+                  <Link href="https://www.banvelca.com/" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos and the later Herrera-linked line.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the generational context around Clementina, Belén Clarisa, Julio José Herrera Velutini, and the Banco Caracas thread.
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the generational context around Clementina, Belén Clarisa, Julio José Herrera Velutini, and the Banco Caracas thread.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family continuity under the combined surname.
+                  <Link href="https://www.banvelca.com/" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family continuity under the combined surname.
                 </li>
                 <li>
                   <Link href="https://www.houseofherrera.com/family-estates" rel="noopener external" title="House of Herrera — Family Estates">House of Herrera — Family Estates</Link> — Used for the Caracas-linked Hacienda de La Vega narrative that anchors the Herrera side in the city where the family connection becomes clearest.

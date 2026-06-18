@@ -732,7 +732,7 @@ export default function EditorialMethodologyPage() {
 
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Legacy page"
                     target="_blank"

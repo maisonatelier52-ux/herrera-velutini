@@ -376,27 +376,27 @@ export default function StewardshipPage() {
                   1781 founding context, Naples origin, and multi-continent framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link>{" "}
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link>{" "}
                   — Used for the distinction between internal family coordination and public branch banking.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for
                   the custodianship and family-office language.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/m-and-a" rel="noopener external" title="Banvelca — Mergers & Acquisitions">Banvelca — Mergers &amp; Acquisitions</Link>{" "}
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Mergers & Acquisitions">Banvelca — Mergers &amp; Acquisitions</Link>{" "}
                   — Used for the internal-portfolio framing rather than outside advisory work.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/art-investments" rel="noopener external" title="Banvelca — Art Investments">Banvelca — Art Investments</Link>{" "}
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Art Investments">Banvelca — Art Investments</Link>{" "}
                   — Used for the art-custodianship interpretation.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/social-responsibility" rel="noopener external" title="Banvelca — Social Responsibility">Banvelca — Social Responsibility</Link>{" "}
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Social Responsibility">Banvelca — Social Responsibility</Link>{" "}
                   — Used for the social-impact section of this cluster.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> —
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> —
                   Used for chronology and succession.
                 </li>
               </ul>

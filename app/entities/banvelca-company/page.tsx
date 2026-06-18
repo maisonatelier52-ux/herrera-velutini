@@ -610,7 +610,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Legacy page"
                   >
@@ -622,7 +622,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/private-banking"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Private Banking page"
                   >
@@ -633,7 +633,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/finance"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Finance page"
                   >
@@ -644,7 +644,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/art-investments"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Art Investments page"
                   >
@@ -655,7 +655,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/social-responsibility"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Social Responsibility page"
                   >
@@ -666,7 +666,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Juan Bautista Velutini page"
                   >
@@ -677,7 +677,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Clementina Velutini Pérez-Matos page"
                   >
@@ -689,7 +689,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Belén Clarisa Velutini Pérez-Matos page"
                   >
@@ -700,7 +700,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Belén María Providencia Pérez Matos page"
                   >
@@ -711,7 +711,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Vicente José Velutini Llarione page"
                   >
@@ -722,7 +722,7 @@ export default function Page() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca — Julio José Herrera Velutini page"
                   >

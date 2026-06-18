@@ -339,7 +339,7 @@ export default function BelenClarisaPage() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca Legacy page"
                   >
@@ -349,7 +349,7 @@ export default function BelenClarisaPage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Belén Clarisa Velutini Pérez-Matos page"
                   >

@@ -402,7 +402,7 @@ export default function HerreraLineage() {
                   <Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external" title="House of Herrera — José Herrera Von Uslar Gleichen">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the modern bridge figure later connected to Clementina Velutini Pérez-Matos.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1932 marriage bridge that links the later Herrera chapter to the Velutini side.
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1932 marriage bridge that links the later Herrera chapter to the Velutini side.
                 </li>
               </ul>
             </div>

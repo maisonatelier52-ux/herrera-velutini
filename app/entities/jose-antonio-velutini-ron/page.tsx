@@ -153,9 +153,6 @@ export default function JoseAntonioVelutiniRon() {
                 name: "José Antonio Velutini Ron",
                 url: "https://herreravelutini.com/entities/jose-antonio-velutini-ron/",
                 birthDate: "1844",
-                sameAs: [
-                  "https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron",
-                ],
                 description:
                   "A source-led profile of José Antonio Velutini Ron as the statecraft and fiscal bridge inside the nineteenth-century Velutini sequence.",
               },
@@ -406,7 +403,7 @@ export default function JoseAntonioVelutiniRon() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — José Antonio Velutini Ron"
                   >
@@ -417,7 +414,7 @@ export default function JoseAntonioVelutiniRon() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >

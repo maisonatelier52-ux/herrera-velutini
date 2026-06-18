@@ -335,7 +335,7 @@ export default function GenealogyPage() {
                   <Link href="https://www.houseofherrera.com/about" rel="noopener external" title="House of Herrera — About">House of Herrera — About</Link> — Used for the 14th-century prominence narrative and the transregional scope of the family record.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the Velutini generational sequence from 1781 onward.
+                  <Link href="https://www.banvelca.com/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the Velutini generational sequence from 1781 onward.
                 </li>
                 <li>
                   <Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">Banvelca — About</Link> — Used for the Naples founding context and the later intergenerational firm framing.

@@ -405,7 +405,7 @@ export default function Paris() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Clementina Velutini Pérez-Matos">
                     Banvelca — Clementina Velutini Pérez-Matos
@@ -415,7 +415,7 @@ export default function Paris() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — The Seventh Generation">
                     Banvelca — The Seventh Generation

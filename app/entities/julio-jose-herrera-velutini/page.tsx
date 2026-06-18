@@ -158,9 +158,6 @@ export default function JulioJoseHerreraVelutini() {
                   "@type": "Place",
                   name: "Austria",
                 },
-                sameAs: [
-                  "https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini",
-                ],
                 description:
                   "Person profile for Julio José Herrera Velutini across the post-war Americas shift, combined-surname continuity, and Banvelca's modern family narrative.",
               },
@@ -542,7 +539,7 @@ export default function JulioJoseHerreraVelutini() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Julio José Herrera Velutini"
                   >
@@ -555,7 +552,7 @@ export default function JulioJoseHerreraVelutini() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >

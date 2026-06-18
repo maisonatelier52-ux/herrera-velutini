@@ -149,9 +149,6 @@ export default function ClementinaVelutiniPerezMatos() {
                 url: "https://herreravelutini.com/entities/clementina-velutini-perez-matos/",
                 birthDate: "1912",
                 birthPlace: { "@type": "Place", name: "Caracas" },
-                sameAs: [
-                  "https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos",
-                ],
                 description:
                   "Person profile for Clementina Velutini Pérez-Matos across family connection, banking, and Caracas continuity.",
               },
@@ -536,7 +533,7 @@ export default function ClementinaVelutiniPerezMatos() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Clementina Velutini Pérez-Matos page"
                   >
@@ -548,7 +545,7 @@ export default function ClementinaVelutiniPerezMatos() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Legacy page"
                   >
@@ -560,7 +557,7 @@ export default function ClementinaVelutiniPerezMatos() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Banvelca — Belén María Providencia Pérez Matos page"
                   >

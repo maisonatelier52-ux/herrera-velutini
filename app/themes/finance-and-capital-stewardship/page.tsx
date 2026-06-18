@@ -356,14 +356,14 @@ export default function FinanceAndCapitalStewardship() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Finance">
                     Banvelca — Finance
                   </Link>{" "}
                   — Used for the policy, portfolio, holdings, and purchasing-power framing of
                   finance as multi-generational stewardship.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Private Banking">
                     Banvelca — Private Banking
                   </Link>{" "}
                   — Used for the adjacent internal-governance language around coordination and
@@ -377,7 +377,7 @@ export default function FinanceAndCapitalStewardship() {
                   framing.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the chronology that gives the finance theme historical depth.

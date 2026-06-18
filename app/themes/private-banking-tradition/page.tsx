@@ -351,7 +351,7 @@ export default function PrivateBankingTradition() {
               </p>
               <ul className="check-list">
                 <li>
-                  <Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Private Banking">
                     Banvelca — Private Banking
                   </Link>{" "}
                   — Used for the family-only remit, trust-coordination language,
@@ -365,14 +365,14 @@ export default function PrivateBankingTradition() {
                   as a private trust and investment house.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the generational sequence that gives the private-banking language a
                   chronology.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">
+                  <Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Finance">
                     Banvelca — Finance
                   </Link>{" "}
                   — Used for the adjacent stewardship language around policy, portfolio, and

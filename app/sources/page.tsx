@@ -313,19 +313,19 @@ export default function SourcesPage() {
                   </tr>
                   <tr>
                     <td>BV03</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link></td>
+                    <td><Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link></td>
                     <td>Chronology source</td>
                     <td>Generational sequence from Juan Bautista to later generations.</td>
                   </tr>
                   <tr>
                     <td>BV04</td>
-                    <td><Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link></td>
                     <td>Theme source</td>
                     <td>Family-only private-banking and trust-coordination language.</td>
                   </tr>
                   <tr>
                     <td>BV05</td>
-                    <td><Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link></td>
                     <td>Theme source</td>
                     <td>Finance as multi-generational custodianship.</td>
                   </tr>
@@ -392,55 +392,55 @@ export default function SourcesPage() {
                   </tr>
                   <tr>
                     <td>BV09</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini" rel="noopener external" title="Juan Bautista Velutini">Juan Bautista Velutini</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Juan Bautista Velutini">Juan Bautista Velutini</Link></td>
                     <td>Founder profile</td>
                     <td>Used for Naples, France, and Corsica origin details.</td>
                   </tr>
                   <tr>
                     <td>BV10</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Clementina Velutini Pérez-Matos">Clementina Velutini Pérez-Matos</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Clementina Velutini Pérez-Matos">Clementina Velutini Pérez-Matos</Link></td>
                     <td>Profile page</td>
                     <td>Used for the 1932 marriage bridge and women-in-banking narrative.</td>
                   </tr>
                   <tr>
                     <td>BV11</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external" title="Belén Clarisa Velutini Pérez-Matos">Belén Clarisa Velutini Pérez-Matos</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Belén Clarisa Velutini Pérez-Matos">Belén Clarisa Velutini Pérez-Matos</Link></td>
                     <td>Profile page</td>
                     <td>Used for Banco Caracas, Trasnocho Cultural, and philanthropy.</td>
                   </tr>
                   <tr>
                     <td>BV12</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Belén María Providencia Pérez Matos">Belén María Providencia Pérez Matos</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Belén María Providencia Pérez Matos">Belén María Providencia Pérez Matos</Link></td>
                     <td>Profile page</td>
                     <td>Used for the matriarchal link between Pérez-Matos, Velutini, and Herrera.</td>
                   </tr>
                   <tr>
                     <td>BV13</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione" rel="noopener external" title="Vicente José Velutini Llarione">Vicente José Velutini Llarione</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Vicente José Velutini Llarione">Vicente José Velutini Llarione</Link></td>
                     <td>Profile page</td>
                     <td>Used for the Mediterranean-to-Americas bridge.</td>
                   </tr>
                   <tr>
                     <td>BV14</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/jose-antonio-velutini-ron" rel="noopener external" title="José Antonio Velutini Ron">José Antonio Velutini Ron</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="José Antonio Velutini Ron">José Antonio Velutini Ron</Link></td>
                     <td>Profile page</td>
                     <td>Used for the statecraft and fiscal-negotiation bridge.</td>
                   </tr>
                   <tr>
                     <td>BV15</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier" rel="noopener external" title="Julio César Velutini Couturier">Julio César Velutini Couturier</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Julio César Velutini Couturier">Julio César Velutini Couturier</Link></td>
                     <td>Profile page</td>
                     <td>Used for Banco Caracas and the 1988 share-sale statement inside the later 1988 / 1998 / 2000 / 2002 audit.</td>
                   </tr>
                   <tr>
                     <td>BV16</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation" rel="noopener external" title="The Seventh Generation">The Seventh Generation</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="The Seventh Generation">The Seventh Generation</Link></td>
                     <td>Generation profile</td>
                     <td>Used for the 1998 transition language and modern reinvention framing.</td>
                   </tr>
                   <tr>
                     <td>BV17</td>
-                    <td><Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link></td>
+                    <td><Link href="https://www.banvelca.com" rel="noopener external" title="Julio José Herrera Velutini">Julio José Herrera Velutini</Link></td>
                     <td>Profile page</td>
                     <td>Used for the post-war modern continuity narrative.</td>
                   </tr>
@@ -793,17 +793,17 @@ export default function SourcesPage() {
                 <li><Link href="https://www.houseofherrera.com/pedro-garcia-de-herrera-y-rojas" rel="noopener external" title="House of Herrera — Pedro García de Herrera y Rojas">House of Herrera — Pedro García de Herrera y Rojas</Link> — Used for the short person profile describing him as a Castilian nobleman and Marshal of Castile.</li>
                 <li><Link href="https://www.houseofherrera.com/jose-herrera-von-uslar-gleichen" rel="noopener external" title="House of Herrera — José Herrera Von Uslar Gleichen">House of Herrera — José Herrera Von Uslar Gleichen</Link> — Used for the short profile linking José Herrera Von Uslar Gleichen to law, public life, and humanitarian action.</li>
                 <li><Link href="https://www.banvelca.com/about" rel="noopener external" title="Banvelca — About">Banvelca — About</Link> — Used for the 1781 Naples founding story, Juan Bautista Velutini, and the firm's self-description as a private trust and investment house.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the chronological ancestor timeline spanning Juan Bautista through later generations, including Banco Caracas, Clementina, Belén Clarisa, Julio José, and later generations.</li>
-                <li><Link href="https://www.banvelca.com/private-banking" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link> — Used for the family-only private-banking and trust-coordination framing.</li>
-                <li><Link href="https://www.banvelca.com/finance" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for the description of finance as multi-generational custodianship.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini" rel="noopener external" title="Banvelca — Juan Bautista Velutini">Banvelca — Juan Bautista Velutini</Link> — Used for the founder profile, Naples base, and commercial ties with France and Corsica.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 dates, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione" rel="noopener external" title="Banvelca — Vicente José Velutini Llarione">Banvelca — Vicente José Velutini Llarione</Link> — Used for the transition from Mediterranean trade to a Venezuela-linked transatlantic commercial network.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/julio-cesar-velutini-couturier" rel="noopener external" title="Banvelca — Julio César Velutini Couturier">Banvelca — Julio César Velutini Couturier</Link> — Used for the Banco Caracas presidency, note-printing context, and the source-sensitive 1988 share-sale statement.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family narrative and the shift into the Americas.</li>
-                <li><Link href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation" rel="noopener external" title="Banvelca — The Seventh Generation">Banvelca — The Seventh Generation</Link> — Used for the 1998 Banco Caracas transition language and modern reinvention framing.</li>
+                <li><Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">Banvelca — Legacy</Link> — Used for the chronological ancestor timeline spanning Juan Bautista through later generations, including Banco Caracas, Clementina, Belén Clarisa, Julio José, and later generations.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Private Banking">Banvelca — Private Banking</Link> — Used for the family-only private-banking and trust-coordination framing.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Finance">Banvelca — Finance</Link> — Used for the description of finance as multi-generational custodianship.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Juan Bautista Velutini">Banvelca — Juan Bautista Velutini</Link> — Used for the founder profile, Naples base, and commercial ties with France and Corsica.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Clementina Velutini Pérez-Matos">Banvelca — Clementina Velutini Pérez-Matos</Link> — Used for the 1912 birth date, Paris education, 1932 marriage to José Herrera Von Uslar, and later leadership in banking and philanthropy.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Belén Clarisa Velutini Pérez-Matos">Banvelca — Belén Clarisa Velutini Pérez-Matos</Link> — Used for the 1924–2023 dates, Banco Caracas management, Trasnocho Cultural, and Fundación Centro El Portal.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Belén María Providencia Pérez Matos">Banvelca — Belén María Providencia Pérez Matos</Link> — Used for the matriarchal connection between the Pérez-Matos, Velutini, and Herrera lines.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Vicente José Velutini Llarione">Banvelca — Vicente José Velutini Llarione</Link> — Used for the transition from Mediterranean trade to a Venezuela-linked transatlantic commercial network.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Julio César Velutini Couturier">Banvelca — Julio César Velutini Couturier</Link> — Used for the Banco Caracas presidency, note-printing context, and the source-sensitive 1988 share-sale statement.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — Julio José Herrera Velutini">Banvelca — Julio José Herrera Velutini</Link> — Used for the post-war family narrative and the shift into the Americas.</li>
+                <li><Link href="https://www.banvelca.com" rel="noopener external" title="Banvelca — The Seventh Generation">Banvelca — The Seventh Generation</Link> — Used for the 1998 Banco Caracas transition language and modern reinvention framing.</li>
                 <li><Link href="https://www.investegate.info/announcement/rns/banco-santander-s-a---bnc/re-agreement-/196422" rel="noopener external" title="Banco Santander Central Hispano announcement via Investegate — Banco Caracas acquisition agreement">Banco Santander Central Hispano announcement via Investegate — Banco Caracas acquisition agreement</Link> — Used as external public transaction context for the October 6, 2000 Banco de Venezuela / Santander agreement to acquire a majority holding in Banco Caracas.</li>
                 <li><Link href="https://archivoteguise.es/documento-coleccion-digital/332/" rel="noopener external" title="Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas">Archivo Histórico Municipal de Teguise — Título de Conde de Lanzarote para Agustín de Herrera y Rojas</Link> — Used as official archival corroboration for the 1567 Count of Lanzarote title grant.</li>
                 <li><Link href="https://archivoteguise.es/documento-coleccion-digital/334/" rel="noopener external" title="Archivo Histórico Municipal de Teguise — Corroboración del título de Conde de Lanzarote">Archivo Histórico Municipal de Teguise — Corroboración del título de Conde de Lanzarote</Link> — Used as official archival corroboration for the 1569 confirmation of the count title.</li>

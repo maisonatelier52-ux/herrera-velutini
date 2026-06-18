@@ -153,9 +153,6 @@ export default function VicenteJoseVelutiniLlarione() {
                 name: "Vicente José Velutini Llarione",
                 url: "https://herreravelutini.com/entities/vicente-jose-velutini-llarione/",
                 birthDate: "1811",
-                sameAs: [
-                  "https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione",
-                ],
                 description:
                   "A source-led profile of Vicente José Velutini Llarione as the expansion bridge between Naples and Venezuela.",
               },
@@ -438,7 +435,7 @@ export default function VicenteJoseVelutiniLlarione() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="Banvelca — Vicente José Velutini Llarione"
                   >
@@ -449,7 +446,7 @@ export default function VicenteJoseVelutiniLlarione() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/about-us/legacy/"
                     rel="noopener external"
                     title="Banvelca — Legacy"
                   >

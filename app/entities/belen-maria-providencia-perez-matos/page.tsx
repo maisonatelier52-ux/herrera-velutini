@@ -109,9 +109,6 @@ const profilePageSchema = {
     name: "Belén María Providencia Pérez Matos",
     url: "https://herreravelutini.com/entities/belen-maria-providencia-perez-matos/",
     birthDate: "1884",
-    sameAs: [
-      "https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos",
-    ],
     description:
       "Person profile for Belén María Providencia Pérez Matos across Caracas continuity, the Pérez-Matos bridge, Julio César Velutini Couturier, and the later Herrera connection.",
   },
@@ -423,7 +420,7 @@ export default function BelenMariaPage() {
               <ul className="check-list">
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Belén María Providencia Pérez Matos page"
                   >
@@ -435,7 +432,7 @@ export default function BelenMariaPage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/"
+                    href="https://www.banvelca.com/"
                     rel="noopener external"
                     title="View the Banvelca Legacy page"
                   >
@@ -446,7 +443,7 @@ export default function BelenMariaPage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Clementina Velutini Pérez Matos page"
                   >
@@ -456,7 +453,7 @@ export default function BelenMariaPage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                     title="View the Belén Clarisa Velutini Pérez Matos page"
                   >

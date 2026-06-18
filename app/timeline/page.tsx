@@ -670,7 +670,7 @@ export default function Timeline() {
                   Marshal of Castile.
                 </li>
                 <li>
-                  <Link href="https://www.banvelca.com/ancestors/legacy/" rel="noopener external" title="Banvelca — Legacy">
+                  <Link href="https://www.banvelca.com/about-us/legacy/" rel="noopener external" title="Banvelca — Legacy">
                     Banvelca — Legacy
                   </Link>{" "}
                   — Used for the chronological ancestor timeline spanning Juan Bautista through
@@ -679,7 +679,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/juan-bautista-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Juan Bautista Velutini">
                     Banvelca — Juan Bautista Velutini
@@ -689,7 +689,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/clementina-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Clementina Velutini Pérez-Matos">
                     Banvelca — Clementina Velutini Pérez-Matos
@@ -699,7 +699,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-clarisa-velutini-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Belén Clarisa Velutini Pérez-Matos">
                     Banvelca — Belén Clarisa Velutini Pérez-Matos
@@ -709,7 +709,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/belen-maria-providencia-perez-matos"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Belén María Providencia Pérez Matos">
                     Banvelca — Belén María Providencia Pérez Matos
@@ -719,7 +719,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/vicente-jose-velutini-llarione"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Vicente José Velutini Llarione">
                     Banvelca — Vicente José Velutini Llarione
@@ -729,7 +729,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/julio-jose-herrera-velutini"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — Julio José Herrera Velutini">
                     Banvelca — Julio José Herrera Velutini
@@ -738,7 +738,7 @@ export default function Timeline() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.banvelca.com/ancestors/legacy/the-seventh-generation"
+                    href="https://www.banvelca.com"
                     rel="noopener external"
                    title="Banvelca — The Seventh Generation">
                     Banvelca — The Seventh Generation
